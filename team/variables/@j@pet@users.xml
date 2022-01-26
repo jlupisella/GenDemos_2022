@@ -1,0 +1,4 @@
+<variable-file delimiters=";" filename="users053c66f2-8ab4-4f6c-a88a-54ba033a939d.csv" name="JPetUsers" offset="1" order="1" policy="4" range="1" uid="9ea187d2-d783-43f3-b985-76e41e5a47ed" useFirstLine="true" whenOutOfValues="CYCLE_VALUES">
+<column name="Password" number="1"/>
+<column name="Username" number="0"/>
+</variable-file>

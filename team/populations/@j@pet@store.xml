@@ -1,0 +1,20 @@
+<population uid="JPetStore">
+    <split cache="2" factor="100.0" virtualUserUid="JPetstore">
+        <browser-profile acceptEncoding="GZIP,DEFLATE,BROTLI"
+            connections="6" cookies="true" http2="true" name="browser.recorded"/>
+        <wan-emulation-profile
+            averageDownloadBandwidth="bandwidth.unlimited"
+            averageDownloadLatency="0ms" averageDownloadPacketLoss="0%"
+            averageUploadBandwidth="bandwidth.unlimited"
+            averageUploadLatency="0ms" averageUploadPacketLoss="0%"
+            downloadBandwidth="18Mbps" downloadLatency="257ms"
+            downloadPacketLoss="3%" isRadio="false"
+            name="bandwidth.custom"
+            poorDownloadBandwidth="bandwidth.unlimited"
+            poorDownloadLatency="0ms" poorDownloadPacketLoss="0%"
+            poorUploadBandwidth="bandwidth.unlimited"
+            poorUploadLatency="0ms" poorUploadPacketLoss="0%"
+            signalStrength="GOOD" uploadBandwidth="6Mbps"
+            uploadLatency="89ms" uploadPacketLoss="2%"/>
+    </split>
+</population>

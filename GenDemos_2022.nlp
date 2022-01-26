@@ -1,0 +1,14 @@
+# Project description file
+
+project.name=GenDemos_2022
+project.version=8.3
+project.original.version=8.2
+product.name=NeoLoad
+product.original.name=NeoLoad
+product.original.version=7.8.1
+project.is-open-test-settings-after-upload=true
+project.id=aac01c28-ee83-4343-90a5-a78d90279d23
+project.config.path=config.zip
+project.config.storage=ZIP
+team.server.enabled=true
+team.server.project=/jlupisella/GenDemos_2022

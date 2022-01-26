@@ -1,0 +1,7 @@
+<basic-logical-action-container element-number="1" execution-type="0"
+    name="BackToMAin4" pacingEnd="0" pacingMode="MODE_NO_PACING"
+    pacingStart="0" pacingValue="0" slaProfileEnabled="true"
+    slaProfileName="JPetstore"
+    uid="080f6f6e-7a51-4d6d-808c-45baf506c1e9" weightsEnabled="false">
+    <weighted-embedded-action uid="c7bbe91d-5d77-4f4b-bb9e-cfd4448132c8"/>
+</basic-logical-action-container>

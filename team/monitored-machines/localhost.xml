@@ -1,0 +1,4 @@
+<monitored-host enabled="false" host-name="localhost"
+    mehost-name="localhost" uid="localhost">
+    <embedded-action>c8d9c566-4001-4d85-8bf7-0ba2e8309e7f</embedded-action>
+</monitored-host>

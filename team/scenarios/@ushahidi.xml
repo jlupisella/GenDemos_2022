@@ -1,0 +1,1208 @@
+<scenario postMonitoringTime="-1" preMonitoringTime="-1"
+    slaProfileEnabled="false" traceVariables="true" uid="Ushahidi" virtualUsersStates="true">
+    <!--****** POPULATION POLICY ******-->
+    <population-policy name="Ushahidi">
+        <duration-policy-entry iterations="1" time="600" timeUnit="0" type="2"/>
+        <volume-policy-entry>
+            <constant-volume-policy iterationNumber="1" userNumber="100"/>
+        </volume-policy-entry>
+        <start-stop-policy-entry start-delay="0" start-type="0"
+            stop-delay="60000" stop-type="0"/>
+        <runtime-policy continueOnError="true" thinktimePolicy="0"
+            thinktimeValue="5000" vuStartDelay="0" vuStartMode="0"/>
+        <!--****** POPULATION LG HOSTS ******-->
+        <lg-hosts>
+            <lg-host-entry>$zoneID=Default zone;$lgID=localhost:7100</lg-host-entry>
+        </lg-hosts>
+    </population-policy>
+    <dashboards defaultDashboardUid="Graph board"/>
+    <!--****** DASHBOARDS  ******-->
+    <charts-model-description name="Graph board">
+        <chart-description autoRange="true"
+            chart-description-type="chart-description-type"
+            domainMarkerVisible="true" granularityLevel="0"
+            historyState="XMIN" includeInReport="false"
+            rangeMarkerVisible="true" title="User Load and Error Rate" typeName="CLASSIC">
+            <monitor-curve-description color="20,106,203"
+                connectionName="NeoLoad" dashed="false"
+                monitorName="UserLoad" monitoredHostName="NeoLoad"
+                scale="1.0" selected="false"/>
+            <action-curve-description
+                actionUid="2ee035d5-0178-378f-8d0a-63218f082d2f"
+                color="200,0,0" dashed="false" populationName=""
+                scale="0.1" selected="false"
+                statisticName="result.errors" zoneName=""/>
+        </chart-description>
+        <chart-description autoRange="true"
+            chart-description-type="chart-description-type"
+            domainMarkerVisible="true" granularityLevel="0"
+            historyState="XMIN" includeInReport="false"
+            rangeMarkerVisible="true" title="Overall Throughput" typeName="CLASSIC">
+            <monitor-curve-description color="42,89,26"
+                connectionName="NeoLoad" dashed="false"
+                monitorName="throughput" monitoredHostName="NeoLoad"
+                scale="1.0" selected="false"/>
+        </chart-description>
+        <chart-description autoRange="true"
+            chart-description-type="chart-description-type"
+            domainMarkerVisible="true" granularityLevel="0"
+            historyState="XMIN" includeInReport="false"
+            rangeMarkerVisible="true" title="Load Generators CPU usage" typeName="CLASSIC">
+            <monitor-curve-description color="0,255,0"
+                connectionName="NeoLoad" dashed="false"
+                monitorName="lgcpu.localhost:7100"
+                monitoredHostName="LG localhost:7100" scale="1.0" selected="false"/>
+        </chart-description>
+        <chart-description autoRange="true"
+            chart-description-type="chart-description-type"
+            domainMarkerVisible="true" granularityLevel="0"
+            historyState="XMIN" includeInReport="false"
+            rangeMarkerVisible="true" title="localhost_1/mysql" typeName="CLASSIC">
+            <monitor-curve-description color="20,106,203"
+                connectionName="mysql" dashed="false"
+                monitorName="Connections/ threads connected"
+                monitoredHostName="localhost_1" scale="1.0" selected="false"/>
+            <monitor-curve-description color="88,183,55"
+                connectionName="mysql" dashed="false"
+                monitorName="Connections/ threads cached"
+                monitoredHostName="localhost_1" scale="1.0" selected="false"/>
+            <monitor-curve-description color="200,0,0"
+                connectionName="mysql" dashed="false"
+                monitorName="Connections/ aborted clients"
+                monitoredHostName="localhost_1" scale="1.0" selected="false"/>
+            <monitor-curve-description color="191,0,189"
+                connectionName="mysql" dashed="false"
+                monitorName="Connections/ aborted connects"
+                monitoredHostName="localhost_1" scale="1.0" selected="false"/>
+            <monitor-curve-description color="20,210,210"
+                connectionName="mysql" dashed="false"
+                monitorName="Connections/ attempts"
+                monitoredHostName="localhost_1" scale="1.0" selected="false"/>
+            <monitor-curve-description color="223,143,143"
+                connectionName="mysql" dashed="false"
+                monitorName="Connections/ max used"
+                monitoredHostName="localhost_1" scale="1.0" selected="false"/>
+            <monitor-curve-description color="236,153,22"
+                connectionName="mysql" dashed="false"
+                monitorName="Select Rates/ select full join"
+                monitoredHostName="localhost_1" scale="1.0" selected="false"/>
+            <monitor-curve-description color="128,128,128"
+                connectionName="mysql" dashed="false"
+                monitorName="Select Rates/ select range check"
+                monitoredHostName="localhost_1" scale="1.0" selected="false"/>
+            <monitor-curve-description color="244,239,0"
+                connectionName="mysql" dashed="false"
+                monitorName="Read Rates/ handler read random"
+                monitoredHostName="localhost_1" scale="1.0" selected="false"/>
+            <monitor-curve-description color="15,79,152"
+                connectionName="mysql" dashed="false"
+                monitorName="Read Rates/ handler read random next"
+                monitoredHostName="localhost_1" scale="1.0" selected="false"/>
+            <monitor-curve-description color="66,137,41"
+                connectionName="mysql" dashed="false"
+                monitorName="Key Rates/ key reads (disk)"
+                monitoredHostName="localhost_1" scale="1.0" selected="false"/>
+            <monitor-curve-description color="183,179,0"
+                connectionName="mysql" dashed="false"
+                monitorName="Key Rates/ key writes (disk)"
+                monitoredHostName="localhost_1" scale="1.0" selected="false"/>
+            <monitor-curve-description color="143,0,141"
+                connectionName="mysql" dashed="false"
+                monitorName="Commands Rates/ handler rollback"
+                monitoredHostName="localhost_1" scale="1.0" selected="false"/>
+            <monitor-curve-description color="15,157,157"
+                connectionName="mysql" dashed="false"
+                monitorName="Commands Rates/ handler savepoint rollback"
+                monitoredHostName="localhost_1" scale="1.0" selected="false"/>
+            <monitor-curve-description color="177,114,16"
+                connectionName="mysql" dashed="false"
+                monitorName="Tables/ table locks waited"
+                monitoredHostName="localhost_1" scale="1.0" selected="false"/>
+            <monitor-curve-description color="183,179,0"
+                connectionName="mysql" dashed="false"
+                monitorName="Memory/ % key buffer size"
+                monitoredHostName="localhost_1" scale="1.0" selected="false"/>
+            <monitor-curve-description color="64,64,64"
+                connectionName="mysql" dashed="false"
+                monitorName="Misc./ slow queries"
+                monitoredHostName="localhost_1" scale="1.0" selected="false"/>
+            <monitor-curve-description color="26,141,255"
+                connectionName="mysql" dashed="false"
+                monitorName="Misc./ slow launch threads"
+                monitoredHostName="localhost_1" scale="1.0" selected="false"/>
+            <monitor-curve-description color="117,244,73"
+                connectionName="mysql" dashed="false"
+                monitorName="Misc./ sort merge passes"
+                monitoredHostName="localhost_1" scale="1.0" selected="false"/>
+            <monitor-curve-description color="254,0,252"
+                connectionName="mysql" dashed="false"
+                monitorName="Misc./ not flushed delayed rows"
+                monitoredHostName="localhost_1" scale="1.0" selected="false"/>
+        </chart-description>
+        <chart-description autoRange="true"
+            chart-description-type="chart-description-type"
+            domainMarkerVisible="true" granularityLevel="0"
+            historyState="XMIN" includeInReport="false"
+            rangeMarkerVisible="true" title="localhost_10/mysql" typeName="CLASSIC">
+            <monitor-curve-description color="20,106,203"
+                connectionName="mysql" dashed="false"
+                monitorName="Connections/ threads connected"
+                monitoredHostName="localhost_10" scale="1.0" selected="false"/>
+            <monitor-curve-description color="88,183,55"
+                connectionName="mysql" dashed="false"
+                monitorName="Connections/ threads cached"
+                monitoredHostName="localhost_10" scale="1.0" selected="false"/>
+            <monitor-curve-description color="200,0,0"
+                connectionName="mysql" dashed="false"
+                monitorName="Connections/ threads running"
+                monitoredHostName="localhost_10" scale="1.0" selected="false"/>
+            <monitor-curve-description color="191,0,189"
+                connectionName="mysql" dashed="false"
+                monitorName="Connections/ aborted clients"
+                monitoredHostName="localhost_10" scale="1.0" selected="false"/>
+            <monitor-curve-description color="20,210,210"
+                connectionName="mysql" dashed="false"
+                monitorName="Connections/ aborted connects"
+                monitoredHostName="localhost_10" scale="1.0" selected="false"/>
+            <monitor-curve-description color="223,143,143"
+                connectionName="mysql" dashed="false"
+                monitorName="Connections/ max used"
+                monitoredHostName="localhost_10" scale="1.0" selected="false"/>
+            <monitor-curve-description color="236,153,22"
+                connectionName="mysql" dashed="false"
+                monitorName="Select Rates/ select full join"
+                monitoredHostName="localhost_10" scale="1.0" selected="false"/>
+            <monitor-curve-description color="128,128,128"
+                connectionName="mysql" dashed="false"
+                monitorName="Select Rates/ select range check"
+                monitoredHostName="localhost_10" scale="1.0" selected="false"/>
+            <monitor-curve-description color="244,239,0"
+                connectionName="mysql" dashed="false"
+                monitorName="Read Rates/ handler read random"
+                monitoredHostName="localhost_10" scale="1.0" selected="false"/>
+            <monitor-curve-description color="15,79,152"
+                connectionName="mysql" dashed="false"
+                monitorName="Read Rates/ handler read random next"
+                monitoredHostName="localhost_10" scale="1.0" selected="false"/>
+            <monitor-curve-description color="66,137,41"
+                connectionName="mysql" dashed="false"
+                monitorName="Key Rates/ key reads (disk)"
+                monitoredHostName="localhost_10" scale="1.0" selected="false"/>
+            <monitor-curve-description color="183,179,0"
+                connectionName="mysql" dashed="false"
+                monitorName="Key Rates/ key writes (disk)"
+                monitoredHostName="localhost_10" scale="1.0" selected="false"/>
+            <monitor-curve-description color="143,0,141"
+                connectionName="mysql" dashed="false"
+                monitorName="Commands Rates/ handler rollback"
+                monitoredHostName="localhost_10" scale="1.0" selected="false"/>
+            <monitor-curve-description color="15,157,157"
+                connectionName="mysql" dashed="false"
+                monitorName="Commands Rates/ handler savepoint rollback"
+                monitoredHostName="localhost_10" scale="1.0" selected="false"/>
+            <monitor-curve-description color="177,114,16"
+                connectionName="mysql" dashed="false"
+                monitorName="Tables/ table locks waited"
+                monitoredHostName="localhost_10" scale="1.0" selected="false"/>
+            <monitor-curve-description color="183,179,0"
+                connectionName="mysql" dashed="false"
+                monitorName="Memory/ binlog cache size"
+                monitoredHostName="localhost_10" scale="1.0" selected="false"/>
+            <monitor-curve-description color="64,64,64"
+                connectionName="mysql" dashed="false"
+                monitorName="Memory/ % key buffer size"
+                monitoredHostName="localhost_10" scale="1.0" selected="false"/>
+            <monitor-curve-description color="26,141,255"
+                connectionName="mysql" dashed="false"
+                monitorName="Misc./ slow queries"
+                monitoredHostName="localhost_10" scale="1.0" selected="false"/>
+            <monitor-curve-description color="117,244,73"
+                connectionName="mysql" dashed="false"
+                monitorName="Misc./ slow launch threads"
+                monitoredHostName="localhost_10" scale="1.0" selected="false"/>
+            <monitor-curve-description color="254,0,252"
+                connectionName="mysql" dashed="false"
+                monitorName="Misc./ sort merge passes"
+                monitoredHostName="localhost_10" scale="1.0" selected="false"/>
+            <monitor-curve-description color="26,255,255"
+                connectionName="mysql" dashed="false"
+                monitorName="Misc./ not flushed delayed rows"
+                monitoredHostName="localhost_10" scale="1.0" selected="false"/>
+        </chart-description>
+        <chart-description autoRange="true"
+            chart-description-type="chart-description-type"
+            domainMarkerVisible="true" granularityLevel="0"
+            historyState="XMIN" includeInReport="false"
+            rangeMarkerVisible="true" title="localhost_2/mysql" typeName="CLASSIC">
+            <monitor-curve-description color="20,106,203"
+                connectionName="mysql" dashed="false"
+                monitorName="Connections/ threads connected"
+                monitoredHostName="localhost_2" scale="1.0" selected="false"/>
+            <monitor-curve-description color="88,183,55"
+                connectionName="mysql" dashed="false"
+                monitorName="Connections/ threads cached"
+                monitoredHostName="localhost_2" scale="1.0" selected="false"/>
+            <monitor-curve-description color="200,0,0"
+                connectionName="mysql" dashed="false"
+                monitorName="Connections/ aborted clients"
+                monitoredHostName="localhost_2" scale="1.0" selected="false"/>
+            <monitor-curve-description color="191,0,189"
+                connectionName="mysql" dashed="false"
+                monitorName="Connections/ aborted connects"
+                monitoredHostName="localhost_2" scale="1.0" selected="false"/>
+            <monitor-curve-description color="20,210,210"
+                connectionName="mysql" dashed="false"
+                monitorName="Connections/ max used"
+                monitoredHostName="localhost_2" scale="1.0" selected="false"/>
+            <monitor-curve-description color="223,143,143"
+                connectionName="mysql" dashed="false"
+                monitorName="Select Rates/ select full join"
+                monitoredHostName="localhost_2" scale="1.0" selected="false"/>
+            <monitor-curve-description color="236,153,22"
+                connectionName="mysql" dashed="false"
+                monitorName="Select Rates/ select range check"
+                monitoredHostName="localhost_2" scale="1.0" selected="false"/>
+            <monitor-curve-description color="128,128,128"
+                connectionName="mysql" dashed="false"
+                monitorName="Read Rates/ handler read random"
+                monitoredHostName="localhost_2" scale="1.0" selected="false"/>
+            <monitor-curve-description color="244,239,0"
+                connectionName="mysql" dashed="false"
+                monitorName="Read Rates/ handler read random next"
+                monitoredHostName="localhost_2" scale="1.0" selected="false"/>
+            <monitor-curve-description color="15,79,152"
+                connectionName="mysql" dashed="false"
+                monitorName="Key Rates/ key reads (disk)"
+                monitoredHostName="localhost_2" scale="1.0" selected="false"/>
+            <monitor-curve-description color="66,137,41"
+                connectionName="mysql" dashed="false"
+                monitorName="Key Rates/ key writes (disk)"
+                monitoredHostName="localhost_2" scale="1.0" selected="false"/>
+            <monitor-curve-description color="183,179,0"
+                connectionName="mysql" dashed="false"
+                monitorName="Commands Rates/ handler rollback"
+                monitoredHostName="localhost_2" scale="1.0" selected="false"/>
+            <monitor-curve-description color="143,0,141"
+                connectionName="mysql" dashed="false"
+                monitorName="Commands Rates/ handler savepoint rollback"
+                monitoredHostName="localhost_2" scale="1.0" selected="false"/>
+            <monitor-curve-description color="15,157,157"
+                connectionName="mysql" dashed="false"
+                monitorName="Tables/ table locks waited"
+                monitoredHostName="localhost_2" scale="1.0" selected="false"/>
+            <monitor-curve-description color="177,114,16"
+                connectionName="mysql" dashed="false"
+                monitorName="Memory/ % key buffer size"
+                monitoredHostName="localhost_2" scale="1.0" selected="false"/>
+            <monitor-curve-description color="183,179,0"
+                connectionName="mysql" dashed="false"
+                monitorName="Misc./ slow queries"
+                monitoredHostName="localhost_2" scale="1.0" selected="false"/>
+            <monitor-curve-description color="64,64,64"
+                connectionName="mysql" dashed="false"
+                monitorName="Misc./ slow launch threads"
+                monitoredHostName="localhost_2" scale="1.0" selected="false"/>
+            <monitor-curve-description color="26,141,255"
+                connectionName="mysql" dashed="false"
+                monitorName="Misc./ sort merge passes"
+                monitoredHostName="localhost_2" scale="1.0" selected="false"/>
+            <monitor-curve-description color="117,244,73"
+                connectionName="mysql" dashed="false"
+                monitorName="Misc./ not flushed delayed rows"
+                monitoredHostName="localhost_2" scale="1.0" selected="false"/>
+        </chart-description>
+        <chart-description autoRange="true"
+            chart-description-type="chart-description-type"
+            domainMarkerVisible="true" granularityLevel="0"
+            historyState="XMIN" includeInReport="false"
+            rangeMarkerVisible="true" title="localhost_3/mysql" typeName="CLASSIC">
+            <monitor-curve-description color="20,106,203"
+                connectionName="mysql" dashed="false"
+                monitorName="Connections/ threads connected"
+                monitoredHostName="localhost_3" scale="1.0" selected="false"/>
+            <monitor-curve-description color="88,183,55"
+                connectionName="mysql" dashed="false"
+                monitorName="Connections/ threads cached"
+                monitoredHostName="localhost_3" scale="1.0" selected="false"/>
+            <monitor-curve-description color="200,0,0"
+                connectionName="mysql" dashed="false"
+                monitorName="Connections/ aborted clients"
+                monitoredHostName="localhost_3" scale="1.0" selected="false"/>
+            <monitor-curve-description color="191,0,189"
+                connectionName="mysql" dashed="false"
+                monitorName="Connections/ aborted connects"
+                monitoredHostName="localhost_3" scale="1.0" selected="false"/>
+            <monitor-curve-description color="20,210,210"
+                connectionName="mysql" dashed="false"
+                monitorName="Connections/ attempts"
+                monitoredHostName="localhost_3" scale="1.0" selected="false"/>
+            <monitor-curve-description color="223,143,143"
+                connectionName="mysql" dashed="false"
+                monitorName="Connections/ max used"
+                monitoredHostName="localhost_3" scale="1.0" selected="false"/>
+            <monitor-curve-description color="236,153,22"
+                connectionName="mysql" dashed="false"
+                monitorName="Select Rates/ select full join"
+                monitoredHostName="localhost_3" scale="1.0" selected="false"/>
+            <monitor-curve-description color="128,128,128"
+                connectionName="mysql" dashed="false"
+                monitorName="Select Rates/ select range check"
+                monitoredHostName="localhost_3" scale="1.0" selected="false"/>
+            <monitor-curve-description color="244,239,0"
+                connectionName="mysql" dashed="false"
+                monitorName="Read Rates/ handler read random"
+                monitoredHostName="localhost_3" scale="1.0" selected="false"/>
+            <monitor-curve-description color="15,79,152"
+                connectionName="mysql" dashed="false"
+                monitorName="Read Rates/ handler read random next"
+                monitoredHostName="localhost_3" scale="1.0" selected="false"/>
+            <monitor-curve-description color="66,137,41"
+                connectionName="mysql" dashed="false"
+                monitorName="Key Rates/ key reads (disk)"
+                monitoredHostName="localhost_3" scale="1.0" selected="false"/>
+            <monitor-curve-description color="183,179,0"
+                connectionName="mysql" dashed="false"
+                monitorName="Key Rates/ key writes (disk)"
+                monitoredHostName="localhost_3" scale="1.0" selected="false"/>
+            <monitor-curve-description color="143,0,141"
+                connectionName="mysql" dashed="false"
+                monitorName="Commands Rates/ handler rollback"
+                monitoredHostName="localhost_3" scale="1.0" selected="false"/>
+            <monitor-curve-description color="15,157,157"
+                connectionName="mysql" dashed="false"
+                monitorName="Commands Rates/ handler savepoint rollback"
+                monitoredHostName="localhost_3" scale="1.0" selected="false"/>
+            <monitor-curve-description color="177,114,16"
+                connectionName="mysql" dashed="false"
+                monitorName="Tables/ table locks waited"
+                monitoredHostName="localhost_3" scale="1.0" selected="false"/>
+            <monitor-curve-description color="183,179,0"
+                connectionName="mysql" dashed="false"
+                monitorName="Memory/ % key buffer size"
+                monitoredHostName="localhost_3" scale="1.0" selected="false"/>
+            <monitor-curve-description color="64,64,64"
+                connectionName="mysql" dashed="false"
+                monitorName="Misc./ slow queries"
+                monitoredHostName="localhost_3" scale="1.0" selected="false"/>
+            <monitor-curve-description color="26,141,255"
+                connectionName="mysql" dashed="false"
+                monitorName="Misc./ slow launch threads"
+                monitoredHostName="localhost_3" scale="1.0" selected="false"/>
+            <monitor-curve-description color="117,244,73"
+                connectionName="mysql" dashed="false"
+                monitorName="Misc./ sort merge passes"
+                monitoredHostName="localhost_3" scale="1.0" selected="false"/>
+            <monitor-curve-description color="254,0,252"
+                connectionName="mysql" dashed="false"
+                monitorName="Misc./ not flushed delayed rows"
+                monitoredHostName="localhost_3" scale="1.0" selected="false"/>
+        </chart-description>
+        <chart-description autoRange="true"
+            chart-description-type="chart-description-type"
+            domainMarkerVisible="true" granularityLevel="0"
+            historyState="XMIN" includeInReport="false"
+            rangeMarkerVisible="true" title="localhost_4/mysql" typeName="CLASSIC">
+            <monitor-curve-description color="20,106,203"
+                connectionName="mysql" dashed="false"
+                monitorName="Connections/ threads connected"
+                monitoredHostName="localhost_4" scale="1.0" selected="false"/>
+            <monitor-curve-description color="88,183,55"
+                connectionName="mysql" dashed="false"
+                monitorName="Connections/ threads cached"
+                monitoredHostName="localhost_4" scale="1.0" selected="false"/>
+            <monitor-curve-description color="200,0,0"
+                connectionName="mysql" dashed="false"
+                monitorName="Connections/ aborted clients"
+                monitoredHostName="localhost_4" scale="1.0" selected="false"/>
+            <monitor-curve-description color="191,0,189"
+                connectionName="mysql" dashed="false"
+                monitorName="Connections/ aborted connects"
+                monitoredHostName="localhost_4" scale="1.0" selected="false"/>
+            <monitor-curve-description color="20,210,210"
+                connectionName="mysql" dashed="false"
+                monitorName="Connections/ max used"
+                monitoredHostName="localhost_4" scale="1.0" selected="false"/>
+            <monitor-curve-description color="223,143,143"
+                connectionName="mysql" dashed="false"
+                monitorName="Select Rates/ select full join"
+                monitoredHostName="localhost_4" scale="1.0" selected="false"/>
+            <monitor-curve-description color="236,153,22"
+                connectionName="mysql" dashed="false"
+                monitorName="Select Rates/ select range check"
+                monitoredHostName="localhost_4" scale="1.0" selected="false"/>
+            <monitor-curve-description color="128,128,128"
+                connectionName="mysql" dashed="false"
+                monitorName="Read Rates/ handler read random"
+                monitoredHostName="localhost_4" scale="1.0" selected="false"/>
+            <monitor-curve-description color="244,239,0"
+                connectionName="mysql" dashed="false"
+                monitorName="Read Rates/ handler read random next"
+                monitoredHostName="localhost_4" scale="1.0" selected="false"/>
+            <monitor-curve-description color="15,79,152"
+                connectionName="mysql" dashed="false"
+                monitorName="Key Rates/ key reads (disk)"
+                monitoredHostName="localhost_4" scale="1.0" selected="false"/>
+            <monitor-curve-description color="66,137,41"
+                connectionName="mysql" dashed="false"
+                monitorName="Key Rates/ key writes (disk)"
+                monitoredHostName="localhost_4" scale="1.0" selected="false"/>
+            <monitor-curve-description color="183,179,0"
+                connectionName="mysql" dashed="false"
+                monitorName="Commands Rates/ handler rollback"
+                monitoredHostName="localhost_4" scale="1.0" selected="false"/>
+            <monitor-curve-description color="143,0,141"
+                connectionName="mysql" dashed="false"
+                monitorName="Commands Rates/ handler savepoint rollback"
+                monitoredHostName="localhost_4" scale="1.0" selected="false"/>
+            <monitor-curve-description color="15,157,157"
+                connectionName="mysql" dashed="false"
+                monitorName="Tables/ table locks waited"
+                monitoredHostName="localhost_4" scale="1.0" selected="false"/>
+            <monitor-curve-description color="177,114,16"
+                connectionName="mysql" dashed="false"
+                monitorName="Memory/ % key buffer size"
+                monitoredHostName="localhost_4" scale="1.0" selected="false"/>
+            <monitor-curve-description color="183,179,0"
+                connectionName="mysql" dashed="false"
+                monitorName="Misc./ slow queries"
+                monitoredHostName="localhost_4" scale="1.0" selected="false"/>
+            <monitor-curve-description color="64,64,64"
+                connectionName="mysql" dashed="false"
+                monitorName="Misc./ slow launch threads"
+                monitoredHostName="localhost_4" scale="1.0" selected="false"/>
+            <monitor-curve-description color="26,141,255"
+                connectionName="mysql" dashed="false"
+                monitorName="Misc./ sort merge passes"
+                monitoredHostName="localhost_4" scale="1.0" selected="false"/>
+            <monitor-curve-description color="117,244,73"
+                connectionName="mysql" dashed="false"
+                monitorName="Misc./ not flushed delayed rows"
+                monitoredHostName="localhost_4" scale="1.0" selected="false"/>
+        </chart-description>
+        <chart-description autoRange="true"
+            chart-description-type="chart-description-type"
+            domainMarkerVisible="true" granularityLevel="0"
+            historyState="XMIN" includeInReport="false"
+            rangeMarkerVisible="true" title="localhost_5/mysql" typeName="CLASSIC">
+            <monitor-curve-description color="20,106,203"
+                connectionName="mysql" dashed="false"
+                monitorName="Connections/ threads connected"
+                monitoredHostName="localhost_5" scale="1.0" selected="false"/>
+            <monitor-curve-description color="88,183,55"
+                connectionName="mysql" dashed="false"
+                monitorName="Connections/ threads cached"
+                monitoredHostName="localhost_5" scale="1.0" selected="false"/>
+            <monitor-curve-description color="200,0,0"
+                connectionName="mysql" dashed="false"
+                monitorName="Connections/ threads running"
+                monitoredHostName="localhost_5" scale="1.0" selected="false"/>
+            <monitor-curve-description color="191,0,189"
+                connectionName="mysql" dashed="false"
+                monitorName="Connections/ aborted clients"
+                monitoredHostName="localhost_5" scale="1.0" selected="false"/>
+            <monitor-curve-description color="20,210,210"
+                connectionName="mysql" dashed="false"
+                monitorName="Connections/ aborted connects"
+                monitoredHostName="localhost_5" scale="1.0" selected="false"/>
+            <monitor-curve-description color="223,143,143"
+                connectionName="mysql" dashed="false"
+                monitorName="Connections/ max used"
+                monitoredHostName="localhost_5" scale="1.0" selected="false"/>
+            <monitor-curve-description color="236,153,22"
+                connectionName="mysql" dashed="false"
+                monitorName="IO Requests/ bytes received"
+                monitoredHostName="localhost_5" scale="1.0" selected="false"/>
+            <monitor-curve-description color="128,128,128"
+                connectionName="mysql" dashed="false"
+                monitorName="IO Requests/ bytes sent"
+                monitoredHostName="localhost_5" scale="1.0" selected="false"/>
+            <monitor-curve-description color="244,239,0"
+                connectionName="mysql" dashed="false"
+                monitorName="Select Rates/ select full join"
+                monitoredHostName="localhost_5" scale="1.0" selected="false"/>
+            <monitor-curve-description color="15,79,152"
+                connectionName="mysql" dashed="false"
+                monitorName="Select Rates/ select range check"
+                monitoredHostName="localhost_5" scale="1.0" selected="false"/>
+            <monitor-curve-description color="66,137,41"
+                connectionName="mysql" dashed="false"
+                monitorName="Read Rates/ handler read random"
+                monitoredHostName="localhost_5" scale="1.0" selected="false"/>
+            <monitor-curve-description color="183,179,0"
+                connectionName="mysql" dashed="false"
+                monitorName="Read Rates/ handler read random next"
+                monitoredHostName="localhost_5" scale="1.0" selected="false"/>
+            <monitor-curve-description color="143,0,141"
+                connectionName="mysql" dashed="false"
+                monitorName="Key Rates/ key reads (disk)"
+                monitoredHostName="localhost_5" scale="1.0" selected="false"/>
+            <monitor-curve-description color="15,157,157"
+                connectionName="mysql" dashed="false"
+                monitorName="Key Rates/ key writes (disk)"
+                monitoredHostName="localhost_5" scale="1.0" selected="false"/>
+            <monitor-curve-description color="177,114,16"
+                connectionName="mysql" dashed="false"
+                monitorName="Commands Rates/ handler rollback"
+                monitoredHostName="localhost_5" scale="1.0" selected="false"/>
+            <monitor-curve-description color="183,179,0"
+                connectionName="mysql" dashed="false"
+                monitorName="Commands Rates/ handler savepoint rollback"
+                monitoredHostName="localhost_5" scale="1.0" selected="false"/>
+            <monitor-curve-description color="64,64,64"
+                connectionName="mysql" dashed="false"
+                monitorName="Tables/ table locks waited"
+                monitoredHostName="localhost_5" scale="1.0" selected="false"/>
+            <monitor-curve-description color="26,141,255"
+                connectionName="mysql" dashed="false"
+                monitorName="Memory/ % key buffer size"
+                monitoredHostName="localhost_5" scale="1.0" selected="false"/>
+            <monitor-curve-description color="117,244,73"
+                connectionName="mysql" dashed="false"
+                monitorName="Misc./ slow queries"
+                monitoredHostName="localhost_5" scale="1.0" selected="false"/>
+            <monitor-curve-description color="254,0,252"
+                connectionName="mysql" dashed="false"
+                monitorName="Misc./ slow launch threads"
+                monitoredHostName="localhost_5" scale="1.0" selected="false"/>
+            <monitor-curve-description color="26,255,255"
+                connectionName="mysql" dashed="false"
+                monitorName="Misc./ sort merge passes"
+                monitoredHostName="localhost_5" scale="1.0" selected="false"/>
+            <monitor-curve-description color="192,192,192"
+                connectionName="mysql" dashed="false"
+                monitorName="Misc./ not flushed delayed rows"
+                monitoredHostName="localhost_5" scale="1.0" selected="false"/>
+        </chart-description>
+        <chart-description autoRange="true"
+            chart-description-type="chart-description-type"
+            domainMarkerVisible="true" granularityLevel="0"
+            historyState="XMIN" includeInReport="false"
+            rangeMarkerVisible="true" title="localhost_6/windows" typeName="CLASSIC">
+            <monitor-curve-description color="20,106,203"
+                connectionName="windows" dashed="false"
+                monitorName="AppV Client Streamed Data Percentage/Primary Feature % Streamed"
+                monitoredHostName="localhost_6" scale="1.0" selected="false"/>
+            <monitor-curve-description color="88,183,55"
+                connectionName="windows" dashed="false"
+                monitorName="Authorization Manager Applications/Number of Scopes loaded in memory"
+                monitoredHostName="localhost_6" scale="1.0" selected="false"/>
+            <monitor-curve-description color="200,0,0"
+                connectionName="windows" dashed="false"
+                monitorName="Authorization Manager Applications/Total number of scopes"
+                monitoredHostName="localhost_6" scale="1.0" selected="false"/>
+            <monitor-curve-description color="191,0,189"
+                connectionName="windows" dashed="false"
+                monitorName="Battery Status/Charge Rate"
+                monitoredHostName="localhost_6" scale="1.0" selected="false"/>
+            <monitor-curve-description color="20,210,210"
+                connectionName="windows" dashed="false"
+                monitorName="Battery Status/Discharge Rate"
+                monitoredHostName="localhost_6" scale="1.0" selected="false"/>
+            <monitor-curve-description color="223,143,143"
+                connectionName="windows" dashed="false"
+                monitorName="Battery Status/Remaining Capacity"
+                monitoredHostName="localhost_6" scale="1.0" selected="false"/>
+            <monitor-curve-description color="236,153,22"
+                connectionName="windows" dashed="false"
+                monitorName="Battery Status/Tag"
+                monitoredHostName="localhost_6" scale="1.0" selected="false"/>
+            <monitor-curve-description color="128,128,128"
+                connectionName="windows" dashed="false"
+                monitorName="Battery Status/Voltage"
+                monitoredHostName="localhost_6" scale="1.0" selected="false"/>
+            <monitor-curve-description color="244,239,0"
+                connectionName="windows" dashed="false"
+                monitorName="BitLocker/Min Read Split Size (C:)"
+                monitoredHostName="localhost_6" scale="1.0" selected="false"/>
+            <monitor-curve-description color="15,79,152"
+                connectionName="windows" dashed="false"
+                monitorName="Bluetooth Radio/ACL flush events/sec"
+                monitoredHostName="localhost_6" scale="1.0" selected="false"/>
+            <monitor-curve-description color="66,137,41"
+                connectionName="windows" dashed="false"
+                monitorName="Bluetooth Radio/Classic ACL bytes read/sec"
+                monitoredHostName="localhost_6" scale="1.0" selected="false"/>
+            <monitor-curve-description color="183,179,0"
+                connectionName="windows" dashed="false"
+                monitorName="Bluetooth Radio/Classic ACL bytes written/sec"
+                monitoredHostName="localhost_6" scale="1.0" selected="false"/>
+            <monitor-curve-description color="143,0,141"
+                connectionName="windows" dashed="false"
+                monitorName="Bluetooth Radio/Classic ACL Connections"
+                monitoredHostName="localhost_6" scale="1.0" selected="false"/>
+            <monitor-curve-description color="15,157,157"
+                connectionName="windows" dashed="false"
+                monitorName="Bluetooth Radio/Classic ACL write credits"
+                monitoredHostName="localhost_6" scale="1.0" selected="false"/>
+            <monitor-curve-description color="177,114,16"
+                connectionName="windows" dashed="false"
+                monitorName="Bluetooth Radio/Inquiry Scan Duty Cycle (%)"
+                monitoredHostName="localhost_6" scale="1.0" selected="false"/>
+            <monitor-curve-description color="183,179,0"
+                connectionName="windows" dashed="false"
+                monitorName="Bluetooth Radio/Inquiry Scan Interval"
+                monitoredHostName="localhost_6" scale="1.0" selected="false"/>
+            <monitor-curve-description color="64,64,64"
+                connectionName="windows" dashed="false"
+                monitorName="Bluetooth Radio/Inquiry Scan Window"
+                monitoredHostName="localhost_6" scale="1.0" selected="false"/>
+            <monitor-curve-description color="26,141,255"
+                connectionName="windows" dashed="false"
+                monitorName="Bluetooth Radio/LE ACL bytes read/sec"
+                monitoredHostName="localhost_6" scale="1.0" selected="false"/>
+            <monitor-curve-description color="117,244,73"
+                connectionName="windows" dashed="false"
+                monitorName="Bluetooth Radio/LE ACL bytes written/sec"
+                monitoredHostName="localhost_6" scale="1.0" selected="false"/>
+            <monitor-curve-description color="254,0,252"
+                connectionName="windows" dashed="false"
+                monitorName="Bluetooth Radio/LE ACL Connections"
+                monitoredHostName="localhost_6" scale="1.0" selected="false"/>
+            <monitor-curve-description color="26,255,255"
+                connectionName="windows" dashed="false"
+                monitorName="Bluetooth Radio/LE ACL write credits"
+                monitoredHostName="localhost_6" scale="1.0" selected="false"/>
+            <monitor-curve-description color="192,192,192"
+                connectionName="windows" dashed="false"
+                monitorName="Bluetooth Radio/LE Scan Duty Cycle (%) - Coded Phy"
+                monitoredHostName="localhost_6" scale="1.0" selected="false"/>
+            <monitor-curve-description color="11,59,114"
+                connectionName="windows" dashed="false"
+                monitorName="Bluetooth Radio/LE Scan Duty Cycle (%) - Uncoded 1M Phy"
+                monitoredHostName="localhost_6" scale="1.0" selected="false"/>
+            <monitor-curve-description color="49,102,30"
+                connectionName="windows" dashed="false"
+                monitorName="Bluetooth Radio/LE Scan Interval - Coded Phy"
+                monitoredHostName="localhost_6" scale="1.0" selected="false"/>
+            <monitor-curve-description color="137,134,0"
+                connectionName="windows" dashed="false"
+                monitorName="Bluetooth Radio/LE Scan Interval - Uncoded 1M Phy"
+                monitoredHostName="localhost_6" scale="1.0" selected="false"/>
+            <monitor-curve-description color="107,0,105"
+                connectionName="windows" dashed="false"
+                monitorName="Bluetooth Radio/LE Scan Window - Coded Phy"
+                monitoredHostName="localhost_6" scale="1.0" selected="false"/>
+            <monitor-curve-description color="11,117,117"
+                connectionName="windows" dashed="false"
+                monitorName="Bluetooth Radio/LE Scan Window - Uncoded 1M Phy"
+                monitoredHostName="localhost_6" scale="1.0" selected="false"/>
+            <monitor-curve-description color="132,85,12"
+                connectionName="windows" dashed="false"
+                monitorName="Bluetooth Radio/Page Scan Duty Cycle (%)"
+                monitoredHostName="localhost_6" scale="1.0" selected="false"/>
+            <monitor-curve-description color="34,188,255"
+                connectionName="windows" dashed="false"
+                monitorName="Bluetooth Radio/Page Scan Interval"
+                monitoredHostName="localhost_6" scale="1.0" selected="false"/>
+            <monitor-curve-description color="156,255,97"
+                connectionName="windows" dashed="false"
+                monitorName="Bluetooth Radio/Page Scan Window"
+                monitoredHostName="localhost_6" scale="1.0" selected="false"/>
+            <monitor-curve-description color="255,0,255"
+                connectionName="windows" dashed="false"
+                monitorName="Bluetooth Radio/SCO bytes read/sec"
+                monitoredHostName="localhost_6" scale="1.0" selected="false"/>
+            <monitor-curve-description color="34,255,255"
+                connectionName="windows" dashed="false"
+                monitorName="Bluetooth Radio/SCO bytes written/sec"
+                monitoredHostName="localhost_6" scale="1.0" selected="false"/>
+            <monitor-curve-description color="49,32,208"
+                connectionName="windows" dashed="false"
+                monitorName="Bluetooth Radio/SCO Connections"
+                monitoredHostName="localhost_6" scale="1.0" selected="false"/>
+            <monitor-curve-description color="224,237,165"
+                connectionName="windows" dashed="false"
+                monitorName="Bluetooth Radio/Sideband SCO Connections"
+                monitoredHostName="localhost_6" scale="1.0" selected="false"/>
+            <monitor-curve-description color="107,3,198"
+                connectionName="windows" dashed="false"
+                monitorName="Client Side Caching/Application Bytes Read From Cache"
+                monitoredHostName="localhost_6" scale="1.0" selected="false"/>
+            <monitor-curve-description color="200,150,80"
+                connectionName="windows" dashed="false"
+                monitorName="Client Side Caching/Application Bytes Read From Server"
+                monitoredHostName="localhost_6" scale="1.0" selected="false"/>
+            <monitor-curve-description color="88,117,125"
+                connectionName="windows" dashed="false"
+                monitorName="Client Side Caching/Application Bytes Read From Server (Not Cached)"
+                monitoredHostName="localhost_6" scale="1.0" selected="false"/>
+            <monitor-curve-description color="32,151,42"
+                connectionName="windows" dashed="false"
+                monitorName="Client Side Caching/Prefetch Bytes Read From Cache"
+                monitoredHostName="localhost_6" scale="1.0" selected="false"/>
+            <monitor-curve-description color="47,130,211"
+                connectionName="windows" dashed="false"
+                monitorName="Client Side Caching/Prefetch Bytes Read From Server"
+                monitoredHostName="localhost_6" scale="1.0" selected="false"/>
+            <monitor-curve-description color="201,229,187"
+                connectionName="windows" dashed="false"
+                monitorName="Client Side Caching/Prefetch Operations Queued"
+                monitoredHostName="localhost_6" scale="1.0" selected="false"/>
+            <monitor-curve-description color="188,170,94"
+                connectionName="windows" dashed="false"
+                monitorName="Client Side Caching/SMB BranchCache Bytes Published"
+                monitoredHostName="localhost_6" scale="1.0" selected="false"/>
+            <monitor-curve-description color="117,61,62"
+                connectionName="windows" dashed="false"
+                monitorName="Client Side Caching/SMB BranchCache Bytes Received"
+                monitoredHostName="localhost_6" scale="1.0" selected="false"/>
+            <monitor-curve-description color="204,35,45"
+                connectionName="windows" dashed="false"
+                monitorName="Client Side Caching/SMB BranchCache Bytes Requested"
+                monitoredHostName="localhost_6" scale="1.0" selected="false"/>
+            <monitor-curve-description color="252,209,173"
+                connectionName="windows" dashed="false"
+                monitorName="Client Side Caching/SMB BranchCache Bytes Requested From Server"
+                monitoredHostName="localhost_6" scale="1.0" selected="false"/>
+            <monitor-curve-description color="14,52,125"
+                connectionName="windows" dashed="false"
+                monitorName="Client Side Caching/SMB BranchCache Hash Bytes Received"
+                monitoredHostName="localhost_6" scale="1.0" selected="false"/>
+            <monitor-curve-description color="16,53,233"
+                connectionName="windows" dashed="false"
+                monitorName="Client Side Caching/SMB BranchCache Hashes Received"
+                monitoredHostName="localhost_6" scale="1.0" selected="false"/>
+            <monitor-curve-description color="148,50,55"
+                connectionName="windows" dashed="false"
+                monitorName="Client Side Caching/SMB BranchCache Hashes Requested"
+                monitoredHostName="localhost_6" scale="1.0" selected="false"/>
+            <monitor-curve-description color="106,46,122"
+                connectionName="windows" dashed="false"
+                monitorName="Memory/Available Bytes"
+                monitoredHostName="localhost_6" scale="1.0" selected="false"/>
+            <monitor-curve-description color="96,229,42"
+                connectionName="windows" dashed="false"
+                monitorName="Memory/Available MBytes"
+                monitoredHostName="localhost_6" scale="1.0" selected="false"/>
+            <monitor-curve-description color="188,14,223"
+                connectionName="windows" dashed="false"
+                monitorName="Memory/Page Faults/sec"
+                monitoredHostName="localhost_6" scale="1.0" selected="false"/>
+            <monitor-curve-description color="76,106,147"
+                connectionName="windows" dashed="false"
+                monitorName="Memory/Pages/sec"
+                monitoredHostName="localhost_6" scale="1.0" selected="false"/>
+            <monitor-curve-description color="25,57,243"
+                connectionName="windows" dashed="false"
+                monitorName="Network Interface/% network utilization (Qualcomm QCA61x4A 802.11ac Wireless Adapter)"
+                monitoredHostName="localhost_6" scale="1.0" selected="false"/>
+            <monitor-curve-description color="149,63,145"
+                connectionName="windows" dashed="false"
+                monitorName="Network Interface/% network utilization (Dell GigabitEthernet)"
+                monitoredHostName="localhost_6" scale="1.0" selected="false"/>
+            <monitor-curve-description color="213,63,12"
+                connectionName="windows" dashed="false"
+                monitorName="Network Interface/Bytes Total/sec (Qualcomm QCA61x4A 802.11ac Wireless Adapter)"
+                monitoredHostName="localhost_6" scale="1.0" selected="false"/>
+            <monitor-curve-description color="229,192,60"
+                connectionName="windows" dashed="false"
+                monitorName="Network Interface/Bytes Total/sec (Dell GigabitEthernet)"
+                monitoredHostName="localhost_6" scale="1.0" selected="false"/>
+            <monitor-curve-description color="231,61,13"
+                connectionName="windows" dashed="false"
+                monitorName="Network Interface/Output Queue Length (Qualcomm QCA61x4A 802.11ac Wireless Adapter)"
+                monitoredHostName="localhost_6" scale="1.0" selected="false"/>
+            <monitor-curve-description color="246,188,221"
+                connectionName="windows" dashed="false"
+                monitorName="Network Interface/Output Queue Length (Dell GigabitEthernet)"
+                monitoredHostName="localhost_6" scale="1.0" selected="false"/>
+            <monitor-curve-description color="130,34,27"
+                connectionName="windows" dashed="false"
+                monitorName="Network Interface/Packets/sec (Qualcomm QCA61x4A 802.11ac Wireless Adapter)"
+                monitoredHostName="localhost_6" scale="1.0" selected="false"/>
+            <monitor-curve-description color="151,241,70"
+                connectionName="windows" dashed="false"
+                monitorName="Network Interface/Packets/sec (Dell GigabitEthernet)"
+                monitoredHostName="localhost_6" scale="1.0" selected="false"/>
+            <monitor-curve-description color="42,178,182"
+                connectionName="windows" dashed="false"
+                monitorName="PhysicalDisk/% Idle Time"
+                monitoredHostName="localhost_6" scale="1.0" selected="false"/>
+            <monitor-curve-description color="133,157,108"
+                connectionName="windows" dashed="false"
+                monitorName="PhysicalDisk/Avg. Disk Queue Length"
+                monitoredHostName="localhost_6" scale="1.0" selected="false"/>
+            <monitor-curve-description color="108,21,130"
+                connectionName="windows" dashed="false"
+                monitorName="PhysicalDisk/Avg. Disk sec/Read"
+                monitoredHostName="localhost_6" scale="1.0" selected="false"/>
+            <monitor-curve-description color="208,127,242"
+                connectionName="windows" dashed="false"
+                monitorName="PhysicalDisk/Avg. Disk sec/Write"
+                monitoredHostName="localhost_6" scale="1.0" selected="false"/>
+            <monitor-curve-description color="146,79,8"
+                connectionName="windows" dashed="false"
+                monitorName="Processor/% C1 Time"
+                monitoredHostName="localhost_6" scale="1.0" selected="false"/>
+            <monitor-curve-description color="41,220,82"
+                connectionName="windows" dashed="false"
+                monitorName="Processor/% C2 Time"
+                monitoredHostName="localhost_6" scale="1.0" selected="false"/>
+            <monitor-curve-description color="6,133,85"
+                connectionName="windows" dashed="false"
+                monitorName="Processor/% C3 Time"
+                monitoredHostName="localhost_6" scale="1.0" selected="false"/>
+            <monitor-curve-description color="54,168,171"
+                connectionName="windows" dashed="false"
+                monitorName="Processor/% DPC Time"
+                monitoredHostName="localhost_6" scale="1.0" selected="false"/>
+            <monitor-curve-description color="246,169,215"
+                connectionName="windows" dashed="false"
+                monitorName="Processor/% Processor Time"
+                monitoredHostName="localhost_6" scale="1.0" selected="false"/>
+            <monitor-curve-description color="249,224,245"
+                connectionName="windows" dashed="false"
+                monitorName="Processor/Interrupts/sec"
+                monitoredHostName="localhost_6" scale="1.0" selected="false"/>
+            <monitor-curve-description color="24,200,122"
+                connectionName="windows" dashed="false"
+                monitorName="Processor Information/% C1 Time"
+                monitoredHostName="localhost_6" scale="1.0" selected="false"/>
+            <monitor-curve-description color="11,172,47"
+                connectionName="windows" dashed="false"
+                monitorName="Processor Information/% C2 Time"
+                monitoredHostName="localhost_6" scale="1.0" selected="false"/>
+            <monitor-curve-description color="233,48,248"
+                connectionName="windows" dashed="false"
+                monitorName="Processor Information/% C3 Time"
+                monitoredHostName="localhost_6" scale="1.0" selected="false"/>
+            <monitor-curve-description color="25,181,62"
+                connectionName="windows" dashed="false"
+                monitorName="Processor Information/% DPC Time"
+                monitoredHostName="localhost_6" scale="1.0" selected="false"/>
+            <monitor-curve-description color="95,159,142"
+                connectionName="windows" dashed="false"
+                monitorName="Processor Information/% Idle Time"
+                monitoredHostName="localhost_6" scale="1.0" selected="false"/>
+            <monitor-curve-description color="236,116,129"
+                connectionName="windows" dashed="false"
+                monitorName="Processor Information/% Interrupt Time"
+                monitoredHostName="localhost_6" scale="1.0" selected="false"/>
+            <monitor-curve-description color="116,198,208"
+                connectionName="windows" dashed="false"
+                monitorName="Processor Information/% of Maximum Frequency"
+                monitoredHostName="localhost_6" scale="1.0" selected="false"/>
+            <monitor-curve-description color="219,166,62"
+                connectionName="windows" dashed="false"
+                monitorName="Processor Information/% Performance Limit"
+                monitoredHostName="localhost_6" scale="1.0" selected="false"/>
+            <monitor-curve-description color="204,46,32"
+                connectionName="windows" dashed="false"
+                monitorName="Processor Information/% Priority Time"
+                monitoredHostName="localhost_6" scale="1.0" selected="false"/>
+            <monitor-curve-description color="14,117,23"
+                connectionName="windows" dashed="false"
+                monitorName="Processor Information/% Privileged Time"
+                monitoredHostName="localhost_6" scale="1.0" selected="false"/>
+            <monitor-curve-description color="189,122,16"
+                connectionName="windows" dashed="false"
+                monitorName="Processor Information/% Privileged Utility"
+                monitoredHostName="localhost_6" scale="1.0" selected="false"/>
+            <monitor-curve-description color="245,62,138"
+                connectionName="windows" dashed="false"
+                monitorName="Processor Information/% Processor Performance"
+                monitoredHostName="localhost_6" scale="1.0" selected="false"/>
+            <monitor-curve-description color="189,54,24"
+                connectionName="windows" dashed="false"
+                monitorName="Processor Information/% Processor Time"
+                monitoredHostName="localhost_6" scale="1.0" selected="false"/>
+            <monitor-curve-description color="253,224,39"
+                connectionName="windows" dashed="false"
+                monitorName="Processor Information/% Processor Utility"
+                monitoredHostName="localhost_6" scale="1.0" selected="false"/>
+            <monitor-curve-description color="248,126,168"
+                connectionName="windows" dashed="false"
+                monitorName="Processor Information/% User Time"
+                monitoredHostName="localhost_6" scale="1.0" selected="false"/>
+            <monitor-curve-description color="71,86,93"
+                connectionName="windows" dashed="false"
+                monitorName="Processor Information/Average Idle Time"
+                monitoredHostName="localhost_6" scale="1.0" selected="false"/>
+            <monitor-curve-description color="117,77,183"
+                connectionName="windows" dashed="false"
+                monitorName="Processor Information/C1 Transitions/sec"
+                monitoredHostName="localhost_6" scale="1.0" selected="false"/>
+            <monitor-curve-description color="187,76,124"
+                connectionName="windows" dashed="false"
+                monitorName="Processor Information/C2 Transitions/sec"
+                monitoredHostName="localhost_6" scale="1.0" selected="false"/>
+            <monitor-curve-description color="187,250,139"
+                connectionName="windows" dashed="false"
+                monitorName="Processor Information/C3 Transitions/sec"
+                monitoredHostName="localhost_6" scale="1.0" selected="false"/>
+            <monitor-curve-description color="27,53,160"
+                connectionName="windows" dashed="false"
+                monitorName="Processor Information/Clock Interrupts/sec"
+                monitoredHostName="localhost_6" scale="1.0" selected="false"/>
+            <monitor-curve-description color="151,206,43"
+                connectionName="windows" dashed="false"
+                monitorName="Processor Information/DPC Rate"
+                monitoredHostName="localhost_6" scale="1.0" selected="false"/>
+            <monitor-curve-description color="195,223,48"
+                connectionName="windows" dashed="false"
+                monitorName="Processor Information/DPCs Queued/sec"
+                monitoredHostName="localhost_6" scale="1.0" selected="false"/>
+            <monitor-curve-description color="163,124,59"
+                connectionName="windows" dashed="false"
+                monitorName="Processor Information/Idle Break Events/sec"
+                monitoredHostName="localhost_6" scale="1.0" selected="false"/>
+            <monitor-curve-description color="9,215,151"
+                connectionName="windows" dashed="false"
+                monitorName="Processor Information/Interrupts/sec"
+                monitoredHostName="localhost_6" scale="1.0" selected="false"/>
+            <monitor-curve-description color="184,214,91"
+                connectionName="windows" dashed="false"
+                monitorName="Processor Information/Parking Status"
+                monitoredHostName="localhost_6" scale="1.0" selected="false"/>
+            <monitor-curve-description color="160,108,189"
+                connectionName="windows" dashed="false"
+                monitorName="Processor Information/Performance Limit Flags"
+                monitoredHostName="localhost_6" scale="1.0" selected="false"/>
+            <monitor-curve-description color="51,34,129"
+                connectionName="windows" dashed="false"
+                monitorName="Processor Information/Processor Frequency"
+                monitoredHostName="localhost_6" scale="1.0" selected="false"/>
+            <monitor-curve-description color="96,203,249"
+                connectionName="windows" dashed="false"
+                monitorName="Processor Information/Processor State Flags"
+                monitoredHostName="localhost_6" scale="1.0" selected="false"/>
+            <monitor-curve-description color="207,228,252"
+                connectionName="windows" dashed="false"
+                monitorName="System/Context Switches/sec"
+                monitoredHostName="localhost_6" scale="1.0" selected="false"/>
+            <monitor-curve-description color="202,44,235"
+                connectionName="windows" dashed="false"
+                monitorName="System/Processor Queue Length"
+                monitoredHostName="localhost_6" scale="1.0" selected="false"/>
+            <monitor-curve-description color="76,180,212"
+                connectionName="windows" dashed="false"
+                monitorName="System/Processor Queue Length per CPU"
+                monitoredHostName="localhost_6" scale="1.0" selected="false"/>
+            <monitor-curve-description color="68,60,14"
+                connectionName="windows" dashed="false"
+                monitorName="System/System Calls/sec"
+                monitoredHostName="localhost_6" scale="1.0" selected="false"/>
+            <monitor-curve-description color="62,254,76"
+                connectionName="windows" dashed="false"
+                monitorName="TCPv4/% Segments Retransmitted"
+                monitoredHostName="localhost_6" scale="1.0" selected="false"/>
+            <monitor-curve-description color="36,28,5"
+                connectionName="windows" dashed="false"
+                monitorName="TCPv4/Segments Retransmitted/sec"
+                monitoredHostName="localhost_6" scale="1.0" selected="false"/>
+            <monitor-curve-description color="0,112,10"
+                connectionName="windows" dashed="false"
+                monitorName="TCPv4/Segments Sent/sec"
+                monitoredHostName="localhost_6" scale="1.0" selected="false"/>
+        </chart-description>
+        <chart-description autoRange="true"
+            chart-description-type="chart-description-type"
+            domainMarkerVisible="true" granularityLevel="0"
+            historyState="XMIN" includeInReport="false"
+            rangeMarkerVisible="true" title="localhost_8/mysql" typeName="CLASSIC">
+            <monitor-curve-description color="20,106,203"
+                connectionName="mysql" dashed="false"
+                monitorName="Connections/ threads connected"
+                monitoredHostName="localhost_8" scale="1.0" selected="false"/>
+            <monitor-curve-description color="88,183,55"
+                connectionName="mysql" dashed="false"
+                monitorName="Connections/ threads cached"
+                monitoredHostName="localhost_8" scale="1.0" selected="false"/>
+            <monitor-curve-description color="200,0,0"
+                connectionName="mysql" dashed="false"
+                monitorName="Connections/ threads running"
+                monitoredHostName="localhost_8" scale="1.0" selected="false"/>
+            <monitor-curve-description color="191,0,189"
+                connectionName="mysql" dashed="false"
+                monitorName="Connections/ aborted clients"
+                monitoredHostName="localhost_8" scale="1.0" selected="false"/>
+            <monitor-curve-description color="20,210,210"
+                connectionName="mysql" dashed="false"
+                monitorName="Connections/ aborted connects"
+                monitoredHostName="localhost_8" scale="1.0" selected="false"/>
+            <monitor-curve-description color="223,143,143"
+                connectionName="mysql" dashed="false"
+                monitorName="Connections/ attempts"
+                monitoredHostName="localhost_8" scale="1.0" selected="false"/>
+            <monitor-curve-description color="236,153,22"
+                connectionName="mysql" dashed="false"
+                monitorName="Connections/ max used"
+                monitoredHostName="localhost_8" scale="1.0" selected="false"/>
+            <monitor-curve-description color="128,128,128"
+                connectionName="mysql" dashed="false"
+                monitorName="Select Rates/ select full join"
+                monitoredHostName="localhost_8" scale="1.0" selected="false"/>
+            <monitor-curve-description color="244,239,0"
+                connectionName="mysql" dashed="false"
+                monitorName="Select Rates/ select range check"
+                monitoredHostName="localhost_8" scale="1.0" selected="false"/>
+            <monitor-curve-description color="15,79,152"
+                connectionName="mysql" dashed="false"
+                monitorName="Read Rates/ handler read random"
+                monitoredHostName="localhost_8" scale="1.0" selected="false"/>
+            <monitor-curve-description color="66,137,41"
+                connectionName="mysql" dashed="false"
+                monitorName="Read Rates/ handler read random next"
+                monitoredHostName="localhost_8" scale="1.0" selected="false"/>
+            <monitor-curve-description color="183,179,0"
+                connectionName="mysql" dashed="false"
+                monitorName="Key Rates/ key reads (disk)"
+                monitoredHostName="localhost_8" scale="1.0" selected="false"/>
+            <monitor-curve-description color="143,0,141"
+                connectionName="mysql" dashed="false"
+                monitorName="Key Rates/ key writes (disk)"
+                monitoredHostName="localhost_8" scale="1.0" selected="false"/>
+            <monitor-curve-description color="15,157,157"
+                connectionName="mysql" dashed="false"
+                monitorName="Commands Rates/ handler rollback"
+                monitoredHostName="localhost_8" scale="1.0" selected="false"/>
+            <monitor-curve-description color="177,114,16"
+                connectionName="mysql" dashed="false"
+                monitorName="Commands Rates/ handler savepoint rollback"
+                monitoredHostName="localhost_8" scale="1.0" selected="false"/>
+            <monitor-curve-description color="183,179,0"
+                connectionName="mysql" dashed="false"
+                monitorName="Tables/ table locks waited"
+                monitoredHostName="localhost_8" scale="1.0" selected="false"/>
+            <monitor-curve-description color="64,64,64"
+                connectionName="mysql" dashed="false"
+                monitorName="Memory/ % key buffer size"
+                monitoredHostName="localhost_8" scale="1.0" selected="false"/>
+            <monitor-curve-description color="26,141,255"
+                connectionName="mysql" dashed="false"
+                monitorName="Misc./ slow queries"
+                monitoredHostName="localhost_8" scale="1.0" selected="false"/>
+            <monitor-curve-description color="117,244,73"
+                connectionName="mysql" dashed="false"
+                monitorName="Misc./ slow launch threads"
+                monitoredHostName="localhost_8" scale="1.0" selected="false"/>
+            <monitor-curve-description color="254,0,252"
+                connectionName="mysql" dashed="false"
+                monitorName="Misc./ sort merge passes"
+                monitoredHostName="localhost_8" scale="1.0" selected="false"/>
+            <monitor-curve-description color="26,255,255"
+                connectionName="mysql" dashed="false"
+                monitorName="Misc./ not flushed delayed rows"
+                monitoredHostName="localhost_8" scale="1.0" selected="false"/>
+        </chart-description>
+        <chart-description autoRange="true"
+            chart-description-type="chart-description-type"
+            domainMarkerVisible="true" granularityLevel="0"
+            historyState="XMIN" includeInReport="false"
+            rangeMarkerVisible="true" title="localhost_9/mysql" typeName="CLASSIC">
+            <monitor-curve-description color="20,106,203"
+                connectionName="mysql" dashed="false"
+                monitorName="Connections/ threads connected"
+                monitoredHostName="localhost_9" scale="1.0" selected="false"/>
+            <monitor-curve-description color="88,183,55"
+                connectionName="mysql" dashed="false"
+                monitorName="Connections/ threads cached"
+                monitoredHostName="localhost_9" scale="1.0" selected="false"/>
+            <monitor-curve-description color="200,0,0"
+                connectionName="mysql" dashed="false"
+                monitorName="Connections/ aborted clients"
+                monitoredHostName="localhost_9" scale="1.0" selected="false"/>
+            <monitor-curve-description color="191,0,189"
+                connectionName="mysql" dashed="false"
+                monitorName="Connections/ aborted connects"
+                monitoredHostName="localhost_9" scale="1.0" selected="false"/>
+            <monitor-curve-description color="20,210,210"
+                connectionName="mysql" dashed="false"
+                monitorName="Connections/ max used"
+                monitoredHostName="localhost_9" scale="1.0" selected="false"/>
+            <monitor-curve-description color="223,143,143"
+                connectionName="mysql" dashed="false"
+                monitorName="Select Rates/ select full join"
+                monitoredHostName="localhost_9" scale="1.0" selected="false"/>
+            <monitor-curve-description color="236,153,22"
+                connectionName="mysql" dashed="false"
+                monitorName="Select Rates/ select full range join"
+                monitoredHostName="localhost_9" scale="1.0" selected="false"/>
+            <monitor-curve-description color="128,128,128"
+                connectionName="mysql" dashed="false"
+                monitorName="Select Rates/ select range check"
+                monitoredHostName="localhost_9" scale="1.0" selected="false"/>
+            <monitor-curve-description color="244,239,0"
+                connectionName="mysql" dashed="false"
+                monitorName="Read Rates/ handler read random"
+                monitoredHostName="localhost_9" scale="1.0" selected="false"/>
+            <monitor-curve-description color="15,79,152"
+                connectionName="mysql" dashed="false"
+                monitorName="Read Rates/ handler read random next"
+                monitoredHostName="localhost_9" scale="1.0" selected="false"/>
+            <monitor-curve-description color="66,137,41"
+                connectionName="mysql" dashed="false"
+                monitorName="Key Rates/ key reads (disk)"
+                monitoredHostName="localhost_9" scale="1.0" selected="false"/>
+            <monitor-curve-description color="183,179,0"
+                connectionName="mysql" dashed="false"
+                monitorName="Key Rates/ key writes (disk)"
+                monitoredHostName="localhost_9" scale="1.0" selected="false"/>
+            <monitor-curve-description color="143,0,141"
+                connectionName="mysql" dashed="false"
+                monitorName="Commands Rates/ handler rollback"
+                monitoredHostName="localhost_9" scale="1.0" selected="false"/>
+            <monitor-curve-description color="15,157,157"
+                connectionName="mysql" dashed="false"
+                monitorName="Commands Rates/ handler savepoint rollback"
+                monitoredHostName="localhost_9" scale="1.0" selected="false"/>
+            <monitor-curve-description color="177,114,16"
+                connectionName="mysql" dashed="false"
+                monitorName="Tables/ table locks waited"
+                monitoredHostName="localhost_9" scale="1.0" selected="false"/>
+            <monitor-curve-description color="183,179,0"
+                connectionName="mysql" dashed="false"
+                monitorName="Memory/ % key buffer size"
+                monitoredHostName="localhost_9" scale="1.0" selected="false"/>
+            <monitor-curve-description color="64,64,64"
+                connectionName="mysql" dashed="false"
+                monitorName="Misc./ slow queries"
+                monitoredHostName="localhost_9" scale="1.0" selected="false"/>
+            <monitor-curve-description color="26,141,255"
+                connectionName="mysql" dashed="false"
+                monitorName="Misc./ slow launch threads"
+                monitoredHostName="localhost_9" scale="1.0" selected="false"/>
+            <monitor-curve-description color="117,244,73"
+                connectionName="mysql" dashed="false"
+                monitorName="Misc./ sort merge passes"
+                monitoredHostName="localhost_9" scale="1.0" selected="false"/>
+            <monitor-curve-description color="254,0,252"
+                connectionName="mysql" dashed="false"
+                monitorName="Misc./ not flushed delayed rows"
+                monitoredHostName="localhost_9" scale="1.0" selected="false"/>
+        </chart-description>
+    </charts-model-description>
+    <!--****** END DASHBOARDS  ******-->
+    <!--****** START DATA FILTERS  ******-->
+    <!--****** END DATA FILTERS  ******-->
+    <!--****** START RENDEZ-VOUS POLICIES  ******-->
+    <!--****** END RENDEZ-VOUS POLICIES  ******-->
+    <!--****** START DEBUG POLICY ******-->
+    <debug-policy mode="0"/>
+    <!--****** END DEBUG POLICY ******-->
+    <!--****** START VU STATES ******-->
+    <!--****** END VU STATES ******-->
+    <!--****** START EXCLUSION FILTER ******-->
+    <request-path-exclusion-filter isEnabled="false">
+        <regexps>
+            <regexp>.*\.jpg</regexp>
+            <regexp>.*\.jpeg</regexp>
+            <regexp>.*\.gif</regexp>
+            <regexp>.*\.png</regexp>
+            <regexp>.*\.bmp</regexp>
+            <regexp>.*\.css</regexp>
+            <regexp>.*\.js</regexp>
+            <regexp>.*\.swf</regexp>
+            <regexp>.*\.ico</regexp>
+            <regexp>.*\.jar</regexp>
+            <regexp>.*\.class</regexp>
+            <regexp>.*\.properties</regexp>
+        </regexps>
+    </request-path-exclusion-filter>
+    <!--****** END  EXCLUSION FILTER ******-->
+    <!--****** START DYNATRACE MONITORING ******-->
+    <dynatrace-monitoring/>
+    <!--****** END  DYNATRACE MONITORING ******-->
+    <!--****** START TRACE VARIABLES ******-->
+    <!--****** END TRACE VARIABLES ******-->
+</scenario>

@@ -1,0 +1,5 @@
+<monitored-host host-name="54.144.54.47" mehost-name="localhost" uid="54.144.54.47">
+    <embedded-action>6bd22a16-afda-48e3-919e-fe7e93c930b0</embedded-action>
+    <embedded-action>fbf61aa6-8d76-4367-9b8a-08c7283dff41</embedded-action>
+    <embedded-action>cd1b3c00-d40b-415e-939b-6a519822a8ff</embedded-action>
+</monitored-host>

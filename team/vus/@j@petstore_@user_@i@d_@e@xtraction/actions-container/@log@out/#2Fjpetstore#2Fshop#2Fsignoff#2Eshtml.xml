@@ -1,0 +1,41 @@
+<http-page executeResourcesDynamically="false"
+    name="/jpetstore/shop/signoff.shtml"
+    playRequestsSequentially="false"
+    recordedArtifactZipFileName="team/vus/@j@petstore_@user_@i@d_@e@xtraction/%resources%/recorded-artifacts/a8d774f2-6e8d-4da1-9be6-4cf04f96fff2.zip"
+    slaProfileEnabled="false" thinkTime="8361"
+    thinkTimeMode="MODE_SIMPLE_THINK_TIME" thinkTimeRangeEnd=""
+    thinkTimeRangeStart="" uid="a8d774f2-6e8d-4da1-9be6-4cf04f96fff2">
+    <embedded-action>9b7e8780-fd4c-4cff-a748-1217819119e3</embedded-action>
+</http-page>
+<http-action actionType="1" contentType="text/html;charset=ISO-8859-1"
+    extractorInjectPathPolicy="2" extractorPathPolicy="1"
+    followRedirects="false" generatedByClient="false"
+    linkExtractorSeveralMatchOccurrence="1"
+    linkExtractorSeveralMatchPolicy="1" linkExtractorType="6"
+    method="GET" name="/jpetstore/shop/signoff.shtml"
+    path="/jpetstore/shop/signoff.shtml" postType="2"
+    recordedArtifactZipFileName="team/vus/@j@petstore_@user_@i@d_@e@xtraction/%resources%/recorded-artifacts/a8d774f2-6e8d-4da1-9be6-4cf04f96fff2.zip"
+    recordedResponseCode="200" responseSize="5954"
+    serverUid="TrainingImage" slaProfileEnabled="false"
+    uid="9b7e8780-fd4c-4cff-a748-1217819119e3" useKeepAlive="false">
+    <responsePageFileDescription>recorded-responses/res_ebd797e0-daf0-4b07-acba-bd21ac2d5a59.html</responsePageFileDescription>
+    <requestContentFileDescription>recorded-requests/req_ebd797e0-daf0-4b07-acba-bd21ac2d5a59.txt</requestContentFileDescription>
+    <header name="Accept" value="text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8"/>
+    <header name="Accept-Encoding" value="gzip, deflate"/>
+    <header name="Accept-Language" value="en-US,en;q=0.5"/>
+    <header name="Connection" value="keep-alive"/>
+    <header name="Cookie" value="JSESSIONID=1BE83382FB1B1953A535F34EA986C2F3"/>
+    <header name="DNT" value="1"/>
+    <header name="Host" value="34.228.15.47"/>
+    <header name="Referer" value="http://34.228.15.47/jpetstore/shop/index.shtml"/>
+    <header name="Upgrade-Insecure-Requests" value="1"/>
+    <header name="User-Agent" value="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:85.0) Gecko/20100101 Firefox/85.0"/>
+    <responseHeaders>HTTP/1.1 200 OK&#xd;
+Date: Wed, 24 Feb 2021 19:25:06 GMT&#xd;
+Server: Apache/2.2.34 (Amazon)&#xd;
+Set-Cookie: JSESSIONID=A42D4EC64035C0A97FE78018DC2CC82B; Path=/jpetstore; HttpOnly&#xd;
+Content-Length: 5954&#xd;
+Connection: close&#xd;
+Content-Type: text/html;charset=ISO-8859-1</responseHeaders>
+    <record-html-infos extractorRegExp="false" htmlType="0"/>
+</http-action>

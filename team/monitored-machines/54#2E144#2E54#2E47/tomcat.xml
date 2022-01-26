@@ -1,0 +1,2255 @@
+<connection-tomcat7 domain="Catalina" interval="5000" login=""
+    name="tomcat" password="" server-address="54.144.54.47"
+    server-port="9004" uid="6bd22a16-afda-48e3-919e-fe7e93c930b0">
+    <monitor-category name="Cache" short-display-name="Cache">
+        <monitor-category name="localhost" short-display-name="localhost">
+            <monitor-category name="/addressbook-gwt" short-display-name="/addressbook-gwt">
+                <monitor-jmx attribute="cacheSize" callTime="ON_BENCH"
+                    computing="0" connection-type="30" format="NUMBER"
+                    helpID="reference.design.monitors.tomcat.cache.cachesize"
+                    monitor="0" monitorType=""
+                    name="Cache/localhost//addressbook-gwt/cacheSize"
+                    object-name="Catalina:context=/addressbook-gwt,host=localhost,type=Cache"
+                    path="Cache/localhost//addressbook-gwt/cacheSize"
+                    sampling="0" short-display-name="cacheSize" unit="KB">
+                    <description>Current cache size in KB</description>
+                </monitor-jmx>
+                <monitor-jmx attribute="hitsCount" callTime="ON_BENCH"
+                    computing="1" connection-type="30" format="NUMBER"
+                    helpID="reference.design.monitors.tomcat.cache.hitscount"
+                    monitor="0" monitorType=""
+                    name="Cache/localhost//addressbook-gwt/hitsCount"
+                    object-name="Catalina:context=/addressbook-gwt,host=localhost,type=Cache"
+                    path="Cache/localhost//addressbook-gwt/hitsCount"
+                    sampling="0" short-display-name="hitsCount" unit="">
+                    <description>Number of cache hits since last call</description>
+                </monitor-jmx>
+                <monitor-jmx attribute="accessCount" callTime="ON_BENCH"
+                    computing="1" connection-type="30" format="NUMBER"
+                    helpID="reference.design.monitors.tomcat.cache.accesscount"
+                    monitor="0" monitorType=""
+                    name="Cache/localhost//addressbook-gwt/accessCount"
+                    object-name="Catalina:context=/addressbook-gwt,host=localhost,type=Cache"
+                    path="Cache/localhost//addressbook-gwt/accessCount"
+                    sampling="0" short-display-name="accessCount" unit="">
+                    <description>Number of accesses to the cache since last call</description>
+                </monitor-jmx>
+            </monitor-category>
+            <monitor-category name="/auctionMonitor" short-display-name="/auctionMonitor">
+                <monitor-jmx attribute="cacheSize" callTime="ON_BENCH"
+                    computing="0" connection-type="30" format="NUMBER"
+                    helpID="reference.design.monitors.tomcat.cache.cachesize"
+                    monitor="0" monitorType=""
+                    name="Cache/localhost//auctionMonitor/cacheSize"
+                    object-name="Catalina:context=/auctionMonitor,host=localhost,type=Cache"
+                    path="Cache/localhost//auctionMonitor/cacheSize"
+                    sampling="0" short-display-name="cacheSize" unit="KB">
+                    <description>Current cache size in KB</description>
+                </monitor-jmx>
+                <monitor-jmx attribute="hitsCount" callTime="ON_BENCH"
+                    computing="1" connection-type="30" format="NUMBER"
+                    helpID="reference.design.monitors.tomcat.cache.hitscount"
+                    monitor="0" monitorType=""
+                    name="Cache/localhost//auctionMonitor/hitsCount"
+                    object-name="Catalina:context=/auctionMonitor,host=localhost,type=Cache"
+                    path="Cache/localhost//auctionMonitor/hitsCount"
+                    sampling="0" short-display-name="hitsCount" unit="">
+                    <description>Number of cache hits since last call</description>
+                </monitor-jmx>
+                <monitor-jmx attribute="accessCount" callTime="ON_BENCH"
+                    computing="1" connection-type="30" format="NUMBER"
+                    helpID="reference.design.monitors.tomcat.cache.accesscount"
+                    monitor="0" monitorType=""
+                    name="Cache/localhost//auctionMonitor/accessCount"
+                    object-name="Catalina:context=/auctionMonitor,host=localhost,type=Cache"
+                    path="Cache/localhost//auctionMonitor/accessCount"
+                    sampling="0" short-display-name="accessCount" unit="">
+                    <description>Number of accesses to the cache since last call</description>
+                </monitor-jmx>
+            </monitor-category>
+            <monitor-category name="/certification" short-display-name="/certification">
+                <monitor-jmx attribute="cacheSize" callTime="ON_BENCH"
+                    computing="0" connection-type="30" format="NUMBER"
+                    helpID="reference.design.monitors.tomcat.cache.cachesize"
+                    monitor="0" monitorType=""
+                    name="Cache/localhost//certification/cacheSize"
+                    object-name="Catalina:context=/certification,host=localhost,type=Cache"
+                    path="Cache/localhost//certification/cacheSize"
+                    sampling="0" short-display-name="cacheSize" unit="KB">
+                    <description>Current cache size in KB</description>
+                </monitor-jmx>
+                <monitor-jmx attribute="hitsCount" callTime="ON_BENCH"
+                    computing="1" connection-type="30" format="NUMBER"
+                    helpID="reference.design.monitors.tomcat.cache.hitscount"
+                    monitor="0" monitorType=""
+                    name="Cache/localhost//certification/hitsCount"
+                    object-name="Catalina:context=/certification,host=localhost,type=Cache"
+                    path="Cache/localhost//certification/hitsCount"
+                    sampling="0" short-display-name="hitsCount" unit="">
+                    <description>Number of cache hits since last call</description>
+                </monitor-jmx>
+                <monitor-jmx attribute="accessCount" callTime="ON_BENCH"
+                    computing="1" connection-type="30" format="NUMBER"
+                    helpID="reference.design.monitors.tomcat.cache.accesscount"
+                    monitor="0" monitorType=""
+                    name="Cache/localhost//certification/accessCount"
+                    object-name="Catalina:context=/certification,host=localhost,type=Cache"
+                    path="Cache/localhost//certification/accessCount"
+                    sampling="0" short-display-name="accessCount" unit="">
+                    <description>Number of accesses to the cache since last call</description>
+                </monitor-jmx>
+            </monitor-category>
+            <monitor-category name="/CurrencyConverter" short-display-name="/CurrencyConverter">
+                <monitor-jmx attribute="cacheSize" callTime="ON_BENCH"
+                    computing="0" connection-type="30" format="NUMBER"
+                    helpID="reference.design.monitors.tomcat.cache.cachesize"
+                    monitor="0" monitorType=""
+                    name="Cache/localhost//CurrencyConverter/cacheSize"
+                    object-name="Catalina:context=/CurrencyConverter,host=localhost,type=Cache"
+                    path="Cache/localhost//CurrencyConverter/cacheSize"
+                    sampling="0" short-display-name="cacheSize" unit="KB">
+                    <description>Current cache size in KB</description>
+                </monitor-jmx>
+                <monitor-jmx attribute="hitsCount" callTime="ON_BENCH"
+                    computing="1" connection-type="30" format="NUMBER"
+                    helpID="reference.design.monitors.tomcat.cache.hitscount"
+                    monitor="0" monitorType=""
+                    name="Cache/localhost//CurrencyConverter/hitsCount"
+                    object-name="Catalina:context=/CurrencyConverter,host=localhost,type=Cache"
+                    path="Cache/localhost//CurrencyConverter/hitsCount"
+                    sampling="0" short-display-name="hitsCount" unit="">
+                    <description>Number of cache hits since last call</description>
+                </monitor-jmx>
+                <monitor-jmx attribute="accessCount" callTime="ON_BENCH"
+                    computing="1" connection-type="30" format="NUMBER"
+                    helpID="reference.design.monitors.tomcat.cache.accesscount"
+                    monitor="0" monitorType=""
+                    name="Cache/localhost//CurrencyConverter/accessCount"
+                    object-name="Catalina:context=/CurrencyConverter,host=localhost,type=Cache"
+                    path="Cache/localhost//CurrencyConverter/accessCount"
+                    sampling="0" short-display-name="accessCount" unit="">
+                    <description>Number of accesses to the cache since last call</description>
+                </monitor-jmx>
+            </monitor-category>
+            <monitor-category name="/host-manager" short-display-name="/host-manager">
+                <monitor-jmx attribute="cacheSize" callTime="ON_BENCH"
+                    computing="0" connection-type="30" format="NUMBER"
+                    helpID="reference.design.monitors.tomcat.cache.cachesize"
+                    monitor="0" monitorType=""
+                    name="Cache/localhost//host-manager/cacheSize"
+                    object-name="Catalina:context=/host-manager,host=localhost,type=Cache"
+                    path="Cache/localhost//host-manager/cacheSize"
+                    sampling="0" short-display-name="cacheSize" unit="KB">
+                    <description>Current cache size in KB</description>
+                </monitor-jmx>
+                <monitor-jmx attribute="hitsCount" callTime="ON_BENCH"
+                    computing="1" connection-type="30" format="NUMBER"
+                    helpID="reference.design.monitors.tomcat.cache.hitscount"
+                    monitor="0" monitorType=""
+                    name="Cache/localhost//host-manager/hitsCount"
+                    object-name="Catalina:context=/host-manager,host=localhost,type=Cache"
+                    path="Cache/localhost//host-manager/hitsCount"
+                    sampling="0" short-display-name="hitsCount" unit="">
+                    <description>Number of cache hits since last call</description>
+                </monitor-jmx>
+                <monitor-jmx attribute="accessCount" callTime="ON_BENCH"
+                    computing="1" connection-type="30" format="NUMBER"
+                    helpID="reference.design.monitors.tomcat.cache.accesscount"
+                    monitor="0" monitorType=""
+                    name="Cache/localhost//host-manager/accessCount"
+                    object-name="Catalina:context=/host-manager,host=localhost,type=Cache"
+                    path="Cache/localhost//host-manager/accessCount"
+                    sampling="0" short-display-name="accessCount" unit="">
+                    <description>Number of accesses to the cache since last call</description>
+                </monitor-jmx>
+            </monitor-category>
+            <monitor-category name="/jpetstore" short-display-name="/jpetstore">
+                <monitor-jmx attribute="cacheSize" callTime="ON_BENCH"
+                    computing="0" connection-type="30" format="NUMBER"
+                    helpID="reference.design.monitors.tomcat.cache.cachesize"
+                    monitor="0" monitorType=""
+                    name="Cache/localhost//jpetstore/cacheSize"
+                    object-name="Catalina:context=/jpetstore,host=localhost,type=Cache"
+                    path="Cache/localhost//jpetstore/cacheSize"
+                    sampling="0" short-display-name="cacheSize" unit="KB">
+                    <description>Current cache size in KB</description>
+                </monitor-jmx>
+                <monitor-jmx attribute="hitsCount" callTime="ON_BENCH"
+                    computing="1" connection-type="30" format="NUMBER"
+                    helpID="reference.design.monitors.tomcat.cache.hitscount"
+                    monitor="0" monitorType=""
+                    name="Cache/localhost//jpetstore/hitsCount"
+                    object-name="Catalina:context=/jpetstore,host=localhost,type=Cache"
+                    path="Cache/localhost//jpetstore/hitsCount"
+                    sampling="0" short-display-name="hitsCount" unit="">
+                    <description>Number of cache hits since last call</description>
+                </monitor-jmx>
+                <monitor-jmx attribute="accessCount" callTime="ON_BENCH"
+                    computing="1" connection-type="30" format="NUMBER"
+                    helpID="reference.design.monitors.tomcat.cache.accesscount"
+                    monitor="0" monitorType=""
+                    name="Cache/localhost//jpetstore/accessCount"
+                    object-name="Catalina:context=/jpetstore,host=localhost,type=Cache"
+                    path="Cache/localhost//jpetstore/accessCount"
+                    sampling="0" short-display-name="accessCount" unit="">
+                    <description>Number of accesses to the cache since last call</description>
+                </monitor-jmx>
+            </monitor-category>
+            <monitor-category name="/manager" short-display-name="/manager">
+                <monitor-jmx attribute="cacheSize" callTime="ON_BENCH"
+                    computing="0" connection-type="30" format="NUMBER"
+                    helpID="reference.design.monitors.tomcat.cache.cachesize"
+                    monitor="0" monitorType=""
+                    name="Cache/localhost//manager/cacheSize"
+                    object-name="Catalina:context=/manager,host=localhost,type=Cache"
+                    path="Cache/localhost//manager/cacheSize"
+                    sampling="0" short-display-name="cacheSize" unit="KB">
+                    <description>Current cache size in KB</description>
+                </monitor-jmx>
+                <monitor-jmx attribute="hitsCount" callTime="ON_BENCH"
+                    computing="1" connection-type="30" format="NUMBER"
+                    helpID="reference.design.monitors.tomcat.cache.hitscount"
+                    monitor="0" monitorType=""
+                    name="Cache/localhost//manager/hitsCount"
+                    object-name="Catalina:context=/manager,host=localhost,type=Cache"
+                    path="Cache/localhost//manager/hitsCount"
+                    sampling="0" short-display-name="hitsCount" unit="">
+                    <description>Number of cache hits since last call</description>
+                </monitor-jmx>
+                <monitor-jmx attribute="accessCount" callTime="ON_BENCH"
+                    computing="1" connection-type="30" format="NUMBER"
+                    helpID="reference.design.monitors.tomcat.cache.accesscount"
+                    monitor="0" monitorType=""
+                    name="Cache/localhost//manager/accessCount"
+                    object-name="Catalina:context=/manager,host=localhost,type=Cache"
+                    path="Cache/localhost//manager/accessCount"
+                    sampling="0" short-display-name="accessCount" unit="">
+                    <description>Number of accesses to the cache since last call</description>
+                </monitor-jmx>
+            </monitor-category>
+            <monitor-category name="/neotys-chat" short-display-name="/neotys-chat">
+                <monitor-jmx attribute="cacheSize" callTime="ON_BENCH"
+                    computing="0" connection-type="30" format="NUMBER"
+                    helpID="reference.design.monitors.tomcat.cache.cachesize"
+                    monitor="0" monitorType=""
+                    name="Cache/localhost//neotys-chat/cacheSize"
+                    object-name="Catalina:context=/neotys-chat,host=localhost,type=Cache"
+                    path="Cache/localhost//neotys-chat/cacheSize"
+                    sampling="0" short-display-name="cacheSize" unit="KB">
+                    <description>Current cache size in KB</description>
+                </monitor-jmx>
+                <monitor-jmx attribute="hitsCount" callTime="ON_BENCH"
+                    computing="1" connection-type="30" format="NUMBER"
+                    helpID="reference.design.monitors.tomcat.cache.hitscount"
+                    monitor="0" monitorType=""
+                    name="Cache/localhost//neotys-chat/hitsCount"
+                    object-name="Catalina:context=/neotys-chat,host=localhost,type=Cache"
+                    path="Cache/localhost//neotys-chat/hitsCount"
+                    sampling="0" short-display-name="hitsCount" unit="">
+                    <description>Number of cache hits since last call</description>
+                </monitor-jmx>
+                <monitor-jmx attribute="accessCount" callTime="ON_BENCH"
+                    computing="1" connection-type="30" format="NUMBER"
+                    helpID="reference.design.monitors.tomcat.cache.accesscount"
+                    monitor="0" monitorType=""
+                    name="Cache/localhost//neotys-chat/accessCount"
+                    object-name="Catalina:context=/neotys-chat,host=localhost,type=Cache"
+                    path="Cache/localhost//neotys-chat/accessCount"
+                    sampling="0" short-display-name="accessCount" unit="">
+                    <description>Number of accesses to the cache since last call</description>
+                </monitor-jmx>
+            </monitor-category>
+            <monitor-category name="/nts" short-display-name="/nts">
+                <monitor-jmx attribute="cacheSize" callTime="ON_BENCH"
+                    computing="0" connection-type="30" format="NUMBER"
+                    helpID="reference.design.monitors.tomcat.cache.cachesize"
+                    monitor="0" monitorType=""
+                    name="Cache/localhost//nts/cacheSize"
+                    object-name="Catalina:context=/nts,host=localhost,type=Cache"
+                    path="Cache/localhost//nts/cacheSize" sampling="0"
+                    short-display-name="cacheSize" unit="KB">
+                    <description>Current cache size in KB</description>
+                </monitor-jmx>
+                <monitor-jmx attribute="hitsCount" callTime="ON_BENCH"
+                    computing="1" connection-type="30" format="NUMBER"
+                    helpID="reference.design.monitors.tomcat.cache.hitscount"
+                    monitor="0" monitorType=""
+                    name="Cache/localhost//nts/hitsCount"
+                    object-name="Catalina:context=/nts,host=localhost,type=Cache"
+                    path="Cache/localhost//nts/hitsCount" sampling="0"
+                    short-display-name="hitsCount" unit="">
+                    <description>Number of cache hits since last call</description>
+                </monitor-jmx>
+                <monitor-jmx attribute="accessCount" callTime="ON_BENCH"
+                    computing="1" connection-type="30" format="NUMBER"
+                    helpID="reference.design.monitors.tomcat.cache.accesscount"
+                    monitor="0" monitorType=""
+                    name="Cache/localhost//nts/accessCount"
+                    object-name="Catalina:context=/nts,host=localhost,type=Cache"
+                    path="Cache/localhost//nts/accessCount" sampling="0"
+                    short-display-name="accessCount" unit="">
+                    <description>Number of accesses to the cache since last call</description>
+                </monitor-jmx>
+            </monitor-category>
+            <monitor-category name="/subsonic" short-display-name="/subsonic">
+                <monitor-jmx attribute="cacheSize" callTime="ON_BENCH"
+                    computing="0" connection-type="30" format="NUMBER"
+                    helpID="reference.design.monitors.tomcat.cache.cachesize"
+                    monitor="0" monitorType=""
+                    name="Cache/localhost//subsonic/cacheSize"
+                    object-name="Catalina:context=/subsonic,host=localhost,type=Cache"
+                    path="Cache/localhost//subsonic/cacheSize"
+                    sampling="0" short-display-name="cacheSize" unit="KB">
+                    <description>Current cache size in KB</description>
+                </monitor-jmx>
+                <monitor-jmx attribute="hitsCount" callTime="ON_BENCH"
+                    computing="1" connection-type="30" format="NUMBER"
+                    helpID="reference.design.monitors.tomcat.cache.hitscount"
+                    monitor="0" monitorType=""
+                    name="Cache/localhost//subsonic/hitsCount"
+                    object-name="Catalina:context=/subsonic,host=localhost,type=Cache"
+                    path="Cache/localhost//subsonic/hitsCount"
+                    sampling="0" short-display-name="hitsCount" unit="">
+                    <description>Number of cache hits since last call</description>
+                </monitor-jmx>
+                <monitor-jmx attribute="accessCount" callTime="ON_BENCH"
+                    computing="1" connection-type="30" format="NUMBER"
+                    helpID="reference.design.monitors.tomcat.cache.accesscount"
+                    monitor="0" monitorType=""
+                    name="Cache/localhost//subsonic/accessCount"
+                    object-name="Catalina:context=/subsonic,host=localhost,type=Cache"
+                    path="Cache/localhost//subsonic/accessCount"
+                    sampling="0" short-display-name="accessCount" unit="">
+                    <description>Number of accesses to the cache since last call</description>
+                </monitor-jmx>
+            </monitor-category>
+            <monitor-category name="/zkspringwf" short-display-name="/zkspringwf">
+                <monitor-jmx attribute="cacheSize" callTime="ON_BENCH"
+                    computing="0" connection-type="30" format="NUMBER"
+                    helpID="reference.design.monitors.tomcat.cache.cachesize"
+                    monitor="0" monitorType=""
+                    name="Cache/localhost//zkspringwf/cacheSize"
+                    object-name="Catalina:context=/zkspringwf,host=localhost,type=Cache"
+                    path="Cache/localhost//zkspringwf/cacheSize"
+                    sampling="0" short-display-name="cacheSize" unit="KB">
+                    <description>Current cache size in KB</description>
+                </monitor-jmx>
+                <monitor-jmx attribute="hitsCount" callTime="ON_BENCH"
+                    computing="1" connection-type="30" format="NUMBER"
+                    helpID="reference.design.monitors.tomcat.cache.hitscount"
+                    monitor="0" monitorType=""
+                    name="Cache/localhost//zkspringwf/hitsCount"
+                    object-name="Catalina:context=/zkspringwf,host=localhost,type=Cache"
+                    path="Cache/localhost//zkspringwf/hitsCount"
+                    sampling="0" short-display-name="hitsCount" unit="">
+                    <description>Number of cache hits since last call</description>
+                </monitor-jmx>
+                <monitor-jmx attribute="accessCount" callTime="ON_BENCH"
+                    computing="1" connection-type="30" format="NUMBER"
+                    helpID="reference.design.monitors.tomcat.cache.accesscount"
+                    monitor="0" monitorType=""
+                    name="Cache/localhost//zkspringwf/accessCount"
+                    object-name="Catalina:context=/zkspringwf,host=localhost,type=Cache"
+                    path="Cache/localhost//zkspringwf/accessCount"
+                    sampling="0" short-display-name="accessCount" unit="">
+                    <description>Number of accesses to the cache since last call</description>
+                </monitor-jmx>
+            </monitor-category>
+        </monitor-category>
+    </monitor-category>
+    <monitor-category name="Session" short-display-name="Session">
+        <monitor-category name="localhost" short-display-name="localhost">
+            <monitor-category name="/addressbook-gwt" short-display-name="/addressbook-gwt">
+                <monitor-jmx attribute="activeSessions"
+                    callTime="ON_BENCH" computing="0"
+                    connection-type="30" format="NUMBER"
+                    helpID="reference.design.monitors.tomcat.session.activesessions"
+                    monitor="0" monitorType=""
+                    name="Session/localhost//addressbook-gwt/activeSessions"
+                    object-name="Catalina:context=/addressbook-gwt,host=localhost,type=Manager"
+                    path="Session/localhost//addressbook-gwt/activeSessions"
+                    sampling="0" short-display-name="activeSessions" unit="">
+                    <description>Number of active sessions at this moment</description>
+                </monitor-jmx>
+                <monitor-jmx attribute="sessionCounter"
+                    callTime="ON_BENCH" computing="1"
+                    connection-type="30" format="NUMBER"
+                    helpID="reference.design.monitors.tomcat.session.sessioncounter"
+                    monitor="0" monitorType=""
+                    name="Session/localhost//addressbook-gwt/sessionCounter"
+                    object-name="Catalina:context=/addressbook-gwt,host=localhost,type=Manager"
+                    path="Session/localhost//addressbook-gwt/sessionCounter"
+                    sampling="0" short-display-name="sessionCounter" unit="">
+                    <description>Number of sessions created by this manager since last call</description>
+                </monitor-jmx>
+                <monitor-jmx attribute="maxActive" callTime="ON_BENCH"
+                    computing="0" connection-type="30" format="NUMBER"
+                    helpID="reference.design.monitors.tomcat.session.maxactive"
+                    monitor="0" monitorType=""
+                    name="Session/localhost//addressbook-gwt/maxActive"
+                    object-name="Catalina:context=/addressbook-gwt,host=localhost,type=Manager"
+                    path="Session/localhost//addressbook-gwt/maxActive"
+                    sampling="0" short-display-name="maxActive" unit="">
+                    <description>Maximum number of active sessions so far</description>
+                </monitor-jmx>
+                <monitor-jmx attribute="sessionMaxAliveTime"
+                    callTime="ON_BENCH" computing="0"
+                    connection-type="30" format="NUMBER"
+                    helpID="reference.design.monitors.tomcat.session.sessionmaxalivetime"
+                    monitor="0" monitorType=""
+                    name="Session/localhost//addressbook-gwt/sessionMaxAliveTime"
+                    object-name="Catalina:context=/addressbook-gwt,host=localhost,type=Manager"
+                    path="Session/localhost//addressbook-gwt/sessionMaxAliveTime"
+                    sampling="0"
+                    short-display-name="sessionMaxAliveTime" unit="">
+                    <description>Longest time an expired session had been alive</description>
+                </monitor-jmx>
+                <monitor-jmx attribute="sessionAverageAliveTime"
+                    callTime="ON_BENCH" computing="0"
+                    connection-type="30" format="NUMBER"
+                    helpID="reference.design.monitors.tomcat.session.sessionaveragealivetime"
+                    monitor="0" monitorType=""
+                    name="Session/localhost//addressbook-gwt/sessionAverageAliveTime"
+                    object-name="Catalina:context=/addressbook-gwt,host=localhost,type=Manager"
+                    path="Session/localhost//addressbook-gwt/sessionAverageAliveTime"
+                    sampling="0"
+                    short-display-name="sessionAverageAliveTime" unit="ms">
+                    <description>Average time an expired session had been alive</description>
+                </monitor-jmx>
+                <monitor-jmx attribute="rejectedSessions"
+                    callTime="ON_BENCH" computing="1"
+                    connection-type="30" format="NUMBER"
+                    helpID="reference.design.monitors.tomcat.session.rejectedsessions"
+                    monitor="0" monitorType=""
+                    name="Session/localhost//addressbook-gwt/rejectedSessions"
+                    object-name="Catalina:context=/addressbook-gwt,host=localhost,type=Manager"
+                    path="Session/localhost//addressbook-gwt/rejectedSessions"
+                    sampling="0" short-display-name="rejectedSessions" unit="">
+                    <description>Number of sessions tomcat rejected since last call due to maxActive being reached</description>
+                </monitor-jmx>
+                <monitor-virtual attribute="% rejectedSessions"
+                    callTime="ON_BENCH" computing="0"
+                    connection-type="30" format="NUMBER"
+                    helpID="reference.design.monitors.tomcat.session.%.rejectedsessions"
+                    monitor="0" monitorType=""
+                    name="Session/localhost//addressbook-gwt/% rejectedSessions"
+                    object-name="Catalina:context=/addressbook-gwt,host=localhost,type=Manager"
+                    operator="%"
+                    path="Session/localhost//addressbook-gwt/% rejectedSessions"
+                    sampling="0" short-display-name="% rejectedSessions" unit="%">
+                    <description>Percentage of tomcat sessions rejected since last call due to maxActive being reached</description>
+                    <monitor-jmx attribute="rejectedSessions"
+                        callTime="ON_BENCH" computing="1"
+                        connection-type="30" format="NUMBER" monitor="0"
+                        monitorType=""
+                        name="Session/localhost//addressbook-gwt/rejectedSessions"
+                        object-name="Catalina:context=/addressbook-gwt,host=localhost,type=Manager"
+                        path="Session/localhost//addressbook-gwt/rejectedSessions"
+                        sampling="0"
+                        short-display-name="rejectedSessions" unit=""/>
+                    <monitor-jmx attribute="sessionCounter"
+                        callTime="ON_BENCH" computing="1"
+                        connection-type="30" format="NUMBER" monitor="0"
+                        monitorType=""
+                        name="Session/localhost//addressbook-gwt/sessionCounter"
+                        object-name="Catalina:context=/addressbook-gwt,host=localhost,type=Manager"
+                        path="Session/localhost//addressbook-gwt/sessionCounter"
+                        sampling="0" short-display-name="sessionCounter" unit=""/>
+                </monitor-virtual>
+                <monitor-jmx attribute="expiredSessions"
+                    callTime="ON_BENCH" computing="1"
+                    connection-type="30" format="NUMBER"
+                    helpID="reference.design.monitors.tomcat.session.expiredsessions"
+                    monitor="0" monitorType=""
+                    name="Session/localhost//addressbook-gwt/expiredSessions"
+                    object-name="Catalina:context=/addressbook-gwt,host=localhost,type=Manager"
+                    path="Session/localhost//addressbook-gwt/expiredSessions"
+                    sampling="0" short-display-name="expiredSessions" unit="">
+                    <description>Number of sessions that expired ( does not include explicit invalidations ) since last call</description>
+                </monitor-jmx>
+            </monitor-category>
+            <monitor-category name="/auctionMonitor" short-display-name="/auctionMonitor">
+                <monitor-jmx attribute="activeSessions"
+                    callTime="ON_BENCH" computing="0"
+                    connection-type="30" format="NUMBER"
+                    helpID="reference.design.monitors.tomcat.session.activesessions"
+                    monitor="0" monitorType=""
+                    name="Session/localhost//auctionMonitor/activeSessions"
+                    object-name="Catalina:context=/auctionMonitor,host=localhost,type=Manager"
+                    path="Session/localhost//auctionMonitor/activeSessions"
+                    sampling="0" short-display-name="activeSessions" unit="">
+                    <description>Number of active sessions at this moment</description>
+                </monitor-jmx>
+                <monitor-jmx attribute="sessionCounter"
+                    callTime="ON_BENCH" computing="1"
+                    connection-type="30" format="NUMBER"
+                    helpID="reference.design.monitors.tomcat.session.sessioncounter"
+                    monitor="0" monitorType=""
+                    name="Session/localhost//auctionMonitor/sessionCounter"
+                    object-name="Catalina:context=/auctionMonitor,host=localhost,type=Manager"
+                    path="Session/localhost//auctionMonitor/sessionCounter"
+                    sampling="0" short-display-name="sessionCounter" unit="">
+                    <description>Number of sessions created by this manager since last call</description>
+                </monitor-jmx>
+                <monitor-jmx attribute="maxActive" callTime="ON_BENCH"
+                    computing="0" connection-type="30" format="NUMBER"
+                    helpID="reference.design.monitors.tomcat.session.maxactive"
+                    monitor="0" monitorType=""
+                    name="Session/localhost//auctionMonitor/maxActive"
+                    object-name="Catalina:context=/auctionMonitor,host=localhost,type=Manager"
+                    path="Session/localhost//auctionMonitor/maxActive"
+                    sampling="0" short-display-name="maxActive" unit="">
+                    <description>Maximum number of active sessions so far</description>
+                </monitor-jmx>
+                <monitor-jmx attribute="sessionMaxAliveTime"
+                    callTime="ON_BENCH" computing="0"
+                    connection-type="30" format="NUMBER"
+                    helpID="reference.design.monitors.tomcat.session.sessionmaxalivetime"
+                    monitor="0" monitorType=""
+                    name="Session/localhost//auctionMonitor/sessionMaxAliveTime"
+                    object-name="Catalina:context=/auctionMonitor,host=localhost,type=Manager"
+                    path="Session/localhost//auctionMonitor/sessionMaxAliveTime"
+                    sampling="0"
+                    short-display-name="sessionMaxAliveTime" unit="">
+                    <description>Longest time an expired session had been alive</description>
+                </monitor-jmx>
+                <monitor-jmx attribute="sessionAverageAliveTime"
+                    callTime="ON_BENCH" computing="0"
+                    connection-type="30" format="NUMBER"
+                    helpID="reference.design.monitors.tomcat.session.sessionaveragealivetime"
+                    monitor="0" monitorType=""
+                    name="Session/localhost//auctionMonitor/sessionAverageAliveTime"
+                    object-name="Catalina:context=/auctionMonitor,host=localhost,type=Manager"
+                    path="Session/localhost//auctionMonitor/sessionAverageAliveTime"
+                    sampling="0"
+                    short-display-name="sessionAverageAliveTime" unit="ms">
+                    <description>Average time an expired session had been alive</description>
+                </monitor-jmx>
+                <monitor-jmx attribute="rejectedSessions"
+                    callTime="ON_BENCH" computing="1"
+                    connection-type="30" format="NUMBER"
+                    helpID="reference.design.monitors.tomcat.session.rejectedsessions"
+                    monitor="0" monitorType=""
+                    name="Session/localhost//auctionMonitor/rejectedSessions"
+                    object-name="Catalina:context=/auctionMonitor,host=localhost,type=Manager"
+                    path="Session/localhost//auctionMonitor/rejectedSessions"
+                    sampling="0" short-display-name="rejectedSessions" unit="">
+                    <description>Number of sessions tomcat rejected since last call due to maxActive being reached</description>
+                </monitor-jmx>
+                <monitor-virtual attribute="% rejectedSessions"
+                    callTime="ON_BENCH" computing="0"
+                    connection-type="30" format="NUMBER"
+                    helpID="reference.design.monitors.tomcat.session.%.rejectedsessions"
+                    monitor="0" monitorType=""
+                    name="Session/localhost//auctionMonitor/% rejectedSessions"
+                    object-name="Catalina:context=/auctionMonitor,host=localhost,type=Manager"
+                    operator="%"
+                    path="Session/localhost//auctionMonitor/% rejectedSessions"
+                    sampling="0" short-display-name="% rejectedSessions" unit="%">
+                    <description>Percentage of tomcat sessions rejected since last call due to maxActive being reached</description>
+                    <monitor-jmx attribute="rejectedSessions"
+                        callTime="ON_BENCH" computing="1"
+                        connection-type="30" format="NUMBER" monitor="0"
+                        monitorType=""
+                        name="Session/localhost//auctionMonitor/rejectedSessions"
+                        object-name="Catalina:context=/auctionMonitor,host=localhost,type=Manager"
+                        path="Session/localhost//auctionMonitor/rejectedSessions"
+                        sampling="0"
+                        short-display-name="rejectedSessions" unit=""/>
+                    <monitor-jmx attribute="sessionCounter"
+                        callTime="ON_BENCH" computing="1"
+                        connection-type="30" format="NUMBER" monitor="0"
+                        monitorType=""
+                        name="Session/localhost//auctionMonitor/sessionCounter"
+                        object-name="Catalina:context=/auctionMonitor,host=localhost,type=Manager"
+                        path="Session/localhost//auctionMonitor/sessionCounter"
+                        sampling="0" short-display-name="sessionCounter" unit=""/>
+                </monitor-virtual>
+                <monitor-jmx attribute="expiredSessions"
+                    callTime="ON_BENCH" computing="1"
+                    connection-type="30" format="NUMBER"
+                    helpID="reference.design.monitors.tomcat.session.expiredsessions"
+                    monitor="0" monitorType=""
+                    name="Session/localhost//auctionMonitor/expiredSessions"
+                    object-name="Catalina:context=/auctionMonitor,host=localhost,type=Manager"
+                    path="Session/localhost//auctionMonitor/expiredSessions"
+                    sampling="0" short-display-name="expiredSessions" unit="">
+                    <description>Number of sessions that expired ( does not include explicit invalidations ) since last call</description>
+                </monitor-jmx>
+            </monitor-category>
+            <monitor-category name="/certification" short-display-name="/certification">
+                <monitor-jmx attribute="activeSessions"
+                    callTime="ON_BENCH" computing="0"
+                    connection-type="30" format="NUMBER"
+                    helpID="reference.design.monitors.tomcat.session.activesessions"
+                    monitor="0" monitorType=""
+                    name="Session/localhost//certification/activeSessions"
+                    object-name="Catalina:context=/certification,host=localhost,type=Manager"
+                    path="Session/localhost//certification/activeSessions"
+                    sampling="0" short-display-name="activeSessions" unit="">
+                    <description>Number of active sessions at this moment</description>
+                </monitor-jmx>
+                <monitor-jmx attribute="sessionCounter"
+                    callTime="ON_BENCH" computing="1"
+                    connection-type="30" format="NUMBER"
+                    helpID="reference.design.monitors.tomcat.session.sessioncounter"
+                    monitor="0" monitorType=""
+                    name="Session/localhost//certification/sessionCounter"
+                    object-name="Catalina:context=/certification,host=localhost,type=Manager"
+                    path="Session/localhost//certification/sessionCounter"
+                    sampling="0" short-display-name="sessionCounter" unit="">
+                    <description>Number of sessions created by this manager since last call</description>
+                </monitor-jmx>
+                <monitor-jmx attribute="maxActive" callTime="ON_BENCH"
+                    computing="0" connection-type="30" format="NUMBER"
+                    helpID="reference.design.monitors.tomcat.session.maxactive"
+                    monitor="0" monitorType=""
+                    name="Session/localhost//certification/maxActive"
+                    object-name="Catalina:context=/certification,host=localhost,type=Manager"
+                    path="Session/localhost//certification/maxActive"
+                    sampling="0" short-display-name="maxActive" unit="">
+                    <description>Maximum number of active sessions so far</description>
+                </monitor-jmx>
+                <monitor-jmx attribute="sessionMaxAliveTime"
+                    callTime="ON_BENCH" computing="0"
+                    connection-type="30" format="NUMBER"
+                    helpID="reference.design.monitors.tomcat.session.sessionmaxalivetime"
+                    monitor="0" monitorType=""
+                    name="Session/localhost//certification/sessionMaxAliveTime"
+                    object-name="Catalina:context=/certification,host=localhost,type=Manager"
+                    path="Session/localhost//certification/sessionMaxAliveTime"
+                    sampling="0"
+                    short-display-name="sessionMaxAliveTime" unit="">
+                    <description>Longest time an expired session had been alive</description>
+                </monitor-jmx>
+                <monitor-jmx attribute="sessionAverageAliveTime"
+                    callTime="ON_BENCH" computing="0"
+                    connection-type="30" format="NUMBER"
+                    helpID="reference.design.monitors.tomcat.session.sessionaveragealivetime"
+                    monitor="0" monitorType=""
+                    name="Session/localhost//certification/sessionAverageAliveTime"
+                    object-name="Catalina:context=/certification,host=localhost,type=Manager"
+                    path="Session/localhost//certification/sessionAverageAliveTime"
+                    sampling="0"
+                    short-display-name="sessionAverageAliveTime" unit="ms">
+                    <description>Average time an expired session had been alive</description>
+                </monitor-jmx>
+                <monitor-jmx attribute="rejectedSessions"
+                    callTime="ON_BENCH" computing="1"
+                    connection-type="30" format="NUMBER"
+                    helpID="reference.design.monitors.tomcat.session.rejectedsessions"
+                    monitor="0" monitorType=""
+                    name="Session/localhost//certification/rejectedSessions"
+                    object-name="Catalina:context=/certification,host=localhost,type=Manager"
+                    path="Session/localhost//certification/rejectedSessions"
+                    sampling="0" short-display-name="rejectedSessions" unit="">
+                    <description>Number of sessions tomcat rejected since last call due to maxActive being reached</description>
+                </monitor-jmx>
+                <monitor-virtual attribute="% rejectedSessions"
+                    callTime="ON_BENCH" computing="0"
+                    connection-type="30" format="NUMBER"
+                    helpID="reference.design.monitors.tomcat.session.%.rejectedsessions"
+                    monitor="0" monitorType=""
+                    name="Session/localhost//certification/% rejectedSessions"
+                    object-name="Catalina:context=/certification,host=localhost,type=Manager"
+                    operator="%"
+                    path="Session/localhost//certification/% rejectedSessions"
+                    sampling="0" short-display-name="% rejectedSessions" unit="%">
+                    <description>Percentage of tomcat sessions rejected since last call due to maxActive being reached</description>
+                    <monitor-jmx attribute="rejectedSessions"
+                        callTime="ON_BENCH" computing="1"
+                        connection-type="30" format="NUMBER" monitor="0"
+                        monitorType=""
+                        name="Session/localhost//certification/rejectedSessions"
+                        object-name="Catalina:context=/certification,host=localhost,type=Manager"
+                        path="Session/localhost//certification/rejectedSessions"
+                        sampling="0"
+                        short-display-name="rejectedSessions" unit=""/>
+                    <monitor-jmx attribute="sessionCounter"
+                        callTime="ON_BENCH" computing="1"
+                        connection-type="30" format="NUMBER" monitor="0"
+                        monitorType=""
+                        name="Session/localhost//certification/sessionCounter"
+                        object-name="Catalina:context=/certification,host=localhost,type=Manager"
+                        path="Session/localhost//certification/sessionCounter"
+                        sampling="0" short-display-name="sessionCounter" unit=""/>
+                </monitor-virtual>
+                <monitor-jmx attribute="expiredSessions"
+                    callTime="ON_BENCH" computing="1"
+                    connection-type="30" format="NUMBER"
+                    helpID="reference.design.monitors.tomcat.session.expiredsessions"
+                    monitor="0" monitorType=""
+                    name="Session/localhost//certification/expiredSessions"
+                    object-name="Catalina:context=/certification,host=localhost,type=Manager"
+                    path="Session/localhost//certification/expiredSessions"
+                    sampling="0" short-display-name="expiredSessions" unit="">
+                    <description>Number of sessions that expired ( does not include explicit invalidations ) since last call</description>
+                </monitor-jmx>
+            </monitor-category>
+            <monitor-category name="/CurrencyConverter" short-display-name="/CurrencyConverter">
+                <monitor-jmx attribute="activeSessions"
+                    callTime="ON_BENCH" computing="0"
+                    connection-type="30" format="NUMBER"
+                    helpID="reference.design.monitors.tomcat.session.activesessions"
+                    monitor="0" monitorType=""
+                    name="Session/localhost//CurrencyConverter/activeSessions"
+                    object-name="Catalina:context=/CurrencyConverter,host=localhost,type=Manager"
+                    path="Session/localhost//CurrencyConverter/activeSessions"
+                    sampling="0" short-display-name="activeSessions" unit="">
+                    <description>Number of active sessions at this moment</description>
+                </monitor-jmx>
+                <monitor-jmx attribute="sessionCounter"
+                    callTime="ON_BENCH" computing="1"
+                    connection-type="30" format="NUMBER"
+                    helpID="reference.design.monitors.tomcat.session.sessioncounter"
+                    monitor="0" monitorType=""
+                    name="Session/localhost//CurrencyConverter/sessionCounter"
+                    object-name="Catalina:context=/CurrencyConverter,host=localhost,type=Manager"
+                    path="Session/localhost//CurrencyConverter/sessionCounter"
+                    sampling="0" short-display-name="sessionCounter" unit="">
+                    <description>Number of sessions created by this manager since last call</description>
+                </monitor-jmx>
+                <monitor-jmx attribute="maxActive" callTime="ON_BENCH"
+                    computing="0" connection-type="30" format="NUMBER"
+                    helpID="reference.design.monitors.tomcat.session.maxactive"
+                    monitor="0" monitorType=""
+                    name="Session/localhost//CurrencyConverter/maxActive"
+                    object-name="Catalina:context=/CurrencyConverter,host=localhost,type=Manager"
+                    path="Session/localhost//CurrencyConverter/maxActive"
+                    sampling="0" short-display-name="maxActive" unit="">
+                    <description>Maximum number of active sessions so far</description>
+                </monitor-jmx>
+                <monitor-jmx attribute="sessionMaxAliveTime"
+                    callTime="ON_BENCH" computing="0"
+                    connection-type="30" format="NUMBER"
+                    helpID="reference.design.monitors.tomcat.session.sessionmaxalivetime"
+                    monitor="0" monitorType=""
+                    name="Session/localhost//CurrencyConverter/sessionMaxAliveTime"
+                    object-name="Catalina:context=/CurrencyConverter,host=localhost,type=Manager"
+                    path="Session/localhost//CurrencyConverter/sessionMaxAliveTime"
+                    sampling="0"
+                    short-display-name="sessionMaxAliveTime" unit="">
+                    <description>Longest time an expired session had been alive</description>
+                </monitor-jmx>
+                <monitor-jmx attribute="sessionAverageAliveTime"
+                    callTime="ON_BENCH" computing="0"
+                    connection-type="30" format="NUMBER"
+                    helpID="reference.design.monitors.tomcat.session.sessionaveragealivetime"
+                    monitor="0" monitorType=""
+                    name="Session/localhost//CurrencyConverter/sessionAverageAliveTime"
+                    object-name="Catalina:context=/CurrencyConverter,host=localhost,type=Manager"
+                    path="Session/localhost//CurrencyConverter/sessionAverageAliveTime"
+                    sampling="0"
+                    short-display-name="sessionAverageAliveTime" unit="ms">
+                    <description>Average time an expired session had been alive</description>
+                </monitor-jmx>
+                <monitor-jmx attribute="rejectedSessions"
+                    callTime="ON_BENCH" computing="1"
+                    connection-type="30" format="NUMBER"
+                    helpID="reference.design.monitors.tomcat.session.rejectedsessions"
+                    monitor="0" monitorType=""
+                    name="Session/localhost//CurrencyConverter/rejectedSessions"
+                    object-name="Catalina:context=/CurrencyConverter,host=localhost,type=Manager"
+                    path="Session/localhost//CurrencyConverter/rejectedSessions"
+                    sampling="0" short-display-name="rejectedSessions" unit="">
+                    <description>Number of sessions tomcat rejected since last call due to maxActive being reached</description>
+                </monitor-jmx>
+                <monitor-virtual attribute="% rejectedSessions"
+                    callTime="ON_BENCH" computing="0"
+                    connection-type="30" format="NUMBER"
+                    helpID="reference.design.monitors.tomcat.session.%.rejectedsessions"
+                    monitor="0" monitorType=""
+                    name="Session/localhost//CurrencyConverter/% rejectedSessions"
+                    object-name="Catalina:context=/CurrencyConverter,host=localhost,type=Manager"
+                    operator="%"
+                    path="Session/localhost//CurrencyConverter/% rejectedSessions"
+                    sampling="0" short-display-name="% rejectedSessions" unit="%">
+                    <description>Percentage of tomcat sessions rejected since last call due to maxActive being reached</description>
+                    <monitor-jmx attribute="rejectedSessions"
+                        callTime="ON_BENCH" computing="1"
+                        connection-type="30" format="NUMBER" monitor="0"
+                        monitorType=""
+                        name="Session/localhost//CurrencyConverter/rejectedSessions"
+                        object-name="Catalina:context=/CurrencyConverter,host=localhost,type=Manager"
+                        path="Session/localhost//CurrencyConverter/rejectedSessions"
+                        sampling="0"
+                        short-display-name="rejectedSessions" unit=""/>
+                    <monitor-jmx attribute="sessionCounter"
+                        callTime="ON_BENCH" computing="1"
+                        connection-type="30" format="NUMBER" monitor="0"
+                        monitorType=""
+                        name="Session/localhost//CurrencyConverter/sessionCounter"
+                        object-name="Catalina:context=/CurrencyConverter,host=localhost,type=Manager"
+                        path="Session/localhost//CurrencyConverter/sessionCounter"
+                        sampling="0" short-display-name="sessionCounter" unit=""/>
+                </monitor-virtual>
+                <monitor-jmx attribute="expiredSessions"
+                    callTime="ON_BENCH" computing="1"
+                    connection-type="30" format="NUMBER"
+                    helpID="reference.design.monitors.tomcat.session.expiredsessions"
+                    monitor="0" monitorType=""
+                    name="Session/localhost//CurrencyConverter/expiredSessions"
+                    object-name="Catalina:context=/CurrencyConverter,host=localhost,type=Manager"
+                    path="Session/localhost//CurrencyConverter/expiredSessions"
+                    sampling="0" short-display-name="expiredSessions" unit="">
+                    <description>Number of sessions that expired ( does not include explicit invalidations ) since last call</description>
+                </monitor-jmx>
+            </monitor-category>
+            <monitor-category name="/host-manager" short-display-name="/host-manager">
+                <monitor-jmx attribute="activeSessions"
+                    callTime="ON_BENCH" computing="0"
+                    connection-type="30" format="NUMBER"
+                    helpID="reference.design.monitors.tomcat.session.activesessions"
+                    monitor="0" monitorType=""
+                    name="Session/localhost//host-manager/activeSessions"
+                    object-name="Catalina:context=/host-manager,host=localhost,type=Manager"
+                    path="Session/localhost//host-manager/activeSessions"
+                    sampling="0" short-display-name="activeSessions" unit="">
+                    <description>Number of active sessions at this moment</description>
+                </monitor-jmx>
+                <monitor-jmx attribute="sessionCounter"
+                    callTime="ON_BENCH" computing="1"
+                    connection-type="30" format="NUMBER"
+                    helpID="reference.design.monitors.tomcat.session.sessioncounter"
+                    monitor="0" monitorType=""
+                    name="Session/localhost//host-manager/sessionCounter"
+                    object-name="Catalina:context=/host-manager,host=localhost,type=Manager"
+                    path="Session/localhost//host-manager/sessionCounter"
+                    sampling="0" short-display-name="sessionCounter" unit="">
+                    <description>Number of sessions created by this manager since last call</description>
+                </monitor-jmx>
+                <monitor-jmx attribute="maxActive" callTime="ON_BENCH"
+                    computing="0" connection-type="30" format="NUMBER"
+                    helpID="reference.design.monitors.tomcat.session.maxactive"
+                    monitor="0" monitorType=""
+                    name="Session/localhost//host-manager/maxActive"
+                    object-name="Catalina:context=/host-manager,host=localhost,type=Manager"
+                    path="Session/localhost//host-manager/maxActive"
+                    sampling="0" short-display-name="maxActive" unit="">
+                    <description>Maximum number of active sessions so far</description>
+                </monitor-jmx>
+                <monitor-jmx attribute="sessionMaxAliveTime"
+                    callTime="ON_BENCH" computing="0"
+                    connection-type="30" format="NUMBER"
+                    helpID="reference.design.monitors.tomcat.session.sessionmaxalivetime"
+                    monitor="0" monitorType=""
+                    name="Session/localhost//host-manager/sessionMaxAliveTime"
+                    object-name="Catalina:context=/host-manager,host=localhost,type=Manager"
+                    path="Session/localhost//host-manager/sessionMaxAliveTime"
+                    sampling="0"
+                    short-display-name="sessionMaxAliveTime" unit="">
+                    <description>Longest time an expired session had been alive</description>
+                </monitor-jmx>
+                <monitor-jmx attribute="sessionAverageAliveTime"
+                    callTime="ON_BENCH" computing="0"
+                    connection-type="30" format="NUMBER"
+                    helpID="reference.design.monitors.tomcat.session.sessionaveragealivetime"
+                    monitor="0" monitorType=""
+                    name="Session/localhost//host-manager/sessionAverageAliveTime"
+                    object-name="Catalina:context=/host-manager,host=localhost,type=Manager"
+                    path="Session/localhost//host-manager/sessionAverageAliveTime"
+                    sampling="0"
+                    short-display-name="sessionAverageAliveTime" unit="ms">
+                    <description>Average time an expired session had been alive</description>
+                </monitor-jmx>
+                <monitor-jmx attribute="rejectedSessions"
+                    callTime="ON_BENCH" computing="1"
+                    connection-type="30" format="NUMBER"
+                    helpID="reference.design.monitors.tomcat.session.rejectedsessions"
+                    monitor="0" monitorType=""
+                    name="Session/localhost//host-manager/rejectedSessions"
+                    object-name="Catalina:context=/host-manager,host=localhost,type=Manager"
+                    path="Session/localhost//host-manager/rejectedSessions"
+                    sampling="0" short-display-name="rejectedSessions" unit="">
+                    <description>Number of sessions tomcat rejected since last call due to maxActive being reached</description>
+                </monitor-jmx>
+                <monitor-virtual attribute="% rejectedSessions"
+                    callTime="ON_BENCH" computing="0"
+                    connection-type="30" format="NUMBER"
+                    helpID="reference.design.monitors.tomcat.session.%.rejectedsessions"
+                    monitor="0" monitorType=""
+                    name="Session/localhost//host-manager/% rejectedSessions"
+                    object-name="Catalina:context=/host-manager,host=localhost,type=Manager"
+                    operator="%"
+                    path="Session/localhost//host-manager/% rejectedSessions"
+                    sampling="0" short-display-name="% rejectedSessions" unit="%">
+                    <description>Percentage of tomcat sessions rejected since last call due to maxActive being reached</description>
+                    <monitor-jmx attribute="rejectedSessions"
+                        callTime="ON_BENCH" computing="1"
+                        connection-type="30" format="NUMBER" monitor="0"
+                        monitorType=""
+                        name="Session/localhost//host-manager/rejectedSessions"
+                        object-name="Catalina:context=/host-manager,host=localhost,type=Manager"
+                        path="Session/localhost//host-manager/rejectedSessions"
+                        sampling="0"
+                        short-display-name="rejectedSessions" unit=""/>
+                    <monitor-jmx attribute="sessionCounter"
+                        callTime="ON_BENCH" computing="1"
+                        connection-type="30" format="NUMBER" monitor="0"
+                        monitorType=""
+                        name="Session/localhost//host-manager/sessionCounter"
+                        object-name="Catalina:context=/host-manager,host=localhost,type=Manager"
+                        path="Session/localhost//host-manager/sessionCounter"
+                        sampling="0" short-display-name="sessionCounter" unit=""/>
+                </monitor-virtual>
+                <monitor-jmx attribute="expiredSessions"
+                    callTime="ON_BENCH" computing="1"
+                    connection-type="30" format="NUMBER"
+                    helpID="reference.design.monitors.tomcat.session.expiredsessions"
+                    monitor="0" monitorType=""
+                    name="Session/localhost//host-manager/expiredSessions"
+                    object-name="Catalina:context=/host-manager,host=localhost,type=Manager"
+                    path="Session/localhost//host-manager/expiredSessions"
+                    sampling="0" short-display-name="expiredSessions" unit="">
+                    <description>Number of sessions that expired ( does not include explicit invalidations ) since last call</description>
+                </monitor-jmx>
+            </monitor-category>
+            <monitor-category name="/jpetstore" short-display-name="/jpetstore">
+                <monitor-jmx attribute="activeSessions"
+                    callTime="ON_BENCH" computing="0"
+                    connection-type="30" format="NUMBER"
+                    helpID="reference.design.monitors.tomcat.session.activesessions"
+                    monitor="0" monitorType=""
+                    name="Session/localhost//jpetstore/activeSessions"
+                    object-name="Catalina:context=/jpetstore,host=localhost,type=Manager"
+                    path="Session/localhost//jpetstore/activeSessions"
+                    sampling="0" short-display-name="activeSessions" unit="">
+                    <description>Number of active sessions at this moment</description>
+                </monitor-jmx>
+                <monitor-jmx attribute="sessionCounter"
+                    callTime="ON_BENCH" computing="1"
+                    connection-type="30" format="NUMBER"
+                    helpID="reference.design.monitors.tomcat.session.sessioncounter"
+                    monitor="0" monitorType=""
+                    name="Session/localhost//jpetstore/sessionCounter"
+                    object-name="Catalina:context=/jpetstore,host=localhost,type=Manager"
+                    path="Session/localhost//jpetstore/sessionCounter"
+                    sampling="0" short-display-name="sessionCounter" unit="">
+                    <description>Number of sessions created by this manager since last call</description>
+                </monitor-jmx>
+                <monitor-jmx attribute="maxActive" callTime="ON_BENCH"
+                    computing="0" connection-type="30" format="NUMBER"
+                    helpID="reference.design.monitors.tomcat.session.maxactive"
+                    monitor="0" monitorType=""
+                    name="Session/localhost//jpetstore/maxActive"
+                    object-name="Catalina:context=/jpetstore,host=localhost,type=Manager"
+                    path="Session/localhost//jpetstore/maxActive"
+                    sampling="0" short-display-name="maxActive" unit="">
+                    <description>Maximum number of active sessions so far</description>
+                </monitor-jmx>
+                <monitor-jmx attribute="sessionMaxAliveTime"
+                    callTime="ON_BENCH" computing="0"
+                    connection-type="30" format="NUMBER"
+                    helpID="reference.design.monitors.tomcat.session.sessionmaxalivetime"
+                    monitor="0" monitorType=""
+                    name="Session/localhost//jpetstore/sessionMaxAliveTime"
+                    object-name="Catalina:context=/jpetstore,host=localhost,type=Manager"
+                    path="Session/localhost//jpetstore/sessionMaxAliveTime"
+                    sampling="0"
+                    short-display-name="sessionMaxAliveTime" unit="">
+                    <description>Longest time an expired session had been alive</description>
+                </monitor-jmx>
+                <monitor-jmx attribute="sessionAverageAliveTime"
+                    callTime="ON_BENCH" computing="0"
+                    connection-type="30" format="NUMBER"
+                    helpID="reference.design.monitors.tomcat.session.sessionaveragealivetime"
+                    monitor="0" monitorType=""
+                    name="Session/localhost//jpetstore/sessionAverageAliveTime"
+                    object-name="Catalina:context=/jpetstore,host=localhost,type=Manager"
+                    path="Session/localhost//jpetstore/sessionAverageAliveTime"
+                    sampling="0"
+                    short-display-name="sessionAverageAliveTime" unit="ms">
+                    <description>Average time an expired session had been alive</description>
+                </monitor-jmx>
+                <monitor-jmx attribute="rejectedSessions"
+                    callTime="ON_BENCH" computing="1"
+                    connection-type="30" format="NUMBER"
+                    helpID="reference.design.monitors.tomcat.session.rejectedsessions"
+                    monitor="0" monitorType=""
+                    name="Session/localhost//jpetstore/rejectedSessions"
+                    object-name="Catalina:context=/jpetstore,host=localhost,type=Manager"
+                    path="Session/localhost//jpetstore/rejectedSessions"
+                    sampling="0" short-display-name="rejectedSessions" unit="">
+                    <description>Number of sessions tomcat rejected since last call due to maxActive being reached</description>
+                </monitor-jmx>
+                <monitor-virtual attribute="% rejectedSessions"
+                    callTime="ON_BENCH" computing="0"
+                    connection-type="30" format="NUMBER"
+                    helpID="reference.design.monitors.tomcat.session.%.rejectedsessions"
+                    monitor="0" monitorType=""
+                    name="Session/localhost//jpetstore/% rejectedSessions"
+                    object-name="Catalina:context=/jpetstore,host=localhost,type=Manager"
+                    operator="%"
+                    path="Session/localhost//jpetstore/% rejectedSessions"
+                    sampling="0" short-display-name="% rejectedSessions" unit="%">
+                    <description>Percentage of tomcat sessions rejected since last call due to maxActive being reached</description>
+                    <monitor-jmx attribute="rejectedSessions"
+                        callTime="ON_BENCH" computing="1"
+                        connection-type="30" format="NUMBER" monitor="0"
+                        monitorType=""
+                        name="Session/localhost//jpetstore/rejectedSessions"
+                        object-name="Catalina:context=/jpetstore,host=localhost,type=Manager"
+                        path="Session/localhost//jpetstore/rejectedSessions"
+                        sampling="0"
+                        short-display-name="rejectedSessions" unit=""/>
+                    <monitor-jmx attribute="sessionCounter"
+                        callTime="ON_BENCH" computing="1"
+                        connection-type="30" format="NUMBER" monitor="0"
+                        monitorType=""
+                        name="Session/localhost//jpetstore/sessionCounter"
+                        object-name="Catalina:context=/jpetstore,host=localhost,type=Manager"
+                        path="Session/localhost//jpetstore/sessionCounter"
+                        sampling="0" short-display-name="sessionCounter" unit=""/>
+                </monitor-virtual>
+                <monitor-jmx attribute="expiredSessions"
+                    callTime="ON_BENCH" computing="1"
+                    connection-type="30" format="NUMBER"
+                    helpID="reference.design.monitors.tomcat.session.expiredsessions"
+                    monitor="0" monitorType=""
+                    name="Session/localhost//jpetstore/expiredSessions"
+                    object-name="Catalina:context=/jpetstore,host=localhost,type=Manager"
+                    path="Session/localhost//jpetstore/expiredSessions"
+                    sampling="0" short-display-name="expiredSessions" unit="">
+                    <description>Number of sessions that expired ( does not include explicit invalidations ) since last call</description>
+                </monitor-jmx>
+            </monitor-category>
+            <monitor-category name="/manager" short-display-name="/manager">
+                <monitor-jmx attribute="activeSessions"
+                    callTime="ON_BENCH" computing="0"
+                    connection-type="30" format="NUMBER"
+                    helpID="reference.design.monitors.tomcat.session.activesessions"
+                    monitor="0" monitorType=""
+                    name="Session/localhost//manager/activeSessions"
+                    object-name="Catalina:context=/manager,host=localhost,type=Manager"
+                    path="Session/localhost//manager/activeSessions"
+                    sampling="0" short-display-name="activeSessions" unit="">
+                    <description>Number of active sessions at this moment</description>
+                </monitor-jmx>
+                <monitor-jmx attribute="sessionCounter"
+                    callTime="ON_BENCH" computing="1"
+                    connection-type="30" format="NUMBER"
+                    helpID="reference.design.monitors.tomcat.session.sessioncounter"
+                    monitor="0" monitorType=""
+                    name="Session/localhost//manager/sessionCounter"
+                    object-name="Catalina:context=/manager,host=localhost,type=Manager"
+                    path="Session/localhost//manager/sessionCounter"
+                    sampling="0" short-display-name="sessionCounter" unit="">
+                    <description>Number of sessions created by this manager since last call</description>
+                </monitor-jmx>
+                <monitor-jmx attribute="maxActive" callTime="ON_BENCH"
+                    computing="0" connection-type="30" format="NUMBER"
+                    helpID="reference.design.monitors.tomcat.session.maxactive"
+                    monitor="0" monitorType=""
+                    name="Session/localhost//manager/maxActive"
+                    object-name="Catalina:context=/manager,host=localhost,type=Manager"
+                    path="Session/localhost//manager/maxActive"
+                    sampling="0" short-display-name="maxActive" unit="">
+                    <description>Maximum number of active sessions so far</description>
+                </monitor-jmx>
+                <monitor-jmx attribute="sessionMaxAliveTime"
+                    callTime="ON_BENCH" computing="0"
+                    connection-type="30" format="NUMBER"
+                    helpID="reference.design.monitors.tomcat.session.sessionmaxalivetime"
+                    monitor="0" monitorType=""
+                    name="Session/localhost//manager/sessionMaxAliveTime"
+                    object-name="Catalina:context=/manager,host=localhost,type=Manager"
+                    path="Session/localhost//manager/sessionMaxAliveTime"
+                    sampling="0"
+                    short-display-name="sessionMaxAliveTime" unit="">
+                    <description>Longest time an expired session had been alive</description>
+                </monitor-jmx>
+                <monitor-jmx attribute="sessionAverageAliveTime"
+                    callTime="ON_BENCH" computing="0"
+                    connection-type="30" format="NUMBER"
+                    helpID="reference.design.monitors.tomcat.session.sessionaveragealivetime"
+                    monitor="0" monitorType=""
+                    name="Session/localhost//manager/sessionAverageAliveTime"
+                    object-name="Catalina:context=/manager,host=localhost,type=Manager"
+                    path="Session/localhost//manager/sessionAverageAliveTime"
+                    sampling="0"
+                    short-display-name="sessionAverageAliveTime" unit="ms">
+                    <description>Average time an expired session had been alive</description>
+                </monitor-jmx>
+                <monitor-jmx attribute="rejectedSessions"
+                    callTime="ON_BENCH" computing="1"
+                    connection-type="30" format="NUMBER"
+                    helpID="reference.design.monitors.tomcat.session.rejectedsessions"
+                    monitor="0" monitorType=""
+                    name="Session/localhost//manager/rejectedSessions"
+                    object-name="Catalina:context=/manager,host=localhost,type=Manager"
+                    path="Session/localhost//manager/rejectedSessions"
+                    sampling="0" short-display-name="rejectedSessions" unit="">
+                    <description>Number of sessions tomcat rejected since last call due to maxActive being reached</description>
+                </monitor-jmx>
+                <monitor-virtual attribute="% rejectedSessions"
+                    callTime="ON_BENCH" computing="0"
+                    connection-type="30" format="NUMBER"
+                    helpID="reference.design.monitors.tomcat.session.%.rejectedsessions"
+                    monitor="0" monitorType=""
+                    name="Session/localhost//manager/% rejectedSessions"
+                    object-name="Catalina:context=/manager,host=localhost,type=Manager"
+                    operator="%"
+                    path="Session/localhost//manager/% rejectedSessions"
+                    sampling="0" short-display-name="% rejectedSessions" unit="%">
+                    <description>Percentage of tomcat sessions rejected since last call due to maxActive being reached</description>
+                    <monitor-jmx attribute="rejectedSessions"
+                        callTime="ON_BENCH" computing="1"
+                        connection-type="30" format="NUMBER" monitor="0"
+                        monitorType=""
+                        name="Session/localhost//manager/rejectedSessions"
+                        object-name="Catalina:context=/manager,host=localhost,type=Manager"
+                        path="Session/localhost//manager/rejectedSessions"
+                        sampling="0"
+                        short-display-name="rejectedSessions" unit=""/>
+                    <monitor-jmx attribute="sessionCounter"
+                        callTime="ON_BENCH" computing="1"
+                        connection-type="30" format="NUMBER" monitor="0"
+                        monitorType=""
+                        name="Session/localhost//manager/sessionCounter"
+                        object-name="Catalina:context=/manager,host=localhost,type=Manager"
+                        path="Session/localhost//manager/sessionCounter"
+                        sampling="0" short-display-name="sessionCounter" unit=""/>
+                </monitor-virtual>
+                <monitor-jmx attribute="expiredSessions"
+                    callTime="ON_BENCH" computing="1"
+                    connection-type="30" format="NUMBER"
+                    helpID="reference.design.monitors.tomcat.session.expiredsessions"
+                    monitor="0" monitorType=""
+                    name="Session/localhost//manager/expiredSessions"
+                    object-name="Catalina:context=/manager,host=localhost,type=Manager"
+                    path="Session/localhost//manager/expiredSessions"
+                    sampling="0" short-display-name="expiredSessions" unit="">
+                    <description>Number of sessions that expired ( does not include explicit invalidations ) since last call</description>
+                </monitor-jmx>
+            </monitor-category>
+            <monitor-category name="/neotys-chat" short-display-name="/neotys-chat">
+                <monitor-jmx attribute="activeSessions"
+                    callTime="ON_BENCH" computing="0"
+                    connection-type="30" format="NUMBER"
+                    helpID="reference.design.monitors.tomcat.session.activesessions"
+                    monitor="0" monitorType=""
+                    name="Session/localhost//neotys-chat/activeSessions"
+                    object-name="Catalina:context=/neotys-chat,host=localhost,type=Manager"
+                    path="Session/localhost//neotys-chat/activeSessions"
+                    sampling="0" short-display-name="activeSessions" unit="">
+                    <description>Number of active sessions at this moment</description>
+                </monitor-jmx>
+                <monitor-jmx attribute="sessionCounter"
+                    callTime="ON_BENCH" computing="1"
+                    connection-type="30" format="NUMBER"
+                    helpID="reference.design.monitors.tomcat.session.sessioncounter"
+                    monitor="0" monitorType=""
+                    name="Session/localhost//neotys-chat/sessionCounter"
+                    object-name="Catalina:context=/neotys-chat,host=localhost,type=Manager"
+                    path="Session/localhost//neotys-chat/sessionCounter"
+                    sampling="0" short-display-name="sessionCounter" unit="">
+                    <description>Number of sessions created by this manager since last call</description>
+                </monitor-jmx>
+                <monitor-jmx attribute="maxActive" callTime="ON_BENCH"
+                    computing="0" connection-type="30" format="NUMBER"
+                    helpID="reference.design.monitors.tomcat.session.maxactive"
+                    monitor="0" monitorType=""
+                    name="Session/localhost//neotys-chat/maxActive"
+                    object-name="Catalina:context=/neotys-chat,host=localhost,type=Manager"
+                    path="Session/localhost//neotys-chat/maxActive"
+                    sampling="0" short-display-name="maxActive" unit="">
+                    <description>Maximum number of active sessions so far</description>
+                </monitor-jmx>
+                <monitor-jmx attribute="sessionMaxAliveTime"
+                    callTime="ON_BENCH" computing="0"
+                    connection-type="30" format="NUMBER"
+                    helpID="reference.design.monitors.tomcat.session.sessionmaxalivetime"
+                    monitor="0" monitorType=""
+                    name="Session/localhost//neotys-chat/sessionMaxAliveTime"
+                    object-name="Catalina:context=/neotys-chat,host=localhost,type=Manager"
+                    path="Session/localhost//neotys-chat/sessionMaxAliveTime"
+                    sampling="0"
+                    short-display-name="sessionMaxAliveTime" unit="">
+                    <description>Longest time an expired session had been alive</description>
+                </monitor-jmx>
+                <monitor-jmx attribute="sessionAverageAliveTime"
+                    callTime="ON_BENCH" computing="0"
+                    connection-type="30" format="NUMBER"
+                    helpID="reference.design.monitors.tomcat.session.sessionaveragealivetime"
+                    monitor="0" monitorType=""
+                    name="Session/localhost//neotys-chat/sessionAverageAliveTime"
+                    object-name="Catalina:context=/neotys-chat,host=localhost,type=Manager"
+                    path="Session/localhost//neotys-chat/sessionAverageAliveTime"
+                    sampling="0"
+                    short-display-name="sessionAverageAliveTime" unit="ms">
+                    <description>Average time an expired session had been alive</description>
+                </monitor-jmx>
+                <monitor-jmx attribute="rejectedSessions"
+                    callTime="ON_BENCH" computing="1"
+                    connection-type="30" format="NUMBER"
+                    helpID="reference.design.monitors.tomcat.session.rejectedsessions"
+                    monitor="0" monitorType=""
+                    name="Session/localhost//neotys-chat/rejectedSessions"
+                    object-name="Catalina:context=/neotys-chat,host=localhost,type=Manager"
+                    path="Session/localhost//neotys-chat/rejectedSessions"
+                    sampling="0" short-display-name="rejectedSessions" unit="">
+                    <description>Number of sessions tomcat rejected since last call due to maxActive being reached</description>
+                </monitor-jmx>
+                <monitor-virtual attribute="% rejectedSessions"
+                    callTime="ON_BENCH" computing="0"
+                    connection-type="30" format="NUMBER"
+                    helpID="reference.design.monitors.tomcat.session.%.rejectedsessions"
+                    monitor="0" monitorType=""
+                    name="Session/localhost//neotys-chat/% rejectedSessions"
+                    object-name="Catalina:context=/neotys-chat,host=localhost,type=Manager"
+                    operator="%"
+                    path="Session/localhost//neotys-chat/% rejectedSessions"
+                    sampling="0" short-display-name="% rejectedSessions" unit="%">
+                    <description>Percentage of tomcat sessions rejected since last call due to maxActive being reached</description>
+                    <monitor-jmx attribute="rejectedSessions"
+                        callTime="ON_BENCH" computing="1"
+                        connection-type="30" format="NUMBER" monitor="0"
+                        monitorType=""
+                        name="Session/localhost//neotys-chat/rejectedSessions"
+                        object-name="Catalina:context=/neotys-chat,host=localhost,type=Manager"
+                        path="Session/localhost//neotys-chat/rejectedSessions"
+                        sampling="0"
+                        short-display-name="rejectedSessions" unit=""/>
+                    <monitor-jmx attribute="sessionCounter"
+                        callTime="ON_BENCH" computing="1"
+                        connection-type="30" format="NUMBER" monitor="0"
+                        monitorType=""
+                        name="Session/localhost//neotys-chat/sessionCounter"
+                        object-name="Catalina:context=/neotys-chat,host=localhost,type=Manager"
+                        path="Session/localhost//neotys-chat/sessionCounter"
+                        sampling="0" short-display-name="sessionCounter" unit=""/>
+                </monitor-virtual>
+                <monitor-jmx attribute="expiredSessions"
+                    callTime="ON_BENCH" computing="1"
+                    connection-type="30" format="NUMBER"
+                    helpID="reference.design.monitors.tomcat.session.expiredsessions"
+                    monitor="0" monitorType=""
+                    name="Session/localhost//neotys-chat/expiredSessions"
+                    object-name="Catalina:context=/neotys-chat,host=localhost,type=Manager"
+                    path="Session/localhost//neotys-chat/expiredSessions"
+                    sampling="0" short-display-name="expiredSessions" unit="">
+                    <description>Number of sessions that expired ( does not include explicit invalidations ) since last call</description>
+                </monitor-jmx>
+            </monitor-category>
+            <monitor-category name="/nts" short-display-name="/nts">
+                <monitor-jmx attribute="activeSessions"
+                    callTime="ON_BENCH" computing="0"
+                    connection-type="30" format="NUMBER"
+                    helpID="reference.design.monitors.tomcat.session.activesessions"
+                    monitor="0" monitorType=""
+                    name="Session/localhost//nts/activeSessions"
+                    object-name="Catalina:context=/nts,host=localhost,type=Manager"
+                    path="Session/localhost//nts/activeSessions"
+                    sampling="0" short-display-name="activeSessions" unit="">
+                    <description>Number of active sessions at this moment</description>
+                </monitor-jmx>
+                <monitor-jmx attribute="sessionCounter"
+                    callTime="ON_BENCH" computing="1"
+                    connection-type="30" format="NUMBER"
+                    helpID="reference.design.monitors.tomcat.session.sessioncounter"
+                    monitor="0" monitorType=""
+                    name="Session/localhost//nts/sessionCounter"
+                    object-name="Catalina:context=/nts,host=localhost,type=Manager"
+                    path="Session/localhost//nts/sessionCounter"
+                    sampling="0" short-display-name="sessionCounter" unit="">
+                    <description>Number of sessions created by this manager since last call</description>
+                </monitor-jmx>
+                <monitor-jmx attribute="maxActive" callTime="ON_BENCH"
+                    computing="0" connection-type="30" format="NUMBER"
+                    helpID="reference.design.monitors.tomcat.session.maxactive"
+                    monitor="0" monitorType=""
+                    name="Session/localhost//nts/maxActive"
+                    object-name="Catalina:context=/nts,host=localhost,type=Manager"
+                    path="Session/localhost//nts/maxActive" sampling="0"
+                    short-display-name="maxActive" unit="">
+                    <description>Maximum number of active sessions so far</description>
+                </monitor-jmx>
+                <monitor-jmx attribute="sessionMaxAliveTime"
+                    callTime="ON_BENCH" computing="0"
+                    connection-type="30" format="NUMBER"
+                    helpID="reference.design.monitors.tomcat.session.sessionmaxalivetime"
+                    monitor="0" monitorType=""
+                    name="Session/localhost//nts/sessionMaxAliveTime"
+                    object-name="Catalina:context=/nts,host=localhost,type=Manager"
+                    path="Session/localhost//nts/sessionMaxAliveTime"
+                    sampling="0"
+                    short-display-name="sessionMaxAliveTime" unit="">
+                    <description>Longest time an expired session had been alive</description>
+                </monitor-jmx>
+                <monitor-jmx attribute="sessionAverageAliveTime"
+                    callTime="ON_BENCH" computing="0"
+                    connection-type="30" format="NUMBER"
+                    helpID="reference.design.monitors.tomcat.session.sessionaveragealivetime"
+                    monitor="0" monitorType=""
+                    name="Session/localhost//nts/sessionAverageAliveTime"
+                    object-name="Catalina:context=/nts,host=localhost,type=Manager"
+                    path="Session/localhost//nts/sessionAverageAliveTime"
+                    sampling="0"
+                    short-display-name="sessionAverageAliveTime" unit="ms">
+                    <description>Average time an expired session had been alive</description>
+                </monitor-jmx>
+                <monitor-jmx attribute="rejectedSessions"
+                    callTime="ON_BENCH" computing="1"
+                    connection-type="30" format="NUMBER"
+                    helpID="reference.design.monitors.tomcat.session.rejectedsessions"
+                    monitor="0" monitorType=""
+                    name="Session/localhost//nts/rejectedSessions"
+                    object-name="Catalina:context=/nts,host=localhost,type=Manager"
+                    path="Session/localhost//nts/rejectedSessions"
+                    sampling="0" short-display-name="rejectedSessions" unit="">
+                    <description>Number of sessions tomcat rejected since last call due to maxActive being reached</description>
+                </monitor-jmx>
+                <monitor-virtual attribute="% rejectedSessions"
+                    callTime="ON_BENCH" computing="0"
+                    connection-type="30" format="NUMBER"
+                    helpID="reference.design.monitors.tomcat.session.%.rejectedsessions"
+                    monitor="0" monitorType=""
+                    name="Session/localhost//nts/% rejectedSessions"
+                    object-name="Catalina:context=/nts,host=localhost,type=Manager"
+                    operator="%"
+                    path="Session/localhost//nts/% rejectedSessions"
+                    sampling="0" short-display-name="% rejectedSessions" unit="%">
+                    <description>Percentage of tomcat sessions rejected since last call due to maxActive being reached</description>
+                    <monitor-jmx attribute="rejectedSessions"
+                        callTime="ON_BENCH" computing="1"
+                        connection-type="30" format="NUMBER" monitor="0"
+                        monitorType=""
+                        name="Session/localhost//nts/rejectedSessions"
+                        object-name="Catalina:context=/nts,host=localhost,type=Manager"
+                        path="Session/localhost//nts/rejectedSessions"
+                        sampling="0"
+                        short-display-name="rejectedSessions" unit=""/>
+                    <monitor-jmx attribute="sessionCounter"
+                        callTime="ON_BENCH" computing="1"
+                        connection-type="30" format="NUMBER" monitor="0"
+                        monitorType=""
+                        name="Session/localhost//nts/sessionCounter"
+                        object-name="Catalina:context=/nts,host=localhost,type=Manager"
+                        path="Session/localhost//nts/sessionCounter"
+                        sampling="0" short-display-name="sessionCounter" unit=""/>
+                </monitor-virtual>
+                <monitor-jmx attribute="expiredSessions"
+                    callTime="ON_BENCH" computing="1"
+                    connection-type="30" format="NUMBER"
+                    helpID="reference.design.monitors.tomcat.session.expiredsessions"
+                    monitor="0" monitorType=""
+                    name="Session/localhost//nts/expiredSessions"
+                    object-name="Catalina:context=/nts,host=localhost,type=Manager"
+                    path="Session/localhost//nts/expiredSessions"
+                    sampling="0" short-display-name="expiredSessions" unit="">
+                    <description>Number of sessions that expired ( does not include explicit invalidations ) since last call</description>
+                </monitor-jmx>
+            </monitor-category>
+            <monitor-category name="/subsonic" short-display-name="/subsonic">
+                <monitor-jmx attribute="activeSessions"
+                    callTime="ON_BENCH" computing="0"
+                    connection-type="30" format="NUMBER"
+                    helpID="reference.design.monitors.tomcat.session.activesessions"
+                    monitor="0" monitorType=""
+                    name="Session/localhost//subsonic/activeSessions"
+                    object-name="Catalina:context=/subsonic,host=localhost,type=Manager"
+                    path="Session/localhost//subsonic/activeSessions"
+                    sampling="0" short-display-name="activeSessions" unit="">
+                    <description>Number of active sessions at this moment</description>
+                </monitor-jmx>
+                <monitor-jmx attribute="sessionCounter"
+                    callTime="ON_BENCH" computing="1"
+                    connection-type="30" format="NUMBER"
+                    helpID="reference.design.monitors.tomcat.session.sessioncounter"
+                    monitor="0" monitorType=""
+                    name="Session/localhost//subsonic/sessionCounter"
+                    object-name="Catalina:context=/subsonic,host=localhost,type=Manager"
+                    path="Session/localhost//subsonic/sessionCounter"
+                    sampling="0" short-display-name="sessionCounter" unit="">
+                    <description>Number of sessions created by this manager since last call</description>
+                </monitor-jmx>
+                <monitor-jmx attribute="maxActive" callTime="ON_BENCH"
+                    computing="0" connection-type="30" format="NUMBER"
+                    helpID="reference.design.monitors.tomcat.session.maxactive"
+                    monitor="0" monitorType=""
+                    name="Session/localhost//subsonic/maxActive"
+                    object-name="Catalina:context=/subsonic,host=localhost,type=Manager"
+                    path="Session/localhost//subsonic/maxActive"
+                    sampling="0" short-display-name="maxActive" unit="">
+                    <description>Maximum number of active sessions so far</description>
+                </monitor-jmx>
+                <monitor-jmx attribute="sessionMaxAliveTime"
+                    callTime="ON_BENCH" computing="0"
+                    connection-type="30" format="NUMBER"
+                    helpID="reference.design.monitors.tomcat.session.sessionmaxalivetime"
+                    monitor="0" monitorType=""
+                    name="Session/localhost//subsonic/sessionMaxAliveTime"
+                    object-name="Catalina:context=/subsonic,host=localhost,type=Manager"
+                    path="Session/localhost//subsonic/sessionMaxAliveTime"
+                    sampling="0"
+                    short-display-name="sessionMaxAliveTime" unit="">
+                    <description>Longest time an expired session had been alive</description>
+                </monitor-jmx>
+                <monitor-jmx attribute="sessionAverageAliveTime"
+                    callTime="ON_BENCH" computing="0"
+                    connection-type="30" format="NUMBER"
+                    helpID="reference.design.monitors.tomcat.session.sessionaveragealivetime"
+                    monitor="0" monitorType=""
+                    name="Session/localhost//subsonic/sessionAverageAliveTime"
+                    object-name="Catalina:context=/subsonic,host=localhost,type=Manager"
+                    path="Session/localhost//subsonic/sessionAverageAliveTime"
+                    sampling="0"
+                    short-display-name="sessionAverageAliveTime" unit="ms">
+                    <description>Average time an expired session had been alive</description>
+                </monitor-jmx>
+                <monitor-jmx attribute="rejectedSessions"
+                    callTime="ON_BENCH" computing="1"
+                    connection-type="30" format="NUMBER"
+                    helpID="reference.design.monitors.tomcat.session.rejectedsessions"
+                    monitor="0" monitorType=""
+                    name="Session/localhost//subsonic/rejectedSessions"
+                    object-name="Catalina:context=/subsonic,host=localhost,type=Manager"
+                    path="Session/localhost//subsonic/rejectedSessions"
+                    sampling="0" short-display-name="rejectedSessions" unit="">
+                    <description>Number of sessions tomcat rejected since last call due to maxActive being reached</description>
+                </monitor-jmx>
+                <monitor-virtual attribute="% rejectedSessions"
+                    callTime="ON_BENCH" computing="0"
+                    connection-type="30" format="NUMBER"
+                    helpID="reference.design.monitors.tomcat.session.%.rejectedsessions"
+                    monitor="0" monitorType=""
+                    name="Session/localhost//subsonic/% rejectedSessions"
+                    object-name="Catalina:context=/subsonic,host=localhost,type=Manager"
+                    operator="%"
+                    path="Session/localhost//subsonic/% rejectedSessions"
+                    sampling="0" short-display-name="% rejectedSessions" unit="%">
+                    <description>Percentage of tomcat sessions rejected since last call due to maxActive being reached</description>
+                    <monitor-jmx attribute="rejectedSessions"
+                        callTime="ON_BENCH" computing="1"
+                        connection-type="30" format="NUMBER" monitor="0"
+                        monitorType=""
+                        name="Session/localhost//subsonic/rejectedSessions"
+                        object-name="Catalina:context=/subsonic,host=localhost,type=Manager"
+                        path="Session/localhost//subsonic/rejectedSessions"
+                        sampling="0"
+                        short-display-name="rejectedSessions" unit=""/>
+                    <monitor-jmx attribute="sessionCounter"
+                        callTime="ON_BENCH" computing="1"
+                        connection-type="30" format="NUMBER" monitor="0"
+                        monitorType=""
+                        name="Session/localhost//subsonic/sessionCounter"
+                        object-name="Catalina:context=/subsonic,host=localhost,type=Manager"
+                        path="Session/localhost//subsonic/sessionCounter"
+                        sampling="0" short-display-name="sessionCounter" unit=""/>
+                </monitor-virtual>
+                <monitor-jmx attribute="expiredSessions"
+                    callTime="ON_BENCH" computing="1"
+                    connection-type="30" format="NUMBER"
+                    helpID="reference.design.monitors.tomcat.session.expiredsessions"
+                    monitor="0" monitorType=""
+                    name="Session/localhost//subsonic/expiredSessions"
+                    object-name="Catalina:context=/subsonic,host=localhost,type=Manager"
+                    path="Session/localhost//subsonic/expiredSessions"
+                    sampling="0" short-display-name="expiredSessions" unit="">
+                    <description>Number of sessions that expired ( does not include explicit invalidations ) since last call</description>
+                </monitor-jmx>
+            </monitor-category>
+            <monitor-category name="/zkspringwf" short-display-name="/zkspringwf">
+                <monitor-jmx attribute="activeSessions"
+                    callTime="ON_BENCH" computing="0"
+                    connection-type="30" format="NUMBER"
+                    helpID="reference.design.monitors.tomcat.session.activesessions"
+                    monitor="0" monitorType=""
+                    name="Session/localhost//zkspringwf/activeSessions"
+                    object-name="Catalina:context=/zkspringwf,host=localhost,type=Manager"
+                    path="Session/localhost//zkspringwf/activeSessions"
+                    sampling="0" short-display-name="activeSessions" unit="">
+                    <description>Number of active sessions at this moment</description>
+                </monitor-jmx>
+                <monitor-jmx attribute="sessionCounter"
+                    callTime="ON_BENCH" computing="1"
+                    connection-type="30" format="NUMBER"
+                    helpID="reference.design.monitors.tomcat.session.sessioncounter"
+                    monitor="0" monitorType=""
+                    name="Session/localhost//zkspringwf/sessionCounter"
+                    object-name="Catalina:context=/zkspringwf,host=localhost,type=Manager"
+                    path="Session/localhost//zkspringwf/sessionCounter"
+                    sampling="0" short-display-name="sessionCounter" unit="">
+                    <description>Number of sessions created by this manager since last call</description>
+                </monitor-jmx>
+                <monitor-jmx attribute="maxActive" callTime="ON_BENCH"
+                    computing="0" connection-type="30" format="NUMBER"
+                    helpID="reference.design.monitors.tomcat.session.maxactive"
+                    monitor="0" monitorType=""
+                    name="Session/localhost//zkspringwf/maxActive"
+                    object-name="Catalina:context=/zkspringwf,host=localhost,type=Manager"
+                    path="Session/localhost//zkspringwf/maxActive"
+                    sampling="0" short-display-name="maxActive" unit="">
+                    <description>Maximum number of active sessions so far</description>
+                </monitor-jmx>
+                <monitor-jmx attribute="sessionMaxAliveTime"
+                    callTime="ON_BENCH" computing="0"
+                    connection-type="30" format="NUMBER"
+                    helpID="reference.design.monitors.tomcat.session.sessionmaxalivetime"
+                    monitor="0" monitorType=""
+                    name="Session/localhost//zkspringwf/sessionMaxAliveTime"
+                    object-name="Catalina:context=/zkspringwf,host=localhost,type=Manager"
+                    path="Session/localhost//zkspringwf/sessionMaxAliveTime"
+                    sampling="0"
+                    short-display-name="sessionMaxAliveTime" unit="">
+                    <description>Longest time an expired session had been alive</description>
+                </monitor-jmx>
+                <monitor-jmx attribute="sessionAverageAliveTime"
+                    callTime="ON_BENCH" computing="0"
+                    connection-type="30" format="NUMBER"
+                    helpID="reference.design.monitors.tomcat.session.sessionaveragealivetime"
+                    monitor="0" monitorType=""
+                    name="Session/localhost//zkspringwf/sessionAverageAliveTime"
+                    object-name="Catalina:context=/zkspringwf,host=localhost,type=Manager"
+                    path="Session/localhost//zkspringwf/sessionAverageAliveTime"
+                    sampling="0"
+                    short-display-name="sessionAverageAliveTime" unit="ms">
+                    <description>Average time an expired session had been alive</description>
+                </monitor-jmx>
+                <monitor-jmx attribute="rejectedSessions"
+                    callTime="ON_BENCH" computing="1"
+                    connection-type="30" format="NUMBER"
+                    helpID="reference.design.monitors.tomcat.session.rejectedsessions"
+                    monitor="0" monitorType=""
+                    name="Session/localhost//zkspringwf/rejectedSessions"
+                    object-name="Catalina:context=/zkspringwf,host=localhost,type=Manager"
+                    path="Session/localhost//zkspringwf/rejectedSessions"
+                    sampling="0" short-display-name="rejectedSessions" unit="">
+                    <description>Number of sessions tomcat rejected since last call due to maxActive being reached</description>
+                </monitor-jmx>
+                <monitor-virtual attribute="% rejectedSessions"
+                    callTime="ON_BENCH" computing="0"
+                    connection-type="30" format="NUMBER"
+                    helpID="reference.design.monitors.tomcat.session.%.rejectedsessions"
+                    monitor="0" monitorType=""
+                    name="Session/localhost//zkspringwf/% rejectedSessions"
+                    object-name="Catalina:context=/zkspringwf,host=localhost,type=Manager"
+                    operator="%"
+                    path="Session/localhost//zkspringwf/% rejectedSessions"
+                    sampling="0" short-display-name="% rejectedSessions" unit="%">
+                    <description>Percentage of tomcat sessions rejected since last call due to maxActive being reached</description>
+                    <monitor-jmx attribute="rejectedSessions"
+                        callTime="ON_BENCH" computing="1"
+                        connection-type="30" format="NUMBER" monitor="0"
+                        monitorType=""
+                        name="Session/localhost//zkspringwf/rejectedSessions"
+                        object-name="Catalina:context=/zkspringwf,host=localhost,type=Manager"
+                        path="Session/localhost//zkspringwf/rejectedSessions"
+                        sampling="0"
+                        short-display-name="rejectedSessions" unit=""/>
+                    <monitor-jmx attribute="sessionCounter"
+                        callTime="ON_BENCH" computing="1"
+                        connection-type="30" format="NUMBER" monitor="0"
+                        monitorType=""
+                        name="Session/localhost//zkspringwf/sessionCounter"
+                        object-name="Catalina:context=/zkspringwf,host=localhost,type=Manager"
+                        path="Session/localhost//zkspringwf/sessionCounter"
+                        sampling="0" short-display-name="sessionCounter" unit=""/>
+                </monitor-virtual>
+                <monitor-jmx attribute="expiredSessions"
+                    callTime="ON_BENCH" computing="1"
+                    connection-type="30" format="NUMBER"
+                    helpID="reference.design.monitors.tomcat.session.expiredsessions"
+                    monitor="0" monitorType=""
+                    name="Session/localhost//zkspringwf/expiredSessions"
+                    object-name="Catalina:context=/zkspringwf,host=localhost,type=Manager"
+                    path="Session/localhost//zkspringwf/expiredSessions"
+                    sampling="0" short-display-name="expiredSessions" unit="">
+                    <description>Number of sessions that expired ( does not include explicit invalidations ) since last call</description>
+                </monitor-jmx>
+            </monitor-category>
+        </monitor-category>
+    </monitor-category>
+    <monitor-category name="RequestProcessor" short-display-name="RequestProcessor">
+        <monitor-category name="&quot;ajp-bio-127.0.0.1-8009&quot;" short-display-name="&quot;ajp-bio-127.0.0.1-8009&quot;">
+            <monitor-jmx attribute="requestCount" callTime="ON_BENCH"
+                computing="1" connection-type="30" format="NUMBER"
+                helpID="reference.design.monitors.tomcat.requestprocessor.requestcount"
+                monitor="0" monitorType=""
+                name="RequestProcessor/-ajp-bio-127.0.0.1-8009-/requestCount"
+                object-name="Catalina:name=&quot;ajp-bio-127.0.0.1-8009&quot;,type=GlobalRequestProcessor"
+                path="RequestProcessor/&quot;ajp-bio-127.0.0.1-8009&quot;/requestCount"
+                sampling="0" short-display-name="requestCount" unit="">
+                <description>Number of requests processed by this processor since last call</description>
+            </monitor-jmx>
+            <monitor-jmx attribute="errorCount" callTime="ON_BENCH"
+                computing="1" connection-type="30" format="NUMBER"
+                helpID="reference.design.monitors.tomcat.requestprocessor.errorcount"
+                monitor="0" monitorType=""
+                name="RequestProcessor/-ajp-bio-127.0.0.1-8009-/errorCount"
+                object-name="Catalina:name=&quot;ajp-bio-127.0.0.1-8009&quot;,type=GlobalRequestProcessor"
+                path="RequestProcessor/&quot;ajp-bio-127.0.0.1-8009&quot;/errorCount"
+                sampling="0" short-display-name="errorCount" unit="">
+                <description>Number of errors since last call</description>
+            </monitor-jmx>
+            <monitor-virtual attribute="% errorCount"
+                callTime="ON_BENCH" computing="0" connection-type="30"
+                format="NUMBER"
+                helpID="reference.design.monitors.tomcat.requestprocessor.%.errorcount"
+                monitor="0" monitorType=""
+                name="RequestProcessor/-ajp-bio-127.0.0.1-8009-/% errorCount"
+                object-name="Catalina:name=&quot;ajp-bio-127.0.0.1-8009&quot;,type=GlobalRequestProcessor"
+                operator="%"
+                path="RequestProcessor/&quot;ajp-bio-127.0.0.1-8009&quot;/% errorCount"
+                sampling="0" short-display-name="% errorCount" unit="%">
+                <description>Percentage of errors since last call</description>
+                <monitor-jmx attribute="errorCount" callTime="ON_BENCH"
+                    computing="1" connection-type="30" format="NUMBER"
+                    monitor="0" monitorType=""
+                    name="RequestProcessor/-ajp-bio-127.0.0.1-8009-/errorCount"
+                    object-name="Catalina:name=&quot;ajp-bio-127.0.0.1-8009&quot;,type=GlobalRequestProcessor"
+                    path="RequestProcessor/&quot;ajp-bio-127.0.0.1-8009&quot;/errorCount"
+                    sampling="0" short-display-name="errorCount" unit=""/>
+                <monitor-jmx attribute="requestCount"
+                    callTime="ON_BENCH" computing="1"
+                    connection-type="30" format="NUMBER" monitor="0"
+                    monitorType=""
+                    name="RequestProcessor/-ajp-bio-127.0.0.1-8009-/requestCount"
+                    object-name="Catalina:name=&quot;ajp-bio-127.0.0.1-8009&quot;,type=GlobalRequestProcessor"
+                    path="RequestProcessor/&quot;ajp-bio-127.0.0.1-8009&quot;/requestCount"
+                    sampling="0" short-display-name="requestCount" unit=""/>
+            </monitor-virtual>
+            <monitor-jmx attribute="bytesSent" callTime="ON_BENCH"
+                computing="1" connection-type="30" format="NUMBER"
+                helpID="reference.design.monitors.tomcat.requestprocessor.bytessent"
+                monitor="0" monitorType=""
+                name="RequestProcessor/-ajp-bio-127.0.0.1-8009-/bytesSent"
+                object-name="Catalina:name=&quot;ajp-bio-127.0.0.1-8009&quot;,type=GlobalRequestProcessor"
+                path="RequestProcessor/&quot;ajp-bio-127.0.0.1-8009&quot;/bytesSent"
+                sampling="0" short-display-name="bytesSent" unit="bytes">
+                <description>Number of bytes sent by this processor since last call</description>
+            </monitor-jmx>
+            <monitor-jmx attribute="maxTime" callTime="ON_BENCH"
+                computing="0" connection-type="30" format="NUMBER"
+                helpID="reference.design.monitors.tomcat.requestprocessor.maxtime"
+                monitor="0" monitorType=""
+                name="RequestProcessor/-ajp-bio-127.0.0.1-8009-/maxTime"
+                object-name="Catalina:name=&quot;ajp-bio-127.0.0.1-8009&quot;,type=GlobalRequestProcessor"
+                path="RequestProcessor/&quot;ajp-bio-127.0.0.1-8009&quot;/maxTime"
+                sampling="0" short-display-name="maxTime" unit="ms">
+                <description>Longest time a request processing take</description>
+            </monitor-jmx>
+            <monitor-jmx attribute="processingTime" callTime="ON_BENCH"
+                computing="1" connection-type="30" format="NUMBER"
+                helpID="reference.design.monitors.tomcat.requestprocessor.processingtime"
+                monitor="0" monitorType=""
+                name="RequestProcessor/-ajp-bio-127.0.0.1-8009-/processingTime"
+                object-name="Catalina:name=&quot;ajp-bio-127.0.0.1-8009&quot;,type=GlobalRequestProcessor"
+                path="RequestProcessor/&quot;ajp-bio-127.0.0.1-8009&quot;/processingTime"
+                sampling="0" short-display-name="processingTime" unit="ms">
+                <description>Request processor processing time since last call</description>
+            </monitor-jmx>
+        </monitor-category>
+        <monitor-category name="&quot;http-bio-8080&quot;" short-display-name="&quot;http-bio-8080&quot;">
+            <monitor-jmx attribute="requestCount" callTime="ON_BENCH"
+                computing="1" connection-type="30" format="NUMBER"
+                helpID="reference.design.monitors.tomcat.requestprocessor.requestcount"
+                monitor="0" monitorType=""
+                name="RequestProcessor/-http-bio-8080-/requestCount"
+                object-name="Catalina:name=&quot;http-bio-8080&quot;,type=GlobalRequestProcessor"
+                path="RequestProcessor/&quot;http-bio-8080&quot;/requestCount"
+                sampling="0" short-display-name="requestCount" unit="">
+                <description>Number of requests processed by this processor since last call</description>
+            </monitor-jmx>
+            <monitor-jmx attribute="errorCount" callTime="ON_BENCH"
+                computing="1" connection-type="30" format="NUMBER"
+                helpID="reference.design.monitors.tomcat.requestprocessor.errorcount"
+                monitor="0" monitorType=""
+                name="RequestProcessor/-http-bio-8080-/errorCount"
+                object-name="Catalina:name=&quot;http-bio-8080&quot;,type=GlobalRequestProcessor"
+                path="RequestProcessor/&quot;http-bio-8080&quot;/errorCount"
+                sampling="0" short-display-name="errorCount" unit="">
+                <description>Number of errors since last call</description>
+            </monitor-jmx>
+            <monitor-virtual attribute="% errorCount"
+                callTime="ON_BENCH" computing="0" connection-type="30"
+                format="NUMBER"
+                helpID="reference.design.monitors.tomcat.requestprocessor.%.errorcount"
+                monitor="0" monitorType=""
+                name="RequestProcessor/-http-bio-8080-/% errorCount"
+                object-name="Catalina:name=&quot;http-bio-8080&quot;,type=GlobalRequestProcessor"
+                operator="%"
+                path="RequestProcessor/&quot;http-bio-8080&quot;/% errorCount"
+                sampling="0" short-display-name="% errorCount" unit="%">
+                <description>Percentage of errors since last call</description>
+                <monitor-jmx attribute="errorCount" callTime="ON_BENCH"
+                    computing="1" connection-type="30" format="NUMBER"
+                    monitor="0" monitorType=""
+                    name="RequestProcessor/-http-bio-8080-/errorCount"
+                    object-name="Catalina:name=&quot;http-bio-8080&quot;,type=GlobalRequestProcessor"
+                    path="RequestProcessor/&quot;http-bio-8080&quot;/errorCount"
+                    sampling="0" short-display-name="errorCount" unit=""/>
+                <monitor-jmx attribute="requestCount"
+                    callTime="ON_BENCH" computing="1"
+                    connection-type="30" format="NUMBER" monitor="0"
+                    monitorType=""
+                    name="RequestProcessor/-http-bio-8080-/requestCount"
+                    object-name="Catalina:name=&quot;http-bio-8080&quot;,type=GlobalRequestProcessor"
+                    path="RequestProcessor/&quot;http-bio-8080&quot;/requestCount"
+                    sampling="0" short-display-name="requestCount" unit=""/>
+            </monitor-virtual>
+            <monitor-jmx attribute="bytesSent" callTime="ON_BENCH"
+                computing="1" connection-type="30" format="NUMBER"
+                helpID="reference.design.monitors.tomcat.requestprocessor.bytessent"
+                monitor="0" monitorType=""
+                name="RequestProcessor/-http-bio-8080-/bytesSent"
+                object-name="Catalina:name=&quot;http-bio-8080&quot;,type=GlobalRequestProcessor"
+                path="RequestProcessor/&quot;http-bio-8080&quot;/bytesSent"
+                sampling="0" short-display-name="bytesSent" unit="bytes">
+                <description>Number of bytes sent by this processor since last call</description>
+            </monitor-jmx>
+            <monitor-jmx attribute="maxTime" callTime="ON_BENCH"
+                computing="0" connection-type="30" format="NUMBER"
+                helpID="reference.design.monitors.tomcat.requestprocessor.maxtime"
+                monitor="0" monitorType=""
+                name="RequestProcessor/-http-bio-8080-/maxTime"
+                object-name="Catalina:name=&quot;http-bio-8080&quot;,type=GlobalRequestProcessor"
+                path="RequestProcessor/&quot;http-bio-8080&quot;/maxTime"
+                sampling="0" short-display-name="maxTime" unit="ms">
+                <description>Longest time a request processing take</description>
+            </monitor-jmx>
+            <monitor-jmx attribute="processingTime" callTime="ON_BENCH"
+                computing="1" connection-type="30" format="NUMBER"
+                helpID="reference.design.monitors.tomcat.requestprocessor.processingtime"
+                monitor="0" monitorType=""
+                name="RequestProcessor/-http-bio-8080-/processingTime"
+                object-name="Catalina:name=&quot;http-bio-8080&quot;,type=GlobalRequestProcessor"
+                path="RequestProcessor/&quot;http-bio-8080&quot;/processingTime"
+                sampling="0" short-display-name="processingTime" unit="ms">
+                <description>Request processor processing time since last call</description>
+            </monitor-jmx>
+        </monitor-category>
+    </monitor-category>
+    <monitor-category name="DataSource" short-display-name="DataSource">
+        <monitor-category name="localhost" short-display-name="localhost">
+            <monitor-category name="/certification" short-display-name="/certification">
+                <monitor-category name="javax.sql.DataSource" short-display-name="javax.sql.DataSource">
+                    <monitor-category name="&quot;jdbc/jpetstore1&quot;" short-display-name="&quot;jdbc/jpetstore1&quot;">
+                        <monitor-jmx attribute="numActive"
+                            callTime="ON_BENCH" computing="0"
+                            connection-type="30" format="NUMBER"
+                            helpID="reference.design.monitors.tomcat.datasource.numactive"
+                            monitor="0" monitorType=""
+                            name="DataSource/localhost//certification/javax.sql.DataSource/-jdbc/jpetstore1-/numActive"
+                            object-name="Catalina:class=javax.sql.DataSource,context=/certification,host=localhost,name=&quot;jdbc/jpetstore1&quot;,type=DataSource"
+                            path="DataSource/localhost//certification/javax.sql.DataSource/&quot;jdbc/jpetstore1&quot;/numActive"
+                            sampling="0" short-display-name="numActive" unit="">
+                            <description>Number of active connections</description>
+                        </monitor-jmx>
+                        <monitor-virtual attribute="% numActive"
+                            callTime="ON_BENCH" computing="0"
+                            connection-type="30" format="NUMBER"
+                            helpID="reference.design.monitors.tomcat.datasource.%.numactive"
+                            monitor="0" monitorType=""
+                            name="DataSource/localhost//certification/javax.sql.DataSource/-jdbc/jpetstore1-/% numActive"
+                            object-name="Catalina:class=javax.sql.DataSource,context=/certification,host=localhost,name=&quot;jdbc/jpetstore1&quot;,type=DataSource"
+                            operator="%"
+                            path="DataSource/localhost//certification/javax.sql.DataSource/&quot;jdbc/jpetstore1&quot;/% numActive"
+                            sampling="0"
+                            short-display-name="% numActive" unit="%">
+                            <description>Percentage of active connections</description>
+                            <monitor-jmx attribute="numActive"
+                                callTime="ON_BENCH" computing="0"
+                                connection-type="30" format="NUMBER"
+                                monitor="0" monitorType=""
+                                name="DataSource/localhost//certification/javax.sql.DataSource/-jdbc/jpetstore1-/numActive"
+                                object-name="Catalina:class=javax.sql.DataSource,context=/certification,host=localhost,name=&quot;jdbc/jpetstore1&quot;,type=DataSource"
+                                path="DataSource/localhost//certification/javax.sql.DataSource/&quot;jdbc/jpetstore1&quot;/numActive"
+                                sampling="0"
+                                short-display-name="numActive" unit=""/>
+                            <monitor-jmx attribute="maxActive"
+                                callTime="ON_BENCH" computing="0"
+                                connection-type="30" format="NUMBER"
+                                monitor="0" monitorType=""
+                                name="DataSource/localhost//certification/javax.sql.DataSource/-jdbc/jpetstore1-/maxActive"
+                                object-name="Catalina:class=javax.sql.DataSource,context=/certification,host=localhost,name=&quot;jdbc/jpetstore1&quot;,type=DataSource"
+                                path="DataSource/localhost//certification/javax.sql.DataSource/&quot;jdbc/jpetstore1&quot;/maxActive"
+                                sampling="0"
+                                short-display-name="maxActive" unit=""/>
+                        </monitor-virtual>
+                        <monitor-jmx attribute="numIdle"
+                            callTime="ON_BENCH" computing="0"
+                            connection-type="30" format="NUMBER"
+                            helpID="reference.design.monitors.tomcat.datasource.numidle"
+                            monitor="0" monitorType=""
+                            name="DataSource/localhost//certification/javax.sql.DataSource/-jdbc/jpetstore1-/numIdle"
+                            object-name="Catalina:class=javax.sql.DataSource,context=/certification,host=localhost,name=&quot;jdbc/jpetstore1&quot;,type=DataSource"
+                            path="DataSource/localhost//certification/javax.sql.DataSource/&quot;jdbc/jpetstore1&quot;/numIdle"
+                            sampling="0" short-display-name="numIdle" unit="">
+                            <description>Number of idle connections</description>
+                        </monitor-jmx>
+                        <monitor-jmx attribute="maxActive"
+                            callTime="ON_BENCH" computing="0"
+                            connection-type="30" format="NUMBER"
+                            helpID="reference.design.monitors.tomcat.datasource.maxactive"
+                            monitor="0" monitorType=""
+                            name="DataSource/localhost//certification/javax.sql.DataSource/-jdbc/jpetstore1-/maxActive"
+                            object-name="Catalina:class=javax.sql.DataSource,context=/certification,host=localhost,name=&quot;jdbc/jpetstore1&quot;,type=DataSource"
+                            path="DataSource/localhost//certification/javax.sql.DataSource/&quot;jdbc/jpetstore1&quot;/maxActive"
+                            sampling="0" short-display-name="maxActive" unit="">
+                            <description>Maximum number of active connections so far</description>
+                        </monitor-jmx>
+                        <monitor-jmx attribute="maxIdle"
+                            callTime="ON_BENCH" computing="0"
+                            connection-type="30" format="NUMBER"
+                            helpID="reference.design.monitors.tomcat.datasource.maxidle"
+                            monitor="0" monitorType=""
+                            name="DataSource/localhost//certification/javax.sql.DataSource/-jdbc/jpetstore1-/maxIdle"
+                            object-name="Catalina:class=javax.sql.DataSource,context=/certification,host=localhost,name=&quot;jdbc/jpetstore1&quot;,type=DataSource"
+                            path="DataSource/localhost//certification/javax.sql.DataSource/&quot;jdbc/jpetstore1&quot;/maxIdle"
+                            sampling="0" short-display-name="maxIdle" unit="">
+                            <description>Maximum number of idle connections so far</description>
+                        </monitor-jmx>
+                        <monitor-jmx attribute="poolConfiguration"
+                            callTime="ON_START" computing="0"
+                            connection-type="30" format="TEXT"
+                            helpID="reference.design.monitors.tomcat.datasource.poolconfiguration"
+                            monitor="0" monitorType=""
+                            name="DataSource/localhost//certification/javax.sql.DataSource/-jdbc/jpetstore1-/poolConfiguration"
+                            object-name="Catalina:class=javax.sql.DataSource,context=/certification,host=localhost,name=&quot;jdbc/jpetstore1&quot;,type=DataSource"
+                            path="DataSource/localhost//certification/javax.sql.DataSource/&quot;jdbc/jpetstore1&quot;/poolConfiguration"
+                            sampling="0"
+                            short-display-name="poolConfiguration"
+                            type="multivalues" unit="">
+                            <description>Textual description of datasource pool configuration</description>
+                            <monitor-value-pattern pattern="Minimum Idle Connections: @minIdle@, Maximum Idle Connections: @maxIdle@, Maximum Connections: @maxActive@"/>
+                            <monitor-value-pattern pattern="Maximum Wait Delay (ms): @maxWait@"/>
+                        </monitor-jmx>
+                    </monitor-category>
+                </monitor-category>
+            </monitor-category>
+            <monitor-category name="/jpetstore" short-display-name="/jpetstore">
+                <monitor-category name="javax.sql.DataSource" short-display-name="javax.sql.DataSource">
+                    <monitor-category name="&quot;jdbc/jpetstore1&quot;" short-display-name="&quot;jdbc/jpetstore1&quot;">
+                        <monitor-jmx attribute="numActive"
+                            callTime="ON_BENCH" computing="0"
+                            connection-type="30" format="NUMBER"
+                            helpID="reference.design.monitors.tomcat.datasource.numactive"
+                            monitor="0" monitorType=""
+                            name="DataSource/localhost//jpetstore/javax.sql.DataSource/-jdbc/jpetstore1-/numActive"
+                            object-name="Catalina:class=javax.sql.DataSource,context=/jpetstore,host=localhost,name=&quot;jdbc/jpetstore1&quot;,type=DataSource"
+                            path="DataSource/localhost//jpetstore/javax.sql.DataSource/&quot;jdbc/jpetstore1&quot;/numActive"
+                            sampling="0" short-display-name="numActive" unit="">
+                            <description>Number of active connections</description>
+                        </monitor-jmx>
+                        <monitor-virtual attribute="% numActive"
+                            callTime="ON_BENCH" computing="0"
+                            connection-type="30" format="NUMBER"
+                            helpID="reference.design.monitors.tomcat.datasource.%.numactive"
+                            monitor="0" monitorType=""
+                            name="DataSource/localhost//jpetstore/javax.sql.DataSource/-jdbc/jpetstore1-/% numActive"
+                            object-name="Catalina:class=javax.sql.DataSource,context=/jpetstore,host=localhost,name=&quot;jdbc/jpetstore1&quot;,type=DataSource"
+                            operator="%"
+                            path="DataSource/localhost//jpetstore/javax.sql.DataSource/&quot;jdbc/jpetstore1&quot;/% numActive"
+                            sampling="0"
+                            short-display-name="% numActive" unit="%">
+                            <description>Percentage of active connections</description>
+                            <monitor-jmx attribute="numActive"
+                                callTime="ON_BENCH" computing="0"
+                                connection-type="30" format="NUMBER"
+                                monitor="0" monitorType=""
+                                name="DataSource/localhost//jpetstore/javax.sql.DataSource/-jdbc/jpetstore1-/numActive"
+                                object-name="Catalina:class=javax.sql.DataSource,context=/jpetstore,host=localhost,name=&quot;jdbc/jpetstore1&quot;,type=DataSource"
+                                path="DataSource/localhost//jpetstore/javax.sql.DataSource/&quot;jdbc/jpetstore1&quot;/numActive"
+                                sampling="0"
+                                short-display-name="numActive" unit=""/>
+                            <monitor-jmx attribute="maxActive"
+                                callTime="ON_BENCH" computing="0"
+                                connection-type="30" format="NUMBER"
+                                monitor="0" monitorType=""
+                                name="DataSource/localhost//jpetstore/javax.sql.DataSource/-jdbc/jpetstore1-/maxActive"
+                                object-name="Catalina:class=javax.sql.DataSource,context=/jpetstore,host=localhost,name=&quot;jdbc/jpetstore1&quot;,type=DataSource"
+                                path="DataSource/localhost//jpetstore/javax.sql.DataSource/&quot;jdbc/jpetstore1&quot;/maxActive"
+                                sampling="0"
+                                short-display-name="maxActive" unit=""/>
+                        </monitor-virtual>
+                        <monitor-jmx attribute="numIdle"
+                            callTime="ON_BENCH" computing="0"
+                            connection-type="30" format="NUMBER"
+                            helpID="reference.design.monitors.tomcat.datasource.numidle"
+                            monitor="0" monitorType=""
+                            name="DataSource/localhost//jpetstore/javax.sql.DataSource/-jdbc/jpetstore1-/numIdle"
+                            object-name="Catalina:class=javax.sql.DataSource,context=/jpetstore,host=localhost,name=&quot;jdbc/jpetstore1&quot;,type=DataSource"
+                            path="DataSource/localhost//jpetstore/javax.sql.DataSource/&quot;jdbc/jpetstore1&quot;/numIdle"
+                            sampling="0" short-display-name="numIdle" unit="">
+                            <description>Number of idle connections</description>
+                        </monitor-jmx>
+                        <monitor-jmx attribute="maxActive"
+                            callTime="ON_BENCH" computing="0"
+                            connection-type="30" format="NUMBER"
+                            helpID="reference.design.monitors.tomcat.datasource.maxactive"
+                            monitor="0" monitorType=""
+                            name="DataSource/localhost//jpetstore/javax.sql.DataSource/-jdbc/jpetstore1-/maxActive"
+                            object-name="Catalina:class=javax.sql.DataSource,context=/jpetstore,host=localhost,name=&quot;jdbc/jpetstore1&quot;,type=DataSource"
+                            path="DataSource/localhost//jpetstore/javax.sql.DataSource/&quot;jdbc/jpetstore1&quot;/maxActive"
+                            sampling="0" short-display-name="maxActive" unit="">
+                            <description>Maximum number of active connections so far</description>
+                        </monitor-jmx>
+                        <monitor-jmx attribute="maxIdle"
+                            callTime="ON_BENCH" computing="0"
+                            connection-type="30" format="NUMBER"
+                            helpID="reference.design.monitors.tomcat.datasource.maxidle"
+                            monitor="0" monitorType=""
+                            name="DataSource/localhost//jpetstore/javax.sql.DataSource/-jdbc/jpetstore1-/maxIdle"
+                            object-name="Catalina:class=javax.sql.DataSource,context=/jpetstore,host=localhost,name=&quot;jdbc/jpetstore1&quot;,type=DataSource"
+                            path="DataSource/localhost//jpetstore/javax.sql.DataSource/&quot;jdbc/jpetstore1&quot;/maxIdle"
+                            sampling="0" short-display-name="maxIdle" unit="">
+                            <description>Maximum number of idle connections so far</description>
+                        </monitor-jmx>
+                        <monitor-jmx attribute="poolConfiguration"
+                            callTime="ON_START" computing="0"
+                            connection-type="30" format="TEXT"
+                            helpID="reference.design.monitors.tomcat.datasource.poolconfiguration"
+                            monitor="0" monitorType=""
+                            name="DataSource/localhost//jpetstore/javax.sql.DataSource/-jdbc/jpetstore1-/poolConfiguration"
+                            object-name="Catalina:class=javax.sql.DataSource,context=/jpetstore,host=localhost,name=&quot;jdbc/jpetstore1&quot;,type=DataSource"
+                            path="DataSource/localhost//jpetstore/javax.sql.DataSource/&quot;jdbc/jpetstore1&quot;/poolConfiguration"
+                            sampling="0"
+                            short-display-name="poolConfiguration"
+                            type="multivalues" unit="">
+                            <description>Textual description of datasource pool configuration</description>
+                            <monitor-value-pattern pattern="Minimum Idle Connections: @minIdle@, Maximum Idle Connections: @maxIdle@, Maximum Connections: @maxActive@"/>
+                            <monitor-value-pattern pattern="Maximum Wait Delay (ms): @maxWait@"/>
+                        </monitor-jmx>
+                    </monitor-category>
+                </monitor-category>
+            </monitor-category>
+        </monitor-category>
+    </monitor-category>
+    <monitor-category name="ThreadPool" short-display-name="ThreadPool">
+        <monitor-category name="&quot;ajp-bio-127.0.0.1-8009&quot;" short-display-name="&quot;ajp-bio-127.0.0.1-8009&quot;">
+            <monitor-jmx attribute="currentThreadsBusy"
+                callTime="ON_BENCH" computing="0" connection-type="30"
+                format="NUMBER"
+                helpID="reference.design.monitors.tomcat.threadpool.currentthreadsbusy"
+                monitor="0" monitorType=""
+                name="ThreadPool/-ajp-bio-127.0.0.1-8009-/currentThreadsBusy"
+                object-name="Catalina:name=&quot;ajp-bio-127.0.0.1-8009&quot;,type=ThreadPool"
+                path="ThreadPool/&quot;ajp-bio-127.0.0.1-8009&quot;/currentThreadsBusy"
+                sampling="0" short-display-name="currentThreadsBusy" unit="">
+                <description>Number of busy threads in the pool</description>
+            </monitor-jmx>
+            <monitor-virtual attribute="% currentThreadsBusy"
+                callTime="ON_BENCH" computing="0" connection-type="30"
+                format="NUMBER"
+                helpID="reference.design.monitors.tomcat.threadpool.%.currentthreadsbusy"
+                monitor="0" monitorType=""
+                name="ThreadPool/-ajp-bio-127.0.0.1-8009-/% currentThreadsBusy"
+                object-name="Catalina:name=&quot;ajp-bio-127.0.0.1-8009&quot;,type=ThreadPool"
+                operator="%"
+                path="ThreadPool/&quot;ajp-bio-127.0.0.1-8009&quot;/% currentThreadsBusy"
+                sampling="0" short-display-name="% currentThreadsBusy" unit="%">
+                <description>Percentage of busy threads in the pool</description>
+                <monitor-jmx attribute="currentThreadsBusy"
+                    callTime="ON_BENCH" computing="0"
+                    connection-type="30" format="NUMBER" monitor="0"
+                    monitorType=""
+                    name="ThreadPool/-ajp-bio-127.0.0.1-8009-/currentThreadsBusy"
+                    object-name="Catalina:name=&quot;ajp-bio-127.0.0.1-8009&quot;,type=ThreadPool"
+                    path="ThreadPool/&quot;ajp-bio-127.0.0.1-8009&quot;/currentThreadsBusy"
+                    sampling="0" short-display-name="currentThreadsBusy" unit=""/>
+                <monitor-jmx attribute="maxThreads" callTime="ON_BENCH"
+                    computing="0" connection-type="30" format="NUMBER"
+                    monitor="0" monitorType=""
+                    name="ThreadPool/-ajp-bio-127.0.0.1-8009-/maxThreads"
+                    object-name="Catalina:name=&quot;ajp-bio-127.0.0.1-8009&quot;,type=ThreadPool"
+                    path="ThreadPool/&quot;ajp-bio-127.0.0.1-8009&quot;/maxThreads"
+                    sampling="0" short-display-name="maxThreads" unit=""/>
+            </monitor-virtual>
+            <monitor-jmx attribute="currentThreadCount"
+                callTime="ON_BENCH" computing="0" connection-type="30"
+                format="NUMBER"
+                helpID="reference.design.monitors.tomcat.threadpool.currentthreadcount"
+                monitor="0" monitorType=""
+                name="ThreadPool/-ajp-bio-127.0.0.1-8009-/currentThreadCount"
+                object-name="Catalina:name=&quot;ajp-bio-127.0.0.1-8009&quot;,type=ThreadPool"
+                path="ThreadPool/&quot;ajp-bio-127.0.0.1-8009&quot;/currentThreadCount"
+                sampling="0" short-display-name="currentThreadCount" unit="">
+                <description>Number of threads in the pool</description>
+            </monitor-jmx>
+            <monitor-jmx attribute="maxThreads" callTime="ON_BENCH"
+                computing="0" connection-type="30" format="NUMBER"
+                helpID="reference.design.monitors.tomcat.threadpool.maxthreads"
+                monitor="0" monitorType=""
+                name="ThreadPool/-ajp-bio-127.0.0.1-8009-/maxThreads"
+                object-name="Catalina:name=&quot;ajp-bio-127.0.0.1-8009&quot;,type=ThreadPool"
+                path="ThreadPool/&quot;ajp-bio-127.0.0.1-8009&quot;/maxThreads"
+                sampling="0" short-display-name="maxThreads" unit="">
+                <description>Maximum number of threads in the pool</description>
+            </monitor-jmx>
+            <monitor-jmx attribute="threadsConfiguration"
+                callTime="ON_START" computing="0" connection-type="30"
+                format="TEXT"
+                helpID="reference.design.monitors.tomcat.threadpool.threadsconfiguration"
+                monitor="0" monitorType=""
+                name="ThreadPool/-ajp-bio-127.0.0.1-8009-/threadsConfiguration"
+                object-name="Catalina:name=&quot;ajp-bio-127.0.0.1-8009&quot;,type=ThreadPool"
+                path="ThreadPool/&quot;ajp-bio-127.0.0.1-8009&quot;/threadsConfiguration"
+                sampling="0" short-display-name="threadsConfiguration"
+                type="multivalues" unit="">
+                <description>Textual description of connection pool configuration</description>
+                <monitor-value-pattern pattern="Maximum Threads: @maxThreads@"/>
+                <monitor-value-pattern pattern="Minimum Spare Threads: @minSpareThreads@"/>
+                <monitor-value-pattern pattern="Maximum Keep Alive: @maxKeepAliveRequests@"/>
+                <monitor-value-pattern pattern="Maximum Connections: @maxConnections@"/>
+            </monitor-jmx>
+        </monitor-category>
+        <monitor-category name="&quot;http-bio-8080&quot;" short-display-name="&quot;http-bio-8080&quot;">
+            <monitor-jmx attribute="currentThreadsBusy"
+                callTime="ON_BENCH" computing="0" connection-type="30"
+                format="NUMBER"
+                helpID="reference.design.monitors.tomcat.threadpool.currentthreadsbusy"
+                monitor="0" monitorType=""
+                name="ThreadPool/-http-bio-8080-/currentThreadsBusy"
+                object-name="Catalina:name=&quot;http-bio-8080&quot;,type=ThreadPool"
+                path="ThreadPool/&quot;http-bio-8080&quot;/currentThreadsBusy"
+                sampling="0" short-display-name="currentThreadsBusy" unit="">
+                <description>Number of busy threads in the pool</description>
+            </monitor-jmx>
+            <monitor-virtual attribute="% currentThreadsBusy"
+                callTime="ON_BENCH" computing="0" connection-type="30"
+                format="NUMBER"
+                helpID="reference.design.monitors.tomcat.threadpool.%.currentthreadsbusy"
+                monitor="0" monitorType=""
+                name="ThreadPool/-http-bio-8080-/% currentThreadsBusy"
+                object-name="Catalina:name=&quot;http-bio-8080&quot;,type=ThreadPool"
+                operator="%"
+                path="ThreadPool/&quot;http-bio-8080&quot;/% currentThreadsBusy"
+                sampling="0" short-display-name="% currentThreadsBusy" unit="%">
+                <description>Percentage of busy threads in the pool</description>
+                <monitor-jmx attribute="currentThreadsBusy"
+                    callTime="ON_BENCH" computing="0"
+                    connection-type="30" format="NUMBER" monitor="0"
+                    monitorType=""
+                    name="ThreadPool/-http-bio-8080-/currentThreadsBusy"
+                    object-name="Catalina:name=&quot;http-bio-8080&quot;,type=ThreadPool"
+                    path="ThreadPool/&quot;http-bio-8080&quot;/currentThreadsBusy"
+                    sampling="0" short-display-name="currentThreadsBusy" unit=""/>
+                <monitor-jmx attribute="maxThreads" callTime="ON_BENCH"
+                    computing="0" connection-type="30" format="NUMBER"
+                    monitor="0" monitorType=""
+                    name="ThreadPool/-http-bio-8080-/maxThreads"
+                    object-name="Catalina:name=&quot;http-bio-8080&quot;,type=ThreadPool"
+                    path="ThreadPool/&quot;http-bio-8080&quot;/maxThreads"
+                    sampling="0" short-display-name="maxThreads" unit=""/>
+            </monitor-virtual>
+            <monitor-jmx attribute="currentThreadCount"
+                callTime="ON_BENCH" computing="0" connection-type="30"
+                format="NUMBER"
+                helpID="reference.design.monitors.tomcat.threadpool.currentthreadcount"
+                monitor="0" monitorType=""
+                name="ThreadPool/-http-bio-8080-/currentThreadCount"
+                object-name="Catalina:name=&quot;http-bio-8080&quot;,type=ThreadPool"
+                path="ThreadPool/&quot;http-bio-8080&quot;/currentThreadCount"
+                sampling="0" short-display-name="currentThreadCount" unit="">
+                <description>Number of threads in the pool</description>
+            </monitor-jmx>
+            <monitor-jmx attribute="maxThreads" callTime="ON_BENCH"
+                computing="0" connection-type="30" format="NUMBER"
+                helpID="reference.design.monitors.tomcat.threadpool.maxthreads"
+                monitor="0" monitorType=""
+                name="ThreadPool/-http-bio-8080-/maxThreads"
+                object-name="Catalina:name=&quot;http-bio-8080&quot;,type=ThreadPool"
+                path="ThreadPool/&quot;http-bio-8080&quot;/maxThreads"
+                sampling="0" short-display-name="maxThreads" unit="">
+                <description>Maximum number of threads in the pool</description>
+            </monitor-jmx>
+            <monitor-jmx attribute="threadsConfiguration"
+                callTime="ON_START" computing="0" connection-type="30"
+                format="TEXT"
+                helpID="reference.design.monitors.tomcat.threadpool.threadsconfiguration"
+                monitor="0" monitorType=""
+                name="ThreadPool/-http-bio-8080-/threadsConfiguration"
+                object-name="Catalina:name=&quot;http-bio-8080&quot;,type=ThreadPool"
+                path="ThreadPool/&quot;http-bio-8080&quot;/threadsConfiguration"
+                sampling="0" short-display-name="threadsConfiguration"
+                type="multivalues" unit="">
+                <description>Textual description of connection pool configuration</description>
+                <monitor-value-pattern pattern="Maximum Threads: @maxThreads@"/>
+                <monitor-value-pattern pattern="Minimum Spare Threads: @minSpareThreads@"/>
+                <monitor-value-pattern pattern="Maximum Keep Alive: @maxKeepAliveRequests@"/>
+                <monitor-value-pattern pattern="Maximum Connections: @maxConnections@"/>
+            </monitor-jmx>
+        </monitor-category>
+    </monitor-category>
+    <monitor-category name="VM" short-display-name="VM">
+        <monitor-category name="Memory" short-display-name="Memory">
+            <monitor-jmx attribute="HeapMemoryUsage" callTime="ON_BENCH"
+                class="javax.management.openmbean.CompositeDataSupport"
+                computing="0" connection-type="30" format="NUMBER"
+                helpID="reference.design.monitors.tomcat.vm.used"
+                method="get" monitor="0" monitorType=""
+                name="VM/Memory/Used"
+                object-name="java.lang:type=Memory" parameters="used"
+                parametersTypes="java.lang.String" path="VM/Memory/Used"
+                sampling="0" short-display-name="Used" shortId="Used" unit="bytes">
+                <description>Represents the amount of memory currently used (in bytes)</description>
+            </monitor-jmx>
+            <monitor-virtual attribute="% Used" callTime="ON_BENCH"
+                computing="0" connection-type="30" format="NUMBER"
+                helpID="reference.design.monitors.tomcat.vm.%.used"
+                monitor="0" monitorType="" name="VM/Memory/% Used"
+                object-name="java.lang:type=Memory" operator="%"
+                path="VM/Memory/% Used" sampling="0"
+                short-display-name="% Used" unit="%">
+                <description>Represents the percentage amount of memory currently used</description>
+                <monitor-jmx attribute="HeapMemoryUsage"
+                    callTime="ON_BENCH"
+                    class="javax.management.openmbean.CompositeDataSupport"
+                    computing="0" connection-type="30" format="NUMBER"
+                    method="get" monitor="0" monitorType=""
+                    name="VM/Memory/Used"
+                    object-name="java.lang:type=Memory"
+                    parameters="used" parametersTypes="java.lang.String"
+                    path="VM/Memory/Used" sampling="0"
+                    short-display-name="Used" shortId="Used" unit="bytes">
+                    <description>Used</description>
+                </monitor-jmx>
+                <monitor-jmx attribute="HeapMemoryUsage"
+                    callTime="ON_BENCH"
+                    class="javax.management.openmbean.CompositeDataSupport"
+                    computing="0" connection-type="30" format="NUMBER"
+                    method="get" monitor="0" monitorType=""
+                    name="VM/Memory/Max"
+                    object-name="java.lang:type=Memory" parameters="max"
+                    parametersTypes="java.lang.String"
+                    path="VM/Memory/Max" sampling="0"
+                    short-display-name="Max" shortId="Max" unit="bytes">
+                    <description>Max</description>
+                </monitor-jmx>
+            </monitor-virtual>
+            <monitor-jmx attribute="HeapMemoryUsage" callTime="ON_BENCH"
+                class="javax.management.openmbean.CompositeDataSupport"
+                computing="0" connection-type="30" format="NUMBER"
+                helpID="reference.design.monitors.tomcat.vm.commited"
+                method="get" monitor="0" monitorType=""
+                name="VM/Memory/Commited"
+                object-name="java.lang:type=Memory"
+                parameters="committed"
+                parametersTypes="java.lang.String"
+                path="VM/Memory/Commited" sampling="0"
+                short-display-name="Commited" shortId="Commited" unit="bytes">
+                <description>Represents the amount of memory (in bytes) that is guaranteed to be available for use by the Java virtual machine. Amount of committed memory may change over time (increase or decrease). The Java virtual machine may release memory to the system and committed could be less than init. committed will always be greater than or equal to used.</description>
+            </monitor-jmx>
+            <monitor-jmx attribute="HeapMemoryUsage" callTime="ON_BENCH"
+                class="javax.management.openmbean.CompositeDataSupport"
+                computing="0" connection-type="30" format="NUMBER"
+                helpID="reference.design.monitors.tomcat.vm.max"
+                method="get" monitor="0" monitorType=""
+                name="VM/Memory/Max" object-name="java.lang:type=Memory"
+                parameters="max" parametersTypes="java.lang.String"
+                path="VM/Memory/Max" sampling="0"
+                short-display-name="Max" shortId="Max" unit="bytes">
+                <description>Represents the maximum amount of memory (in bytes) that can be used for memory management. Its value may be undefined. Maximum amount of memory may change over time if defined. Amount of used and committed memory will always be less than or equal to max if max is defined. A memory allocation may fail if it attempts to increase the used memory such that used &gt; committed even if used &lt;= max would still be true (for example, when the system is low on virtual memory).</description>
+            </monitor-jmx>
+        </monitor-category>
+        <monitor-category name="Garbage Collector" short-display-name="Garbage Collector">
+            <monitor-category name="PS MarkSweep" short-display-name="PS MarkSweep">
+                <monitor-jmx attribute="CollectionCount"
+                    callTime="ON_BENCH" computing="1"
+                    connection-type="30" format="NUMBER"
+                    helpID="reference.design.monitors.tomcat.vm.collectioncount"
+                    monitor="0" monitorType=""
+                    name="VM/Garbage Collector/PS MarkSweep/CollectionCount"
+                    object-name="java.lang:name=PS MarkSweep,type=GarbageCollector"
+                    path="VM/Garbage Collector/PS MarkSweep/CollectionCount"
+                    sampling="0" short-display-name="CollectionCount" unit="">
+                    <description>Returns the number of collections that have occurred since last call</description>
+                </monitor-jmx>
+                <monitor-jmx attribute="CollectionTime"
+                    callTime="ON_BENCH" computing="1"
+                    connection-type="30" format="NUMBER"
+                    helpID="reference.design.monitors.tomcat.vm.collectiontime"
+                    monitor="0" monitorType=""
+                    name="VM/Garbage Collector/PS MarkSweep/CollectionTime"
+                    object-name="java.lang:name=PS MarkSweep,type=GarbageCollector"
+                    path="VM/Garbage Collector/PS MarkSweep/CollectionTime"
+                    sampling="0" short-display-name="CollectionTime" unit="ms">
+                    <description>Returns the approximate accumulated collection elapsed time in milliseconds since last call</description>
+                </monitor-jmx>
+            </monitor-category>
+            <monitor-category name="PS Scavenge" short-display-name="PS Scavenge">
+                <monitor-jmx attribute="CollectionCount"
+                    callTime="ON_BENCH" computing="1"
+                    connection-type="30" format="NUMBER"
+                    helpID="reference.design.monitors.tomcat.vm.collectioncount"
+                    monitor="0" monitorType=""
+                    name="VM/Garbage Collector/PS Scavenge/CollectionCount"
+                    object-name="java.lang:name=PS Scavenge,type=GarbageCollector"
+                    path="VM/Garbage Collector/PS Scavenge/CollectionCount"
+                    sampling="0" short-display-name="CollectionCount" unit="">
+                    <description>Returns the number of collections that have occurred since last call</description>
+                </monitor-jmx>
+                <monitor-jmx attribute="CollectionTime"
+                    callTime="ON_BENCH" computing="1"
+                    connection-type="30" format="NUMBER"
+                    helpID="reference.design.monitors.tomcat.vm.collectiontime"
+                    monitor="0" monitorType=""
+                    name="VM/Garbage Collector/PS Scavenge/CollectionTime"
+                    object-name="java.lang:name=PS Scavenge,type=GarbageCollector"
+                    path="VM/Garbage Collector/PS Scavenge/CollectionTime"
+                    sampling="0" short-display-name="CollectionTime" unit="ms">
+                    <description>Returns the approximate accumulated collection elapsed time in milliseconds since last call</description>
+                </monitor-jmx>
+            </monitor-category>
+        </monitor-category>
+        <monitor-category name="Threads" short-display-name="Threads">
+            <monitor-jmx attribute="ThreadCount" callTime="ON_BENCH"
+                computing="0" connection-type="30" format="NUMBER"
+                helpID="reference.design.monitors.tomcat.vm.threadcount"
+                monitor="0" monitorType="" name="VM/Threads/ThreadCount"
+                object-name="java.lang:type=Threading"
+                path="VM/Threads/ThreadCount" sampling="0"
+                short-display-name="ThreadCount" unit="">
+                <description>Returns the current number of live threads including both daemon and non-daemon threads</description>
+            </monitor-jmx>
+            <monitor-jmx attribute="DaemonThreadCount"
+                callTime="ON_BENCH" computing="0" connection-type="30"
+                format="NUMBER"
+                helpID="reference.design.monitors.tomcat.vm.daemonthreadcount"
+                monitor="0" monitorType=""
+                name="VM/Threads/DaemonThreadCount"
+                object-name="java.lang:type=Threading"
+                path="VM/Threads/DaemonThreadCount" sampling="0"
+                short-display-name="DaemonThreadCount" unit="">
+                <description>Returns the current number of live daemon threads</description>
+            </monitor-jmx>
+            <monitor-jmx attribute="PeakThreadCount" callTime="ON_BENCH"
+                computing="0" connection-type="30" format="NUMBER"
+                helpID="reference.design.monitors.tomcat.vm.peakthreadcount"
+                monitor="0" monitorType=""
+                name="VM/Threads/PeakThreadCount"
+                object-name="java.lang:type=Threading"
+                path="VM/Threads/PeakThreadCount" sampling="0"
+                short-display-name="PeakThreadCount" unit="">
+                <description>Returns the peak live thread count since the Java virtual machine started or peak was reset</description>
+            </monitor-jmx>
+        </monitor-category>
+    </monitor-category>
+    <monitor-category name="Description" short-display-name="Description">
+        <monitor-jmx attribute="JVM" callTime="ON_START" computing="0"
+            connection-type="30" format="TEXT"
+            helpID="reference.design.monitors.tomcat.description.jvm"
+            monitor="0" monitorType="" name="Description/JVM"
+            object-name="java.lang:type=Runtime" path="Description/JVM"
+            sampling="0" short-display-name="JVM" type="multivalues" unit="">
+            <description>Textual description for the Java Runtime running Tomcat server</description>
+            <monitor-value-pattern pattern="JVM: @VmVersion@ @VmVendor@ @VmName@"/>
+        </monitor-jmx>
+        <monitor-category name="Specification" short-display-name="Specification">
+            <monitor-jmx attribute="Host" callTime="ON_START"
+                computing="0" connection-type="30" format="TEXT"
+                helpID="reference.design.monitors.tomcat.description.host"
+                monitor="0" monitorType=""
+                name="Description/Specification/Host"
+                object-name="java.lang:type=OperatingSystem"
+                path="Description/Specification/Host" sampling="0"
+                short-display-name="Host" type="multivalues" unit="">
+                <description>Textual description about operating system and server hardware</description>
+                <monitor-value-pattern pattern="Operating System: @Name@ @Version@ @Arch@"/>
+                <monitor-value-pattern pattern="Number of detected processors: @AvailableProcessors@"/>
+                <monitor-value-pattern pattern="Physical Memory Size: @TotalPhysicalMemorySize@ / Swap Space Size: @TotalSwapSpaceSize@"/>
+            </monitor-jmx>
+        </monitor-category>
+    </monitor-category>
+</connection-tomcat7>

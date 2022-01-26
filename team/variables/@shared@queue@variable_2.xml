@@ -1,0 +1,1 @@
+<variable-shared-queue consTimeout="5000" delimiter=";" name="SharedQueueVariable_2" order="1" policy="1" queueSize="10000" range="1" swapActivated="false" swapDumpEnabled="true" swapFile="" swapLoadedEnabled="false" uid="9c8a4ffc-88f9-4b6a-8c0a-80c1478413cc" whenOutOfValues="CYCLE_VALUES"/>

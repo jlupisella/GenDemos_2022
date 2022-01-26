@@ -1,0 +1,7 @@
+<basic-logical-action-container element-number="1" execution-type="0"
+    name="ProceedToCheckpout" pacingEnd="0" pacingMode="MODE_NO_PACING"
+    pacingStart="0" pacingValue="0" slaProfileEnabled="true"
+    slaProfileName="JPetstore"
+    uid="354ee481-0a1e-409d-884b-196a5b1d2322" weightsEnabled="false">
+    <weighted-embedded-action uid="82df5d03-5fd1-4bfe-9835-f3dabc919719"/>
+</basic-logical-action-container>
