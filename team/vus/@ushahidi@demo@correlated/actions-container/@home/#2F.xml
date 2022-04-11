@@ -1,9 +1,9 @@
 <http-page executeResourcesDynamically="false" name="/"
     playRequestsSequentially="false"
     recordedArtifactZipFileName="team/vus/@ushahidi@demo@correlated/%resources%/recorded-artifacts/305de72c-b86f-489a-96be-78f040cf4889.zip"
-    slaProfileEnabled="false" thinkTime="4084"
-    thinkTimeMode="MODE_SIMPLE_THINK_TIME" thinkTimeRangeEnd=""
-    thinkTimeRangeStart="" uid="305de72c-b86f-489a-96be-78f040cf4889">
+    slaProfileEnabled="false" slaProfileName="JPetstore"
+    thinkTime="4084" thinkTimeMode="MODE_SIMPLE_THINK_TIME"
+    thinkTimeRangeEnd="" thinkTimeRangeStart="" uid="305de72c-b86f-489a-96be-78f040cf4889">
     <embedded-action>839edc3e-6b9d-4f96-af78-3385805c8e92</embedded-action>
     <embedded-action>44067577-4aec-4f57-a74d-8499acd7a183</embedded-action>
     <embedded-action>3f9f752c-a163-41a0-a91c-e7cad00ef18f</embedded-action>
@@ -46,6 +46,7 @@
     recordedArtifactZipFileName="team/vus/@ushahidi@demo@correlated/%resources%/recorded-artifacts/305de72c-b86f-489a-96be-78f040cf4889.zip"
     recordedResponseCode="200" responseSize="37044"
     serverUid="ushahidi.apps.neotys.com" slaProfileEnabled="false"
+    slaProfileName="JPetstore"
     uid="839edc3e-6b9d-4f96-af78-3385805c8e92" useKeepAlive="false">
     <responsePageFileDescription>recorded-responses/res_008e2cfb-0a82-471f-bd82-1c4467c5b250.html</responsePageFileDescription>
     <requestContentFileDescription>recorded-requests/req_008e2cfb-0a82-471f-bd82-1c4467c5b250.txt</requestContentFileDescription>
@@ -103,6 +104,7 @@ Content-Type: text/html; charset=UTF-8</responseHeaders>
     recordedArtifactZipFileName="team/vus/@ushahidi@demo@correlated/%resources%/recorded-artifacts/305de72c-b86f-489a-96be-78f040cf4889.zip"
     recordedResponseCode="200" responseSize="2725"
     serverUid="ushahidi.apps.neotys.com" slaProfileEnabled="false"
+    slaProfileName="JPetstore"
     uid="44067577-4aec-4f57-a74d-8499acd7a183" useKeepAlive="false">
     <responsePageFileDescription>recorded-responses/res_b31625e6-86e6-4c17-b1c4-7e0f821425b4.css</responsePageFileDescription>
     <requestContentFileDescription>recorded-requests/req_b31625e6-86e6-4c17-b1c4-7e0f821425b4.txt</requestContentFileDescription>
@@ -142,6 +144,7 @@ Content-Type: text/css</responseHeaders>
     recordedArtifactZipFileName="team/vus/@ushahidi@demo@correlated/%resources%/recorded-artifacts/305de72c-b86f-489a-96be-78f040cf4889.zip"
     recordedResponseCode="200" responseSize="49303"
     serverUid="ushahidi.apps.neotys.com" slaProfileEnabled="false"
+    slaProfileName="JPetstore"
     uid="3f9f752c-a163-41a0-a91c-e7cad00ef18f" useKeepAlive="false">
     <responsePageFileDescription>recorded-responses/res_ddf83bc9-2c34-42b2-a751-967fac90e341.css</responsePageFileDescription>
     <requestContentFileDescription>recorded-requests/req_ddf83bc9-2c34-42b2-a751-967fac90e341.txt</requestContentFileDescription>
@@ -182,7 +185,8 @@ Content-Type: text/css</responseHeaders>
     recordedResponseCode="200"
     refererUid="839edc3e-6b9d-4f96-af78-3385805c8e92"
     responseSize="94839" serverUid="ushahidi.apps.neotys.com"
-    slaProfileEnabled="false" uid="357c1cca-759d-46de-aa44-98bf8270e447" useKeepAlive="false">
+    slaProfileEnabled="false" slaProfileName="JPetstore"
+    uid="357c1cca-759d-46de-aa44-98bf8270e447" useKeepAlive="false">
     <responsePageFileDescription>recorded-responses/res_d9eaa2d0-ba6d-46a4-b81c-2cd16246697b</responsePageFileDescription>
     <requestContentFileDescription>recorded-requests/req_d9eaa2d0-ba6d-46a4-b81c-2cd16246697b.txt</requestContentFileDescription>
     <parameter encodeName="true" encodeValue="true" name="m"
@@ -223,7 +227,8 @@ Content-Type: application/javascript</responseHeaders>
     recordedResponseCode="200"
     refererUid="839edc3e-6b9d-4f96-af78-3385805c8e92"
     responseSize="79484" serverUid="ushahidi.apps.neotys.com"
-    slaProfileEnabled="false" uid="e753b885-d8e1-4ba0-9a6f-8fb4ac805591" useKeepAlive="false">
+    slaProfileEnabled="false" slaProfileName="JPetstore"
+    uid="e753b885-d8e1-4ba0-9a6f-8fb4ac805591" useKeepAlive="false">
     <responsePageFileDescription>recorded-responses/res_1cc1124c-9a06-4b1c-826f-4d9eaa8d8702</responsePageFileDescription>
     <requestContentFileDescription>recorded-requests/req_1cc1124c-9a06-4b1c-826f-4d9eaa8d8702.txt</requestContentFileDescription>
     <parameter encodeName="true" encodeValue="true" name="m"
@@ -264,7 +269,8 @@ Content-Type: application/javascript</responseHeaders>
     recordedResponseCode="200"
     refererUid="839edc3e-6b9d-4f96-af78-3385805c8e92"
     responseSize="2495" serverUid="ushahidi.apps.neotys.com"
-    slaProfileEnabled="false" uid="28dd6232-2e8b-408a-bad9-77812b6a277b" useKeepAlive="false">
+    slaProfileEnabled="false" slaProfileName="JPetstore"
+    uid="28dd6232-2e8b-408a-bad9-77812b6a277b" useKeepAlive="false">
     <responsePageFileDescription>recorded-responses/res_9bb49a0d-1dfa-4589-99d9-bb2799f476a8</responsePageFileDescription>
     <requestContentFileDescription>recorded-requests/req_9bb49a0d-1dfa-4589-99d9-bb2799f476a8.txt</requestContentFileDescription>
     <parameter encodeName="true" encodeValue="true" name="m"
@@ -304,6 +310,7 @@ Content-Type: application/javascript</responseHeaders>
     recordedArtifactZipFileName="team/vus/@ushahidi@demo@correlated/%resources%/recorded-artifacts/305de72c-b86f-489a-96be-78f040cf4889.zip"
     recordedResponseCode="200" responseSize="27581"
     serverUid="ushahidi.apps.neotys.com" slaProfileEnabled="false"
+    slaProfileName="JPetstore"
     uid="36b207e1-a099-4bb8-a6f7-a564a83ff2ae" useKeepAlive="false">
     <responsePageFileDescription>recorded-responses/res_60c6832b-3f4f-4d6d-9c56-c503a5a9dc65.css</responsePageFileDescription>
     <requestContentFileDescription>recorded-requests/req_60c6832b-3f4f-4d6d-9c56-c503a5a9dc65.txt</requestContentFileDescription>
@@ -343,6 +350,7 @@ Content-Type: text/css</responseHeaders>
     recordedArtifactZipFileName="team/vus/@ushahidi@demo@correlated/%resources%/recorded-artifacts/305de72c-b86f-489a-96be-78f040cf4889.zip"
     recordedResponseCode="200" responseSize="11905"
     serverUid="ushahidi.apps.neotys.com" slaProfileEnabled="false"
+    slaProfileName="JPetstore"
     uid="820ca716-9019-4cc3-8239-4895dc2b910a" useKeepAlive="false">
     <responsePageFileDescription>recorded-responses/res_219d6188-4731-4ed5-a6d4-15b1b8c4eb71.css</responsePageFileDescription>
     <requestContentFileDescription>recorded-requests/req_219d6188-4731-4ed5-a6d4-15b1b8c4eb71.txt</requestContentFileDescription>
@@ -382,6 +390,7 @@ Content-Type: text/css</responseHeaders>
     recordedArtifactZipFileName="team/vus/@ushahidi@demo@correlated/%resources%/recorded-artifacts/305de72c-b86f-489a-96be-78f040cf4889.zip"
     recordedResponseCode="200" responseSize="2890"
     serverUid="ushahidi.apps.neotys.com" slaProfileEnabled="false"
+    slaProfileName="JPetstore"
     uid="c680c84a-ecb5-4646-823d-bde0418a7725" useKeepAlive="false">
     <responsePageFileDescription>recorded-responses/res_7b82ec32-528b-4a1e-ad4c-cf1f464c861a.css</responsePageFileDescription>
     <requestContentFileDescription>recorded-requests/req_7b82ec32-528b-4a1e-ad4c-cf1f464c861a.txt</requestContentFileDescription>
@@ -421,6 +430,7 @@ Content-Type: text/css</responseHeaders>
     recordedArtifactZipFileName="team/vus/@ushahidi@demo@correlated/%resources%/recorded-artifacts/305de72c-b86f-489a-96be-78f040cf4889.zip"
     recordedResponseCode="200" responseSize="5711"
     serverUid="ushahidi.apps.neotys.com" slaProfileEnabled="false"
+    slaProfileName="JPetstore"
     uid="42afb8d7-0a72-4ac9-bb54-ca3b43b144f2" useKeepAlive="false">
     <responsePageFileDescription>recorded-responses/res_5b089608-ac73-4f57-8a46-63d869b503e0.css</responsePageFileDescription>
     <requestContentFileDescription>recorded-requests/req_5b089608-ac73-4f57-8a46-63d869b503e0.txt</requestContentFileDescription>
@@ -460,6 +470,7 @@ Content-Type: text/css</responseHeaders>
     recordedArtifactZipFileName="team/vus/@ushahidi@demo@correlated/%resources%/recorded-artifacts/305de72c-b86f-489a-96be-78f040cf4889.zip"
     recordedResponseCode="200" responseSize="1065"
     serverUid="ushahidi.apps.neotys.com" slaProfileEnabled="false"
+    slaProfileName="JPetstore"
     uid="6bb3c2fd-dd26-4783-9f32-be52730bfa79" useKeepAlive="false">
     <responsePageFileDescription>recorded-responses/res_6ab94521-82f5-4573-a016-c539d473325a.css</responsePageFileDescription>
     <requestContentFileDescription>recorded-requests/req_6ab94521-82f5-4573-a016-c539d473325a.txt</requestContentFileDescription>
@@ -500,7 +511,8 @@ Content-Type: text/css</responseHeaders>
     recordedResponseCode="200"
     refererUid="839edc3e-6b9d-4f96-af78-3385805c8e92"
     responseSize="4543" serverUid="ushahidi.apps.neotys.com"
-    slaProfileEnabled="false" uid="4c1b7b2e-0d9f-48e3-9dfa-6481c0a1633b" useKeepAlive="false">
+    slaProfileEnabled="false" slaProfileName="JPetstore"
+    uid="4c1b7b2e-0d9f-48e3-9dfa-6481c0a1633b" useKeepAlive="false">
     <responsePageFileDescription>recorded-responses/res_a0a81893-685a-4663-a841-ebb0d0c30d9f</responsePageFileDescription>
     <requestContentFileDescription>recorded-requests/req_a0a81893-685a-4663-a841-ebb0d0c30d9f.txt</requestContentFileDescription>
     <parameter encodeName="true" encodeValue="true" name="m"
@@ -541,7 +553,8 @@ Content-Type: application/javascript</responseHeaders>
     recordedResponseCode="200"
     refererUid="839edc3e-6b9d-4f96-af78-3385805c8e92"
     responseSize="1243" serverUid="ushahidi.apps.neotys.com"
-    slaProfileEnabled="false" uid="07cb6492-6de8-4c96-937a-dc8b65d3700c" useKeepAlive="false">
+    slaProfileEnabled="false" slaProfileName="JPetstore"
+    uid="07cb6492-6de8-4c96-937a-dc8b65d3700c" useKeepAlive="false">
     <responsePageFileDescription>recorded-responses/res_309f1224-454d-42de-98cc-55049886d392</responsePageFileDescription>
     <requestContentFileDescription>recorded-requests/req_309f1224-454d-42de-98cc-55049886d392.txt</requestContentFileDescription>
     <parameter encodeName="true" encodeValue="true" name="m"
@@ -582,7 +595,8 @@ Content-Type: application/javascript</responseHeaders>
     recordedResponseCode="200"
     refererUid="839edc3e-6b9d-4f96-af78-3385805c8e92"
     responseSize="770256" serverUid="ushahidi.apps.neotys.com"
-    slaProfileEnabled="false" uid="7f083577-967e-4525-8911-45e690a3ec3b" useKeepAlive="false">
+    slaProfileEnabled="false" slaProfileName="JPetstore"
+    uid="7f083577-967e-4525-8911-45e690a3ec3b" useKeepAlive="false">
     <responsePageFileDescription>recorded-responses/res_15775513-6f45-4fb1-835b-2cf912f67feb</responsePageFileDescription>
     <requestContentFileDescription>recorded-requests/req_15775513-6f45-4fb1-835b-2cf912f67feb.txt</requestContentFileDescription>
     <parameter encodeName="true" encodeValue="true" name="m"
@@ -623,7 +637,8 @@ Content-Type: application/javascript</responseHeaders>
     recordedResponseCode="200"
     refererUid="839edc3e-6b9d-4f96-af78-3385805c8e92"
     responseSize="35365" serverUid="ushahidi.apps.neotys.com"
-    slaProfileEnabled="false" uid="c220d7b1-85ab-41a4-bd6f-c82fe534db20" useKeepAlive="false">
+    slaProfileEnabled="false" slaProfileName="JPetstore"
+    uid="c220d7b1-85ab-41a4-bd6f-c82fe534db20" useKeepAlive="false">
     <responsePageFileDescription>recorded-responses/res_134e27a8-1042-4e0c-b285-0c9a695e7fce</responsePageFileDescription>
     <requestContentFileDescription>recorded-requests/req_134e27a8-1042-4e0c-b285-0c9a695e7fce.txt</requestContentFileDescription>
     <parameter encodeName="true" encodeValue="true" name="m"
@@ -664,7 +679,8 @@ Content-Type: application/javascript</responseHeaders>
     recordedResponseCode="200"
     refererUid="839edc3e-6b9d-4f96-af78-3385805c8e92"
     responseSize="8579" serverUid="ushahidi.apps.neotys.com"
-    slaProfileEnabled="false" uid="53feeff2-5172-437d-9f72-6cf3e56160f3" useKeepAlive="false">
+    slaProfileEnabled="false" slaProfileName="JPetstore"
+    uid="53feeff2-5172-437d-9f72-6cf3e56160f3" useKeepAlive="false">
     <responsePageFileDescription>recorded-responses/res_b9477306-1638-4ba5-8ad0-1bfcdd409f42</responsePageFileDescription>
     <requestContentFileDescription>recorded-requests/req_b9477306-1638-4ba5-8ad0-1bfcdd409f42.txt</requestContentFileDescription>
     <parameter encodeName="true" encodeValue="true" name="m"
@@ -704,6 +720,7 @@ Content-Type: application/javascript</responseHeaders>
     recordedArtifactZipFileName="team/vus/@ushahidi@demo@correlated/%resources%/recorded-artifacts/305de72c-b86f-489a-96be-78f040cf4889.zip"
     recordedResponseCode="200" responseSize="0"
     serverUid="ushahidi.apps.neotys.com" slaProfileEnabled="false"
+    slaProfileName="JPetstore"
     uid="3afb05d2-045b-4c6c-b75e-da06fcdac340" useKeepAlive="false">
     <responsePageFileDescription>recorded-responses/res_3afb05d2-045b-4c6c-b75e-da06fcdac340.png</responsePageFileDescription>
     <requestContentFileDescription>recorded-requests/req_aedb621b-f14f-44a9-916b-cafbfa5337db.txt</requestContentFileDescription>
@@ -739,6 +756,7 @@ Content-Type: image/png</responseHeaders>
     recordedArtifactZipFileName="team/vus/@ushahidi@demo@correlated/%resources%/recorded-artifacts/305de72c-b86f-489a-96be-78f040cf4889.zip"
     recordedResponseCode="200" responseSize="0"
     serverUid="ushahidi.apps.neotys.com" slaProfileEnabled="false"
+    slaProfileName="JPetstore"
     uid="a658ec9c-ccb0-47e8-a196-7ee4a2cd4a28" useKeepAlive="false">
     <responsePageFileDescription>recorded-responses/res_a658ec9c-ccb0-47e8-a196-7ee4a2cd4a28.png</responsePageFileDescription>
     <requestContentFileDescription>recorded-requests/req_ba48748d-90af-4558-8ae2-72bfa74b21dd.txt</requestContentFileDescription>
@@ -774,6 +792,7 @@ Content-Type: image/png</responseHeaders>
     recordedArtifactZipFileName="team/vus/@ushahidi@demo@correlated/%resources%/recorded-artifacts/305de72c-b86f-489a-96be-78f040cf4889.zip"
     recordedResponseCode="200" responseSize="0"
     serverUid="ushahidi.apps.neotys.com" slaProfileEnabled="false"
+    slaProfileName="JPetstore"
     uid="99b2b893-a8f5-401a-94fb-edd440486b72" useKeepAlive="false">
     <responsePageFileDescription>recorded-responses/res_99b2b893-a8f5-401a-94fb-edd440486b72</responsePageFileDescription>
     <requestContentFileDescription>recorded-requests/req_f9eaa019-8cdf-4684-973e-91aecd7acba4.txt</requestContentFileDescription>
@@ -809,6 +828,7 @@ Content-Type: image/jpeg</responseHeaders>
     recordedArtifactZipFileName="team/vus/@ushahidi@demo@correlated/%resources%/recorded-artifacts/305de72c-b86f-489a-96be-78f040cf4889.zip"
     recordedResponseCode="200" responseSize="0"
     serverUid="ushahidi.apps.neotys.com" slaProfileEnabled="false"
+    slaProfileName="JPetstore"
     uid="a026aadd-9ad2-4ed8-8f87-af179199c610" useKeepAlive="false">
     <responsePageFileDescription>recorded-responses/res_a026aadd-9ad2-4ed8-8f87-af179199c610</responsePageFileDescription>
     <requestContentFileDescription>recorded-requests/req_86aa2afe-512c-4bcd-9558-7b4db26f2014.txt</requestContentFileDescription>
@@ -844,6 +864,7 @@ Content-Type: image/jpeg</responseHeaders>
     recordedArtifactZipFileName="team/vus/@ushahidi@demo@correlated/%resources%/recorded-artifacts/305de72c-b86f-489a-96be-78f040cf4889.zip"
     recordedResponseCode="200" responseSize="0"
     serverUid="ushahidi.apps.neotys.com" slaProfileEnabled="false"
+    slaProfileName="JPetstore"
     uid="834741e8-3b42-438b-b2d4-887c14207a2a" useKeepAlive="false">
     <responsePageFileDescription>recorded-responses/res_834741e8-3b42-438b-b2d4-887c14207a2a</responsePageFileDescription>
     <requestContentFileDescription>recorded-requests/req_f65d649d-240a-4adf-a30a-3e553add633c.txt</requestContentFileDescription>
@@ -879,6 +900,7 @@ Content-Type: image/jpeg</responseHeaders>
     recordedArtifactZipFileName="team/vus/@ushahidi@demo@correlated/%resources%/recorded-artifacts/305de72c-b86f-489a-96be-78f040cf4889.zip"
     recordedResponseCode="200" responseSize="0"
     serverUid="ushahidi.apps.neotys.com" slaProfileEnabled="false"
+    slaProfileName="JPetstore"
     uid="699a97d7-958e-444a-a048-2097a9c275fc" useKeepAlive="false">
     <responsePageFileDescription>recorded-responses/res_699a97d7-958e-444a-a048-2097a9c275fc.png</responsePageFileDescription>
     <requestContentFileDescription>recorded-requests/req_9c6511b4-a0ad-4c0b-967f-4760f54bf93f.txt</requestContentFileDescription>
@@ -914,6 +936,7 @@ Content-Type: image/png</responseHeaders>
     recordedArtifactZipFileName="team/vus/@ushahidi@demo@correlated/%resources%/recorded-artifacts/305de72c-b86f-489a-96be-78f040cf4889.zip"
     recordedResponseCode="200" responseSize="0"
     serverUid="ushahidi.apps.neotys.com" slaProfileEnabled="false"
+    slaProfileName="JPetstore"
     uid="b9d2af9d-9c82-489a-a2bc-fdc5d5dbbf4e" useKeepAlive="false">
     <responsePageFileDescription>recorded-responses/res_b9d2af9d-9c82-489a-a2bc-fdc5d5dbbf4e</responsePageFileDescription>
     <requestContentFileDescription>recorded-requests/req_ddb094ec-3a1e-4f77-be43-c9de171cfefc.txt</requestContentFileDescription>
@@ -948,6 +971,7 @@ Content-Type: image/jpeg</responseHeaders>
     recordedArtifactZipFileName="team/vus/@ushahidi@demo@correlated/%resources%/recorded-artifacts/305de72c-b86f-489a-96be-78f040cf4889.zip"
     recordedResponseCode="200" responseSize="0"
     serverUid="ushahidi.apps.neotys.com" slaProfileEnabled="false"
+    slaProfileName="JPetstore"
     uid="0593a347-09f9-4305-9eee-2dcbd708dc55" useKeepAlive="false">
     <responsePageFileDescription>recorded-responses/res_0593a347-09f9-4305-9eee-2dcbd708dc55</responsePageFileDescription>
     <requestContentFileDescription>recorded-requests/req_053d3fea-3557-483d-a67c-b0018b0df10f.txt</requestContentFileDescription>
@@ -985,6 +1009,7 @@ Content-Type: image/vnd.microsoft.icon</responseHeaders>
     recordedArtifactZipFileName="team/vus/@ushahidi@demo@correlated/%resources%/recorded-artifacts/305de72c-b86f-489a-96be-78f040cf4889.zip"
     recordedResponseCode="200" responseSize="0"
     serverUid="ushahidi.apps.neotys.com" slaProfileEnabled="false"
+    slaProfileName="JPetstore"
     uid="068ea51c-8c4a-407c-9252-05622ede3591" useKeepAlive="false">
     <responsePageFileDescription>recorded-responses/res_068ea51c-8c4a-407c-9252-05622ede3591.png</responsePageFileDescription>
     <requestContentFileDescription>recorded-requests/req_76b7e74f-4b6e-4f54-9694-a1a986bfcc08.txt</requestContentFileDescription>
@@ -1022,6 +1047,7 @@ Content-Type: image/png</responseHeaders>
     recordedArtifactZipFileName="team/vus/@ushahidi@demo@correlated/%resources%/recorded-artifacts/305de72c-b86f-489a-96be-78f040cf4889.zip"
     recordedResponseCode="200" responseSize="0"
     serverUid="ushahidi.apps.neotys.com" slaProfileEnabled="false"
+    slaProfileName="JPetstore"
     uid="1c920b69-87b3-4c28-9cd1-0fcb17e071f5" useKeepAlive="false">
     <responsePageFileDescription>recorded-responses/res_1c920b69-87b3-4c28-9cd1-0fcb17e071f5.png</responsePageFileDescription>
     <requestContentFileDescription>recorded-requests/req_1e91e0cd-0c6e-4996-ac0a-2ca73009ba6f.txt</requestContentFileDescription>
@@ -1057,6 +1083,7 @@ Content-Type: image/png</responseHeaders>
     recordedArtifactZipFileName="team/vus/@ushahidi@demo@correlated/%resources%/recorded-artifacts/305de72c-b86f-489a-96be-78f040cf4889.zip"
     recordedResponseCode="200" responseSize="0"
     serverUid="ushahidi.apps.neotys.com" slaProfileEnabled="false"
+    slaProfileName="JPetstore"
     uid="dd3d8e8a-dbc1-4ded-9868-b273b58cbfcc" useKeepAlive="false">
     <responsePageFileDescription>recorded-responses/res_dd3d8e8a-dbc1-4ded-9868-b273b58cbfcc.png</responsePageFileDescription>
     <requestContentFileDescription>recorded-requests/req_4d3806f2-73f7-4505-b242-66f4ad65cf83.txt</requestContentFileDescription>
@@ -1094,6 +1121,7 @@ Content-Type: image/png</responseHeaders>
     recordedArtifactZipFileName="team/vus/@ushahidi@demo@correlated/%resources%/recorded-artifacts/305de72c-b86f-489a-96be-78f040cf4889.zip"
     recordedResponseCode="200" responseSize="0"
     serverUid="ushahidi.apps.neotys.com" slaProfileEnabled="false"
+    slaProfileName="JPetstore"
     uid="e3d02dbc-e8de-44a1-afc2-a8b500d17c6d" useKeepAlive="false">
     <responsePageFileDescription>recorded-responses/res_e3d02dbc-e8de-44a1-afc2-a8b500d17c6d.png</responsePageFileDescription>
     <requestContentFileDescription>recorded-requests/req_776c4a0d-c431-40eb-a468-fb833069c079.txt</requestContentFileDescription>
@@ -1131,6 +1159,7 @@ Content-Type: image/png</responseHeaders>
     recordedArtifactZipFileName="team/vus/@ushahidi@demo@correlated/%resources%/recorded-artifacts/305de72c-b86f-489a-96be-78f040cf4889.zip"
     recordedResponseCode="200" responseSize="0"
     serverUid="ushahidi.apps.neotys.com" slaProfileEnabled="false"
+    slaProfileName="JPetstore"
     uid="882b049e-e28f-4587-a2a9-604844409ed4" useKeepAlive="false">
     <responsePageFileDescription>recorded-responses/res_882b049e-e28f-4587-a2a9-604844409ed4.png</responsePageFileDescription>
     <requestContentFileDescription>recorded-requests/req_3f246c2e-eeb0-4eb3-af47-f6072a3e3090.txt</requestContentFileDescription>
@@ -1168,6 +1197,7 @@ Content-Type: image/png</responseHeaders>
     recordedArtifactZipFileName="team/vus/@ushahidi@demo@correlated/%resources%/recorded-artifacts/305de72c-b86f-489a-96be-78f040cf4889.zip"
     recordedResponseCode="200" responseSize="0"
     serverUid="ushahidi.apps.neotys.com" slaProfileEnabled="false"
+    slaProfileName="JPetstore"
     uid="18b0d96c-5ed2-4f52-a988-585afd05044d" useKeepAlive="false">
     <responsePageFileDescription>recorded-responses/res_18b0d96c-5ed2-4f52-a988-585afd05044d.png</responsePageFileDescription>
     <requestContentFileDescription>recorded-requests/req_1a03bc16-442a-4205-88d0-421d235b50a7.txt</requestContentFileDescription>
@@ -1200,6 +1230,7 @@ Content-Type: image/png</responseHeaders>
     recordedArtifactZipFileName="team/vus/@ushahidi@demo@correlated/%resources%/recorded-artifacts/305de72c-b86f-489a-96be-78f040cf4889.zip"
     recordedResponseCode="200" responseSize="0"
     serverUid="ushahidi.apps.neotys.com" slaProfileEnabled="false"
+    slaProfileName="JPetstore"
     uid="bb896c9a-11b3-44f8-b64a-2c5e469ed109" useKeepAlive="false">
     <responsePageFileDescription>recorded-responses/res_bb896c9a-11b3-44f8-b64a-2c5e469ed109.gif</responsePageFileDescription>
     <requestContentFileDescription>recorded-requests/req_1a87367c-8039-4aa8-a782-bc85a18c38de.txt</requestContentFileDescription>
@@ -1234,6 +1265,7 @@ Content-Type: image/gif</responseHeaders>
     recordedArtifactZipFileName="team/vus/@ushahidi@demo@correlated/%resources%/recorded-artifacts/305de72c-b86f-489a-96be-78f040cf4889.zip"
     recordedResponseCode="200" responseSize="117759"
     serverUid="ushahidi.apps.neotys.com" slaProfileEnabled="false"
+    slaProfileName="JPetstore"
     uid="7d5ba27c-b0c5-4456-a26e-e29cf6499042" useKeepAlive="false">
     <responsePageFileDescription>recorded-responses/res_85fcc68d-9ebc-49a2-8357-05851aac4e0c</responsePageFileDescription>
     <requestContentFileDescription>recorded-requests/req_85fcc68d-9ebc-49a2-8357-05851aac4e0c.txt</requestContentFileDescription>

@@ -2,9 +2,9 @@
     name="/jpetstore/shop/viewCategory.shtml"
     playRequestsSequentially="false"
     recordedArtifactZipFileName="team/vus/@j@petstore_multi_items/%resources%/recorded-artifacts/a5f7f1bf-1473-4ac4-82f9-1e24d707227c.zip"
-    slaProfileEnabled="false" thinkTime="11243"
-    thinkTimeMode="MODE_SIMPLE_THINK_TIME" thinkTimeRangeEnd=""
-    thinkTimeRangeStart="" uid="a5f7f1bf-1473-4ac4-82f9-1e24d707227c">
+    slaProfileEnabled="false" slaProfileName="JPetstore"
+    thinkTime="11243" thinkTimeMode="MODE_SIMPLE_THINK_TIME"
+    thinkTimeRangeEnd="" thinkTimeRangeStart="" uid="a5f7f1bf-1473-4ac4-82f9-1e24d707227c">
     <embedded-action>29f3a648-2b82-4a48-adfc-ca64fcdca309</embedded-action>
 </http-page>
 <http-action actionType="1" contentType="text/html;charset=ISO-8859-1"
@@ -18,7 +18,8 @@
     recordedResponseCode="200"
     refererUid="014c5cb1-28d2-4c15-a33c-db3827917f92"
     responseSize="3977" serverUid="TrainingImage"
-    slaProfileEnabled="false" uid="29f3a648-2b82-4a48-adfc-ca64fcdca309" useKeepAlive="false">
+    slaProfileEnabled="false" slaProfileName="JPetstore"
+    uid="29f3a648-2b82-4a48-adfc-ca64fcdca309" useKeepAlive="false">
     <responsePageFileDescription>recorded-responses/res_8c33fe10-0934-4aa4-8e42-57bed5b77573.html</responsePageFileDescription>
     <requestContentFileDescription>recorded-requests/req_8c33fe10-0934-4aa4-8e42-57bed5b77573.txt</requestContentFileDescription>
     <parameter encodeName="true" encodeValue="true" name="categoryId"

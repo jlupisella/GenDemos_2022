@@ -1,9 +1,9 @@
 <http-page executeResourcesDynamically="false" name="/jpetstore/"
     playRequestsSequentially="false"
     recordedArtifactZipFileName="team/vus/@j@pet@store_@no@extractions/%resources%/recorded-artifacts/df9b2ad4-b845-4a8e-8722-8f377932ffc4.zip"
-    slaProfileEnabled="false" slaProfileName="JPetstore"
-    thinkTime="3327" thinkTimeMode="MODE_SIMPLE_THINK_TIME"
-    thinkTimeRangeEnd="" thinkTimeRangeStart="" uid="df9b2ad4-b845-4a8e-8722-8f377932ffc4">
+    slaProfileEnabled="false" thinkTime="3327"
+    thinkTimeMode="MODE_SIMPLE_THINK_TIME" thinkTimeRangeEnd=""
+    thinkTimeRangeStart="" uid="df9b2ad4-b845-4a8e-8722-8f377932ffc4">
     <embedded-action>38baf01e-d908-48e5-825b-86a817bd8cd9</embedded-action>
     <embedded-action>4e5ede06-476a-42de-8ceb-863b72e310d3</embedded-action>
     <embedded-action>d98c6e4c-a7ba-44f6-a3e5-7c32361a3ca3</embedded-action>
@@ -89,7 +89,7 @@ Content-Type: image/gif</responseHeaders>
     path="/jpetstore/images/cart.gif" postType="2"
     recordedArtifactZipFileName="team/vus/@j@pet@store_@no@extractions/%resources%/recorded-artifacts/df9b2ad4-b845-4a8e-8722-8f377932ffc4.zip"
     recordedResponseCode="200" responseSize="0"
-    serverUid="TrainingImage" slaProfileEnabled="true"
+    serverUid="TrainingImage" slaProfileEnabled="false"
     slaProfileName="JPetstore"
     uid="d98c6e4c-a7ba-44f6-a3e5-7c32361a3ca3" useKeepAlive="false">
     <responsePageFileDescription>recorded-responses/res_d98c6e4c-a7ba-44f6-a3e5-7c32361a3ca3.gif</responsePageFileDescription>

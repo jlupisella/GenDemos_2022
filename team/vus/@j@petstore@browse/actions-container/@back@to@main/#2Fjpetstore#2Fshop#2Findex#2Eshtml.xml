@@ -1,10 +1,10 @@
 <http-page executeResourcesDynamically="false"
     name="/jpetstore/shop/index.shtml" playRequestsSequentially="false"
-    recordedArtifactZipFileName="team/vus/@j@petstore@browse/%resources%/recorded-artifacts/03ef386e-6b25-44ec-a891-501745af5b2d.zip"
-    slaProfileEnabled="false" thinkTime="7953"
-    thinkTimeMode="MODE_SIMPLE_THINK_TIME" thinkTimeRangeEnd=""
-    thinkTimeRangeStart="" uid="03ef386e-6b25-44ec-a891-501745af5b2d">
-    <embedded-action>c408794e-46db-4cb9-9689-b8d626203eed</embedded-action>
+    recordedArtifactZipFileName="team/vus/@j@petstore@browse/%resources%/recorded-artifacts/9e4a08b5-238e-49c1-83bc-7ff3a6eb2a77.zip"
+    slaProfileEnabled="false" slaProfileName="JPetstore"
+    thinkTime="7953" thinkTimeMode="MODE_SIMPLE_THINK_TIME"
+    thinkTimeRangeEnd="" thinkTimeRangeStart="" uid="9e4a08b5-238e-49c1-83bc-7ff3a6eb2a77">
+    <embedded-action>6d32d9b1-5dff-48da-b889-768afe83133a</embedded-action>
 </http-page>
 <http-action actionType="1" contentType="text/html;charset=ISO-8859-1"
     extractorInjectPathPolicy="2" extractorPathPolicy="1"
@@ -13,10 +13,11 @@
     linkExtractorSeveralMatchPolicy="1" linkExtractorType="6"
     method="GET" name="/jpetstore/shop/index.shtml"
     path="/jpetstore/shop/index.shtml" postType="2"
-    recordedArtifactZipFileName="team/vus/@j@petstore@browse/%resources%/recorded-artifacts/03ef386e-6b25-44ec-a891-501745af5b2d.zip"
+    recordedArtifactZipFileName="team/vus/@j@petstore@browse/%resources%/recorded-artifacts/9e4a08b5-238e-49c1-83bc-7ff3a6eb2a77.zip"
     recordedResponseCode="200" responseSize="5954"
     serverUid="TrainingImage" slaProfileEnabled="false"
-    uid="c408794e-46db-4cb9-9689-b8d626203eed" useKeepAlive="false">
+    slaProfileName="JPetstore"
+    uid="6d32d9b1-5dff-48da-b889-768afe83133a" useKeepAlive="false">
     <responsePageFileDescription>recorded-responses/res_c408794e-46db-4cb9-9689-b8d626203eed.html</responsePageFileDescription>
     <requestContentFileDescription>recorded-requests/req_c408794e-46db-4cb9-9689-b8d626203eed.txt</requestContentFileDescription>
     <variable-extractor assertionOnNoMatch="true"

@@ -1,9 +1,9 @@
 <http-page executeResourcesDynamically="false" name="/"
     playRequestsSequentially="false"
     recordedArtifactZipFileName="team/vus/@ushahidi@demo@non-@correlated/%resources%/recorded-artifacts/88eba17e-5107-43b1-877b-fabda6ff8118.zip"
-    slaProfileEnabled="false" thinkTime="4084"
-    thinkTimeMode="MODE_SIMPLE_THINK_TIME" thinkTimeRangeEnd=""
-    thinkTimeRangeStart="" uid="88eba17e-5107-43b1-877b-fabda6ff8118">
+    slaProfileEnabled="false" slaProfileName="JPetstore"
+    thinkTime="4084" thinkTimeMode="MODE_SIMPLE_THINK_TIME"
+    thinkTimeRangeEnd="" thinkTimeRangeStart="" uid="88eba17e-5107-43b1-877b-fabda6ff8118">
     <embedded-action>c9888727-6fed-4800-9028-21aa87d71dfa</embedded-action>
     <embedded-action>fdbb4473-3b71-4445-9b93-6d0b634c6621</embedded-action>
     <embedded-action>4c75be3f-f70d-4a73-9da3-72664f87d8b8</embedded-action>

@@ -2,9 +2,9 @@
     name="/jpetstore/shop/viewProduct.shtml"
     playRequestsSequentially="false"
     recordedArtifactZipFileName="team/vus/@j@petstore_multi_items/%resources%/recorded-artifacts/b9a78af0-869b-498a-a0b1-334ddafc863a.zip"
-    slaProfileEnabled="false" thinkTime="8767"
-    thinkTimeMode="MODE_SIMPLE_THINK_TIME" thinkTimeRangeEnd=""
-    thinkTimeRangeStart="" uid="b9a78af0-869b-498a-a0b1-334ddafc863a">
+    slaProfileEnabled="false" slaProfileName="JPetstore"
+    thinkTime="8767" thinkTimeMode="MODE_SIMPLE_THINK_TIME"
+    thinkTimeRangeEnd="" thinkTimeRangeStart="" uid="b9a78af0-869b-498a-a0b1-334ddafc863a">
     <embedded-action>16471d89-503c-4bf2-ae71-f3b3b4d8c1b8</embedded-action>
     <embedded-action>9a516453-9dec-4040-afd1-08f48a3dddd7</embedded-action>
 </http-page>
@@ -19,7 +19,8 @@
     recordedResponseCode="200"
     refererUid="d552b549-4282-4ba4-8041-2cf4e8fa8d6f"
     responseSize="3776" serverUid="TrainingImage"
-    slaProfileEnabled="false" uid="16471d89-503c-4bf2-ae71-f3b3b4d8c1b8" useKeepAlive="false">
+    slaProfileEnabled="false" slaProfileName="JPetstore"
+    uid="16471d89-503c-4bf2-ae71-f3b3b4d8c1b8" useKeepAlive="false">
     <responsePageFileDescription>recorded-responses/res_16471d89-503c-4bf2-ae71-f3b3b4d8c1b8.html</responsePageFileDescription>
     <requestContentFileDescription>recorded-requests/req_16471d89-503c-4bf2-ae71-f3b3b4d8c1b8.txt</requestContentFileDescription>
     <variable-extractor assertionOnNoMatch="true"
@@ -75,6 +76,7 @@ Content-Type: text/html;charset=ISO-8859-1</responseHeaders>
     recordedArtifactZipFileName="team/vus/@j@petstore_multi_items/%resources%/recorded-artifacts/b9a78af0-869b-498a-a0b1-334ddafc863a.zip"
     recordedResponseCode="200" responseSize="0"
     serverUid="TrainingImage" slaProfileEnabled="false"
+    slaProfileName="JPetstore"
     uid="9a516453-9dec-4040-afd1-08f48a3dddd7" useKeepAlive="false">
     <responsePageFileDescription>recorded-responses/res_9a516453-9dec-4040-afd1-08f48a3dddd7.gif</responsePageFileDescription>
     <requestContentFileDescription>recorded-requests/req_9a516453-9dec-4040-afd1-08f48a3dddd7.txt</requestContentFileDescription>

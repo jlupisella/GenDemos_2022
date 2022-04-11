@@ -2,9 +2,9 @@
     name="/jpetstore/shop/viewItem.shtml"
     playRequestsSequentially="false"
     recordedArtifactZipFileName="team/vus/@j@petstore@browse/%resources%/recorded-artifacts/4dc39f89-3328-4e61-a34e-991920d818af.zip"
-    slaProfileEnabled="false" thinkTime="6892"
-    thinkTimeMode="MODE_SIMPLE_THINK_TIME" thinkTimeRangeEnd=""
-    thinkTimeRangeStart="" uid="4dc39f89-3328-4e61-a34e-991920d818af">
+    slaProfileEnabled="false" slaProfileName="JPetstore"
+    thinkTime="6892" thinkTimeMode="MODE_SIMPLE_THINK_TIME"
+    thinkTimeRangeEnd="" thinkTimeRangeStart="" uid="4dc39f89-3328-4e61-a34e-991920d818af">
     <embedded-action>7d0566ab-3e84-45b7-b6c7-03222f4f90dd</embedded-action>
     <embedded-action>2ba95ae9-0d8a-4cda-b1c7-35de50319215</embedded-action>
 </http-page>
@@ -19,7 +19,8 @@
     recordedResponseCode="200"
     refererUid="b5447b56-6c5f-4194-b6e5-4c53ded51b5c"
     responseSize="3653" serverUid="TrainingImage"
-    slaProfileEnabled="false" uid="7d0566ab-3e84-45b7-b6c7-03222f4f90dd" useKeepAlive="false">
+    slaProfileEnabled="false" slaProfileName="JPetstore"
+    uid="7d0566ab-3e84-45b7-b6c7-03222f4f90dd" useKeepAlive="false">
     <responsePageFileDescription>recorded-responses/res_7d0566ab-3e84-45b7-b6c7-03222f4f90dd.html</responsePageFileDescription>
     <requestContentFileDescription>recorded-requests/req_7d0566ab-3e84-45b7-b6c7-03222f4f90dd.txt</requestContentFileDescription>
     <parameter encodeName="true" encodeValue="true" name="itemId"
@@ -56,6 +57,7 @@ Content-Type: text/html;charset=ISO-8859-1</responseHeaders>
     recordedArtifactZipFileName="team/vus/@j@petstore@browse/%resources%/recorded-artifacts/4dc39f89-3328-4e61-a34e-991920d818af.zip"
     recordedResponseCode="200" responseSize="0"
     serverUid="TrainingImage" slaProfileEnabled="false"
+    slaProfileName="JPetstore"
     uid="2ba95ae9-0d8a-4cda-b1c7-35de50319215" useKeepAlive="false">
     <responsePageFileDescription>recorded-responses/res_2ba95ae9-0d8a-4cda-b1c7-35de50319215.gif</responsePageFileDescription>
     <requestContentFileDescription>recorded-requests/req_2ba95ae9-0d8a-4cda-b1c7-35de50319215.txt</requestContentFileDescription>

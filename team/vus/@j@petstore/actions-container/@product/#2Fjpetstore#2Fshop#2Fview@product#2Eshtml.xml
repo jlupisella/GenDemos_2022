@@ -2,9 +2,9 @@
     name="/jpetstore/shop/viewProduct.shtml"
     playRequestsSequentially="false"
     recordedArtifactZipFileName="team/vus/@j@petstore/%resources%/recorded-artifacts/cc46f996-4b02-4639-b225-3938f4bc3805.zip"
-    slaProfileEnabled="true" slaProfileName="JPetstore" thinkTime="9818"
-    thinkTimeMode="MODE_SIMPLE_THINK_TIME" thinkTimeRangeEnd=""
-    thinkTimeRangeStart="" uid="cc46f996-4b02-4639-b225-3938f4bc3805">
+    slaProfileEnabled="false" slaProfileName="JPetstore"
+    thinkTime="9818" thinkTimeMode="MODE_SIMPLE_THINK_TIME"
+    thinkTimeRangeEnd="" thinkTimeRangeStart="" uid="cc46f996-4b02-4639-b225-3938f4bc3805">
     <embedded-action>9bfd165d-f96b-4e74-b8d8-c71f5b74dfa2</embedded-action>
     <embedded-action>ed380749-ccab-490f-8503-7ce6f5d611bf</embedded-action>
 </http-page>
@@ -17,7 +17,7 @@
     path="/jpetstore/shop/viewProduct.shtml" postCharset="" postType="2"
     recordedArtifactZipFileName="team/vus/@j@petstore/%resources%/recorded-artifacts/cc46f996-4b02-4639-b225-3938f4bc3805.zip"
     recordedResponseCode="200" responseSize="4142"
-    serverUid="TrainingImage" slaProfileEnabled="true"
+    serverUid="TrainingImage" slaProfileEnabled="false"
     slaProfileName="JPetstore"
     uid="9bfd165d-f96b-4e74-b8d8-c71f5b74dfa2" useKeepAlive="false">
     <responsePageFileDescription>recorded-responses/res_6edfc6c4-6f53-43f7-8aea-6354225ce1d7.0.0.0.html</responsePageFileDescription>
@@ -74,7 +74,7 @@ Content-Type: text/html;charset=ISO-8859-1</responseHeaders>
     path="/jpetstore/images/button_add_to_cart.gif" postType="2"
     recordedArtifactZipFileName="team/vus/@j@petstore/%resources%/recorded-artifacts/cc46f996-4b02-4639-b225-3938f4bc3805.zip"
     recordedResponseCode="200" responseSize="0"
-    serverUid="TrainingImage" slaProfileEnabled="true"
+    serverUid="TrainingImage" slaProfileEnabled="false"
     slaProfileName="JPetstore"
     uid="ed380749-ccab-490f-8503-7ce6f5d611bf" useKeepAlive="false">
     <responsePageFileDescription>recorded-responses/res_ed380749-ccab-490f-8503-7ce6f5d611bf.gif</responsePageFileDescription>

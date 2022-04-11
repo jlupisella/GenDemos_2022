@@ -1,11 +1,11 @@
 <http-page executeResourcesDynamically="false"
     name="/jpetstore/shop/newOrderForm.shtml"
     playRequestsSequentially="false"
-    recordedArtifactZipFileName="team/vus/@j@pet@store_@no@extractions/%resources%/recorded-artifacts/e06e42e6-1226-491b-9c45-8a09042849f9.zip"
-    slaProfileEnabled="true" slaProfileName="JPetstore" thinkTime="9821"
-    thinkTimeMode="MODE_SIMPLE_THINK_TIME" thinkTimeRangeEnd=""
-    thinkTimeRangeStart="" uid="e06e42e6-1226-491b-9c45-8a09042849f9">
-    <embedded-action>06048499-8a45-40b8-bc1d-26a8395c380f</embedded-action>
+    recordedArtifactZipFileName="team/vus/@j@pet@store_@no@extractions/%resources%/recorded-artifacts/734bd325-5c81-4980-bb97-bc4a08dc1ebb.zip"
+    slaProfileEnabled="false" slaProfileName="JPetstore"
+    thinkTime="9821" thinkTimeMode="MODE_SIMPLE_THINK_TIME"
+    thinkTimeRangeEnd="" thinkTimeRangeStart="" uid="734bd325-5c81-4980-bb97-bc4a08dc1ebb">
+    <embedded-action>4198eac1-d2d4-4d4d-8a6d-42b8dea0ec45</embedded-action>
 </http-page>
 <http-action actionType="1" contentType="text/html;charset=ISO-8859-1"
     extractorInjectPathPolicy="2" extractorPathPolicy="1"
@@ -14,11 +14,11 @@
     linkExtractorSeveralMatchPolicy="1" linkExtractorType="6"
     method="GET" name="/jpetstore/shop/newOrderForm.shtml"
     path="/jpetstore/shop/newOrderForm.shtml" postType="2"
-    recordedArtifactZipFileName="team/vus/@j@pet@store_@no@extractions/%resources%/recorded-artifacts/e06e42e6-1226-491b-9c45-8a09042849f9.zip"
+    recordedArtifactZipFileName="team/vus/@j@pet@store_@no@extractions/%resources%/recorded-artifacts/734bd325-5c81-4980-bb97-bc4a08dc1ebb.zip"
     recordedResponseCode="200" responseSize="4880"
     serverUid="TrainingImage" slaProfileEnabled="false"
     slaProfileName="JPetstore"
-    uid="06048499-8a45-40b8-bc1d-26a8395c380f" useKeepAlive="false">
+    uid="4198eac1-d2d4-4d4d-8a6d-42b8dea0ec45" useKeepAlive="false">
     <responsePageFileDescription>recorded-responses/res_c971e883-f490-4d27-bb4a-379f348ba71b.html</responsePageFileDescription>
     <requestContentFileDescription>recorded-requests/req_c971e883-f490-4d27-bb4a-379f348ba71b.txt</requestContentFileDescription>
     <header name="Accept" value="text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8"/>

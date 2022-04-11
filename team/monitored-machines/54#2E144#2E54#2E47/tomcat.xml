@@ -1461,6 +1461,18 @@
                     sampling="0" short-display-name="activeSessions" unit="">
                     <description>Number of active sessions at this moment</description>
                 </monitor-jmx>
+                <monitor-jmx attribute="sessionMaxAliveTime"
+                    callTime="ON_BENCH" computing="0"
+                    connection-type="30" format="NUMBER"
+                    helpID="reference.design.monitors.tomcat.session.sessionmaxalivetime"
+                    monitor="0" monitorType=""
+                    name="Session/localhost//zkspringwf/sessionMaxAliveTime"
+                    object-name="Catalina:context=/zkspringwf,host=localhost,type=Manager"
+                    path="Session/localhost//zkspringwf/sessionMaxAliveTime"
+                    sampling="0"
+                    short-display-name="sessionMaxAliveTime" unit="">
+                    <description>Longest time an expired session had been alive</description>
+                </monitor-jmx>
                 <monitor-jmx attribute="sessionCounter"
                     callTime="ON_BENCH" computing="1"
                     connection-type="30" format="NUMBER"
@@ -1481,18 +1493,6 @@
                     path="Session/localhost//zkspringwf/maxActive"
                     sampling="0" short-display-name="maxActive" unit="">
                     <description>Maximum number of active sessions so far</description>
-                </monitor-jmx>
-                <monitor-jmx attribute="sessionMaxAliveTime"
-                    callTime="ON_BENCH" computing="0"
-                    connection-type="30" format="NUMBER"
-                    helpID="reference.design.monitors.tomcat.session.sessionmaxalivetime"
-                    monitor="0" monitorType=""
-                    name="Session/localhost//zkspringwf/sessionMaxAliveTime"
-                    object-name="Catalina:context=/zkspringwf,host=localhost,type=Manager"
-                    path="Session/localhost//zkspringwf/sessionMaxAliveTime"
-                    sampling="0"
-                    short-display-name="sessionMaxAliveTime" unit="">
-                    <description>Longest time an expired session had been alive</description>
                 </monitor-jmx>
                 <monitor-jmx attribute="sessionAverageAliveTime"
                     callTime="ON_BENCH" computing="0"

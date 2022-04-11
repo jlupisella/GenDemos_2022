@@ -1,6 +1,6 @@
 <basic-logical-action-container element-number="1" execution-type="0"
     name="SubmitPayment" pacingEnd="0" pacingMode="MODE_NO_PACING"
-    pacingStart="0" pacingValue="0" slaProfileEnabled="true"
+    pacingStart="0" pacingValue="0" slaProfileEnabled="false"
     slaProfileName="JPetstore"
     uid="9633dba1-d1eb-437c-b422-866cd0ea6683" weightsEnabled="false">
     <weighted-embedded-action uid="d6c5436c-a3ff-4f89-91e6-bae919558b1f"/>

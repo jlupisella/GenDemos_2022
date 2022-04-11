@@ -1,7 +1,7 @@
 <basic-logical-action-container element-number="1" execution-type="0"
     name="Submit" pacingEnd="0" pacingMode="MODE_NO_PACING"
-    pacingStart="0" pacingValue="0" slaProfileEnabled="true"
+    pacingStart="0" pacingValue="0" slaProfileEnabled="false"
     slaProfileName="JPetstore"
-    uid="fed488ec-9e7b-4a33-b5dd-57edcff944e5" weightsEnabled="false">
-    <weighted-embedded-action uid="f5f84da8-1134-4e13-8ca7-57679f033aea"/>
+    uid="693ed6b3-b650-4abc-ba35-ef2cf946e2d5" weightsEnabled="false">
+    <weighted-embedded-action uid="c98ca5f0-d612-41f3-8467-1cbf47efec6b"/>
 </basic-logical-action-container>

@@ -1,11 +1,11 @@
 <http-page executeResourcesDynamically="false"
     name="/jpetstore/shop/newOrder.shtml"
     playRequestsSequentially="false"
-    recordedArtifactZipFileName="team/vus/@j@petstore/%resources%/recorded-artifacts/7716402c-f4b1-40f8-8f9d-e52c243d36de.zip"
-    slaProfileEnabled="true" slaProfileName="JPetstore" thinkTime="9575"
-    thinkTimeMode="MODE_SIMPLE_THINK_TIME" thinkTimeRangeEnd=""
-    thinkTimeRangeStart="" uid="7716402c-f4b1-40f8-8f9d-e52c243d36de">
-    <embedded-action>984bf424-a887-4181-84f6-aec4e91945be</embedded-action>
+    recordedArtifactZipFileName="team/vus/@j@petstore/%resources%/recorded-artifacts/e8f1e5f1-c0dd-47d7-97eb-e2dda74ccc3b.zip"
+    slaProfileEnabled="false" slaProfileName="JPetstore"
+    thinkTime="9575" thinkTimeMode="MODE_SIMPLE_THINK_TIME"
+    thinkTimeRangeEnd="" thinkTimeRangeStart="" uid="e8f1e5f1-c0dd-47d7-97eb-e2dda74ccc3b">
+    <embedded-action>e0277c72-d712-4ecd-8f8f-a2a95df2e562</embedded-action>
 </http-page>
 <http-action actionType="1" contentType="text/html;charset=ISO-8859-1"
     extractorInjectPathPolicy="2" extractorPathPolicy="1"
@@ -15,15 +15,18 @@
     method="POST" name="/jpetstore/shop/newOrder.shtml"
     path="/jpetstore/shop/newOrder.shtml" postCharset="iso-8859-1"
     postType="1"
-    recordedArtifactZipFileName="team/vus/@j@petstore/%resources%/recorded-artifacts/7716402c-f4b1-40f8-8f9d-e52c243d36de.zip"
+    recordedArtifactZipFileName="team/vus/@j@petstore/%resources%/recorded-artifacts/e8f1e5f1-c0dd-47d7-97eb-e2dda74ccc3b.zip"
     recordedResponseCode="200"
     refererUid="82d40328-d58e-4360-8f8c-4bb2b5ba0af6"
     responseSize="4779" serverUid="TrainingImage"
-    slaProfileEnabled="true" slaProfileName="JPetstore"
-    uid="984bf424-a887-4181-84f6-aec4e91945be" useKeepAlive="false">
+    slaProfileEnabled="false" slaProfileName="JPetstore"
+    uid="e0277c72-d712-4ecd-8f8f-a2a95df2e562" useKeepAlive="false">
     <binaryPostContentBase64><![CDATA[b3JkZXIuY2FyZFR5cGU9VmlzYSZvcmRlci5jcmVkaXRDYXJkPTk5OSs5OTk5Kzk5OTkrOTk5OSZvcmRlci5leHBpcnlEYXRlPTEyJTJGMDMmb3JkZXIuYmlsbFRvRmlyc3ROYW1lPUFCQyZvcmRlci5iaWxsVG9MYXN0TmFtZT1YWVgmb3JkZXIuYmlsbEFkZHJlc3MxPTkwMStTYW4rQW50b25pbytSb2FkJm9yZGVyLmJpbGxBZGRyZXNzMj1NUytVQ1VQMDItMjA2Jm9yZGVyLmJpbGxDaXR5PVBhbG8rQWx0byZvcmRlci5iaWxsU3RhdGU9Q0Emb3JkZXIuYmlsbFppcD05NDMwMyZvcmRlci5iaWxsQ291bnRyeT1VU0EmeD0zNCZ5PTEw]]></binaryPostContentBase64>
     <responsePageFileDescription>recorded-responses/res_c8997767-66b2-4e3b-bcf9-06bce2319f87.html</responsePageFileDescription>
     <requestContentFileDescription>recorded-requests/req_c8997767-66b2-4e3b-bcf9-06bce2319f87.txt</requestContentFileDescription>
+    <assertions>
+        <assertion-content name="assertion_1" notType="false" pattern="SUCCESS"/>
+    </assertions>
     <parameter encodeName="true" encodeValue="true"
         name="order.cardType" recordRawValue="Visa" separator="="
         value="Visa" valueMode="USE_VALUE"/>

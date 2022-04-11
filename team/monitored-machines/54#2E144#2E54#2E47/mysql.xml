@@ -6,7 +6,8 @@
         <monitor-mysql callTime="ON_BENCH" categoryID="0" computing="0"
             counterID="0" format="NUMBER"
             name="Connections/ threads connected" sampling="0"
-            short-display-name="threads connected" unit="">
+            short-display-name="threads connected"
+            threshold="537c405b-6285-4509-b978-8a0f0b74c2b7" unit="">
             <description>Number of currently open connections</description>
         </monitor-mysql>
         <monitor-mysql callTime="ON_BENCH" categoryID="0" computing="0"
@@ -45,7 +46,8 @@
         <monitor-mysql callTime="ON_BENCH" categoryID="1" computing="1"
             counterID="0" format="NUMBER"
             name="IO Requests/ bytes received" sampling="1"
-            short-display-name="bytes received" unit="kbytes/s">
+            short-display-name="bytes received"
+            threshold="cdab3e07-9f6b-47ac-9c28-0fb7f3bd3fdd" unit="kbytes/s">
             <description>Number of bytes received from all clients</description>
         </monitor-mysql>
         <monitor-mysql callTime="ON_BENCH" categoryID="1" computing="1"
@@ -344,5 +346,13 @@
                 <threshold-content>Nombre élevé de 'merges passes' faites par l'algorithme de tri</threshold-content>
             </threshold-comment>
         </threshold-condition>
+    </threshold>
+    <threshold enabled="true" uid="537c405b-6285-4509-b978-8a0f0b74c2b7">
+        <threshold-condition durationKind="SECONDS" durationNumber="15"
+            operator="GREATER_THAN" severity="HIGH" valueMax="Infinity" valueMin="7.0"/>
+    </threshold>
+    <threshold enabled="true" uid="cdab3e07-9f6b-47ac-9c28-0fb7f3bd3fdd">
+        <threshold-condition durationKind="SECONDS" durationNumber="15"
+            operator="GREATER_THAN" severity="LOW" valueMax="Infinity" valueMin="1000000.0"/>
     </threshold>
 </connection-mysql>

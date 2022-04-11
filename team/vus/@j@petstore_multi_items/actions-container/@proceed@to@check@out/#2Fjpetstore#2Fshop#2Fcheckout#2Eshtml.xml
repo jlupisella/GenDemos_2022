@@ -2,9 +2,9 @@
     name="/jpetstore/shop/checkout.shtml"
     playRequestsSequentially="false"
     recordedArtifactZipFileName="team/vus/@j@petstore_multi_items/%resources%/recorded-artifacts/a0596da6-afb8-4ea9-87d7-fa0cd48b38ac.zip"
-    slaProfileEnabled="false" thinkTime="18068"
-    thinkTimeMode="MODE_SIMPLE_THINK_TIME" thinkTimeRangeEnd=""
-    thinkTimeRangeStart="" uid="a0596da6-afb8-4ea9-87d7-fa0cd48b38ac">
+    slaProfileEnabled="false" slaProfileName="JPetstore"
+    thinkTime="18068" thinkTimeMode="MODE_SIMPLE_THINK_TIME"
+    thinkTimeRangeEnd="" thinkTimeRangeStart="" uid="a0596da6-afb8-4ea9-87d7-fa0cd48b38ac">
     <embedded-action>56dc2de4-5eca-43dd-bf3b-08a9ab8c66c6</embedded-action>
     <embedded-action>a8232a16-2054-42f9-969b-bc0c5a2df169</embedded-action>
 </http-page>
@@ -18,6 +18,7 @@
     recordedArtifactZipFileName="team/vus/@j@petstore_multi_items/%resources%/recorded-artifacts/a0596da6-afb8-4ea9-87d7-fa0cd48b38ac.zip"
     recordedResponseCode="200" responseSize="4939"
     serverUid="TrainingImage" slaProfileEnabled="false"
+    slaProfileName="JPetstore"
     uid="56dc2de4-5eca-43dd-bf3b-08a9ab8c66c6" useKeepAlive="false">
     <responsePageFileDescription>recorded-responses/res_56dc2de4-5eca-43dd-bf3b-08a9ab8c66c6.html</responsePageFileDescription>
     <requestContentFileDescription>recorded-requests/req_56dc2de4-5eca-43dd-bf3b-08a9ab8c66c6.txt</requestContentFileDescription>
@@ -51,6 +52,7 @@ Content-Type: text/html;charset=ISO-8859-1</responseHeaders>
     recordedArtifactZipFileName="team/vus/@j@petstore_multi_items/%resources%/recorded-artifacts/a0596da6-afb8-4ea9-87d7-fa0cd48b38ac.zip"
     recordedResponseCode="200" responseSize="0"
     serverUid="TrainingImage" slaProfileEnabled="false"
+    slaProfileName="JPetstore"
     uid="a8232a16-2054-42f9-969b-bc0c5a2df169" useKeepAlive="false">
     <responsePageFileDescription>recorded-responses/res_a8232a16-2054-42f9-969b-bc0c5a2df169.gif</responsePageFileDescription>
     <requestContentFileDescription>recorded-requests/req_a8232a16-2054-42f9-969b-bc0c5a2df169.txt</requestContentFileDescription>

@@ -2,9 +2,9 @@
     name="/jpetstore/shop/newOrder.shtml"
     playRequestsSequentially="false"
     recordedArtifactZipFileName="team/vus/@j@petstore_multi_items/%resources%/recorded-artifacts/d6c5436c-a3ff-4f89-91e6-bae919558b1f.zip"
-    slaProfileEnabled="false" thinkTime="24515"
-    thinkTimeMode="MODE_SIMPLE_THINK_TIME" thinkTimeRangeEnd=""
-    thinkTimeRangeStart="" uid="d6c5436c-a3ff-4f89-91e6-bae919558b1f">
+    slaProfileEnabled="false" slaProfileName="JPetstore"
+    thinkTime="24515" thinkTimeMode="MODE_SIMPLE_THINK_TIME"
+    thinkTimeRangeEnd="" thinkTimeRangeStart="" uid="d6c5436c-a3ff-4f89-91e6-bae919558b1f">
     <embedded-action>ac869433-ab6a-459c-9202-3ff578dee66a</embedded-action>
 </http-page>
 <http-action actionType="1" contentType="text/html;charset=ISO-8859-1"
@@ -19,7 +19,8 @@
     recordedResponseCode="200"
     refererUid="055b4261-e60f-485c-a7c9-381551133d0b"
     responseSize="4733" serverUid="TrainingImage"
-    slaProfileEnabled="false" uid="ac869433-ab6a-459c-9202-3ff578dee66a" useKeepAlive="false">
+    slaProfileEnabled="false" slaProfileName="JPetstore"
+    uid="ac869433-ab6a-459c-9202-3ff578dee66a" useKeepAlive="false">
     <binaryPostContentBase64><![CDATA[b3JkZXIuY2FyZFR5cGU9VmlzYSZvcmRlci5jcmVkaXRDYXJkPTk5OSs5OTk5Kzk5OTkrOTk5OSZvcmRlci5leHBpcnlEYXRlPTEyJTJGMDMmb3JkZXIuYmlsbFRvRmlyc3ROYW1lPUNpbmR5Jm9yZGVyLmJpbGxUb0xhc3ROYW1lPUZhaXImb3JkZXIuYmlsbEFkZHJlc3MxPTEyNTQrVmlldyZvcmRlci5iaWxsQWRkcmVzczI9Jm9yZGVyLmJpbGxDaXR5PXBhcmlzJm9yZGVyLmJpbGxTdGF0ZT1wYXJpcyZvcmRlci5iaWxsWmlwPTc1MDAwJm9yZGVyLmJpbGxDb3VudHJ5PUZyJng9MjQmeT0xMQ==]]></binaryPostContentBase64>
     <responsePageFileDescription>recorded-responses/res_ac869433-ab6a-459c-9202-3ff578dee66a.html</responsePageFileDescription>
     <requestContentFileDescription>recorded-requests/req_ac869433-ab6a-459c-9202-3ff578dee66a.txt</requestContentFileDescription>

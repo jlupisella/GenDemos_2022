@@ -1,7 +1,7 @@
 <basic-logical-action-container element-number="1" execution-type="0"
     name="AddToCart" pacingEnd="0" pacingMode="MODE_NO_PACING"
-    pacingStart="0" pacingValue="0" slaProfileEnabled="true"
+    pacingStart="0" pacingValue="0" slaProfileEnabled="false"
     slaProfileName="JPetstore"
-    uid="d8a8d328-e811-4536-9e30-9d121db3fd04" weightsEnabled="false">
-    <weighted-embedded-action uid="88527c93-52be-4a39-a6c6-6596104c3bf9"/>
+    uid="afbc6408-a46c-4c8e-9a6d-8c6259ae9c18" weightsEnabled="false">
+    <weighted-embedded-action uid="a8cd718d-b723-42d0-bfd4-5b6b31012f49"/>
 </basic-logical-action-container>

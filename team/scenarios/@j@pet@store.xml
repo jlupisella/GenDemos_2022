@@ -1,21 +1,17 @@
 <scenario postMonitoringTime="-1" preMonitoringTime="-1"
     slaProfileEnabled="false" traceVariables="true" uid="JPetStore" virtualUsersStates="true">
     <!--****** POPULATION POLICY ******-->
-    <population-policy name="JPetStore">
+    <population-policy name="JPetStore_3UserPaths">
         <duration-policy-entry iterations="1" time="300" timeUnit="0" type="2"/>
         <volume-policy-entry>
-            <rampup-volume-policy delayIncrement="2.0"
-                delayTypeIncrement="2" initialUserNumber="2"
-                iterationNumber="1" maxUserNumber="0" userIncrement="2"/>
+            <custom-volume-policy iteration="10" maxUsers="1" totalLength="120"/>
         </volume-policy-entry>
         <start-stop-policy-entry start-delay="0" start-type="0"
             stop-delay="60000" stop-type="0"/>
         <runtime-policy continueOnError="true" thinktimePolicy="0"
             thinktimeValue="5000" vuStartDelay="0" vuStartMode="0"/>
         <!--****** POPULATION LG HOSTS ******-->
-        <lg-hosts>
-            <lg-host-entry>$zoneID=Default zone;$lgID=localhost:7100</lg-host-entry>
-        </lg-hosts>
+        <lg-hosts/>
     </population-policy>
     <dashboards defaultDashboardUid="Graph board"/>
     <!--****** DASHBOARDS  ******-->
@@ -28,11 +24,11 @@
             <monitor-curve-description color="20,106,203"
                 connectionName="NeoLoad" dashed="false"
                 monitorName="UserLoad" monitoredHostName="NeoLoad"
-                scale="1.0" selected="false"/>
+                scale="0.1" selected="false"/>
             <action-curve-description
                 actionUid="2ee035d5-0178-378f-8d0a-63218f082d2f"
                 color="200,0,0" dashed="false" populationName=""
-                scale="1.0" selected="false"
+                scale="0.1" selected="false"
                 statisticName="result.errors" zoneName=""/>
         </chart-description>
         <chart-description autoRange="true"
