@@ -1,14 +1,14 @@
 <http-page executeResourcesDynamically="false"
     name="/jpetstore/shop/addItemToCart.shtml"
     playRequestsSequentially="false"
-    recordedArtifactZipFileName="team/vus/@j@petstore_multi_items/%resources%/recorded-artifacts/b912a416-dec0-4312-99dd-569237e8ae76.zip"
+    recordedArtifactZipFileName="team/vus/@j@petstore_multi_items/%resources%/recorded-artifacts/c0b0942e-8042-4650-bf24-9accfddd0c81.zip"
     slaProfileEnabled="false" slaProfileName="JPetstore"
     thinkTime="8774" thinkTimeMode="MODE_SIMPLE_THINK_TIME"
-    thinkTimeRangeEnd="" thinkTimeRangeStart="" uid="b912a416-dec0-4312-99dd-569237e8ae76">
-    <embedded-action>c1c6079a-8e04-4de7-9089-37a958e52059</embedded-action>
-    <embedded-action>36400101-6349-4dfa-a281-87c2382517fa</embedded-action>
-    <embedded-action>26a7e4ce-259c-4119-bef7-ca7f44842a75</embedded-action>
-    <embedded-action>5a0a90cd-1310-42fc-9697-7be820fd9880</embedded-action>
+    thinkTimeRangeEnd="" thinkTimeRangeStart="" uid="c0b0942e-8042-4650-bf24-9accfddd0c81">
+    <embedded-action>5d1cff59-86e9-4d5b-b7ab-83df89fe331a</embedded-action>
+    <embedded-action>3fcae27a-6fac-4450-addf-0269818c2b4a</embedded-action>
+    <embedded-action>faa96bcd-567c-4b55-bea1-68b312fe0ecf</embedded-action>
+    <embedded-action>223b4866-c328-4b97-9e58-45fda3cf1766</embedded-action>
 </http-page>
 <http-action actionType="1" contentType="text/html;charset=ISO-8859-1"
     extractorInjectPathPolicy="2" extractorPathPolicy="1"
@@ -17,12 +17,12 @@
     linkExtractorSeveralMatchPolicy="1" linkExtractorType="6"
     method="GET" name="/jpetstore/shop/addItemToCart.shtml"
     path="/jpetstore/shop/addItemToCart.shtml" postType="2"
-    recordedArtifactZipFileName="team/vus/@j@petstore_multi_items/%resources%/recorded-artifacts/b912a416-dec0-4312-99dd-569237e8ae76.zip"
+    recordedArtifactZipFileName="team/vus/@j@petstore_multi_items/%resources%/recorded-artifacts/c0b0942e-8042-4650-bf24-9accfddd0c81.zip"
     recordedResponseCode="200"
     refererUid="3b3fe231-e3e0-40f8-942b-51e26d9c7912"
     responseSize="5916" serverUid="TrainingImage"
     slaProfileEnabled="false" slaProfileName="JPetstore"
-    uid="c1c6079a-8e04-4de7-9089-37a958e52059" useKeepAlive="false">
+    uid="5d1cff59-86e9-4d5b-b7ab-83df89fe331a" useKeepAlive="false">
     <responsePageFileDescription>recorded-responses/res_c1c6079a-8e04-4de7-9089-37a958e52059.html</responsePageFileDescription>
     <requestContentFileDescription>recorded-requests/req_c1c6079a-8e04-4de7-9089-37a958e52059.txt</requestContentFileDescription>
     <variable-extractor assertionOnNoMatch="true"
@@ -65,11 +65,11 @@ Content-Type: text/html;charset=ISO-8859-1</responseHeaders>
     linkExtractorSeveralMatchPolicy="1" linkExtractorType="6"
     method="GET" name="/jpetstore/images/button_remove.gif"
     path="/jpetstore/images/button_remove.gif" postType="2"
-    recordedArtifactZipFileName="team/vus/@j@petstore_multi_items/%resources%/recorded-artifacts/b912a416-dec0-4312-99dd-569237e8ae76.zip"
+    recordedArtifactZipFileName="team/vus/@j@petstore_multi_items/%resources%/recorded-artifacts/c0b0942e-8042-4650-bf24-9accfddd0c81.zip"
     recordedResponseCode="200" responseSize="0"
     serverUid="TrainingImage" slaProfileEnabled="false"
     slaProfileName="JPetstore"
-    uid="36400101-6349-4dfa-a281-87c2382517fa" useKeepAlive="false">
+    uid="3fcae27a-6fac-4450-addf-0269818c2b4a" useKeepAlive="false">
     <responsePageFileDescription>recorded-responses/res_36400101-6349-4dfa-a281-87c2382517fa.gif</responsePageFileDescription>
     <requestContentFileDescription>recorded-requests/req_36400101-6349-4dfa-a281-87c2382517fa.txt</requestContentFileDescription>
     <header name="Accept" value="image/webp,*/*"/>
@@ -101,11 +101,11 @@ Content-Type: image/gif</responseHeaders>
     linkExtractorSeveralMatchPolicy="1" linkExtractorType="6"
     method="GET" name="/jpetstore/images/button_update_cart.gif"
     path="/jpetstore/images/button_update_cart.gif" postType="2"
-    recordedArtifactZipFileName="team/vus/@j@petstore_multi_items/%resources%/recorded-artifacts/b912a416-dec0-4312-99dd-569237e8ae76.zip"
+    recordedArtifactZipFileName="team/vus/@j@petstore_multi_items/%resources%/recorded-artifacts/c0b0942e-8042-4650-bf24-9accfddd0c81.zip"
     recordedResponseCode="200" responseSize="0"
     serverUid="TrainingImage" slaProfileEnabled="false"
     slaProfileName="JPetstore"
-    uid="26a7e4ce-259c-4119-bef7-ca7f44842a75" useKeepAlive="false">
+    uid="faa96bcd-567c-4b55-bea1-68b312fe0ecf" useKeepAlive="false">
     <responsePageFileDescription>recorded-responses/res_26a7e4ce-259c-4119-bef7-ca7f44842a75.gif</responsePageFileDescription>
     <requestContentFileDescription>recorded-requests/req_26a7e4ce-259c-4119-bef7-ca7f44842a75.txt</requestContentFileDescription>
     <header name="Accept" value="image/webp,*/*"/>
@@ -137,11 +137,11 @@ Content-Type: image/gif</responseHeaders>
     linkExtractorSeveralMatchPolicy="1" linkExtractorType="6"
     method="GET" name="/jpetstore/images/button_checkout.gif"
     path="/jpetstore/images/button_checkout.gif" postType="2"
-    recordedArtifactZipFileName="team/vus/@j@petstore_multi_items/%resources%/recorded-artifacts/b912a416-dec0-4312-99dd-569237e8ae76.zip"
+    recordedArtifactZipFileName="team/vus/@j@petstore_multi_items/%resources%/recorded-artifacts/c0b0942e-8042-4650-bf24-9accfddd0c81.zip"
     recordedResponseCode="200" responseSize="0"
     serverUid="TrainingImage" slaProfileEnabled="false"
     slaProfileName="JPetstore"
-    uid="5a0a90cd-1310-42fc-9697-7be820fd9880" useKeepAlive="false">
+    uid="223b4866-c328-4b97-9e58-45fda3cf1766" useKeepAlive="false">
     <responsePageFileDescription>recorded-responses/res_5a0a90cd-1310-42fc-9697-7be820fd9880.gif</responsePageFileDescription>
     <requestContentFileDescription>recorded-requests/req_5a0a90cd-1310-42fc-9697-7be820fd9880.txt</requestContentFileDescription>
     <header name="Accept" value="image/webp,*/*"/>

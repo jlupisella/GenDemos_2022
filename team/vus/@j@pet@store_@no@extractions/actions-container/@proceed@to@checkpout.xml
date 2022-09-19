@@ -2,6 +2,6 @@
     name="ProceedToCheckpout" pacingEnd="0" pacingMode="MODE_NO_PACING"
     pacingStart="0" pacingValue="0" slaProfileEnabled="false"
     slaProfileName="JPetstore"
-    uid="ceac59ac-30e0-48c9-9dbe-89ff157f6374" weightsEnabled="false">
-    <weighted-embedded-action uid="26f3fa04-ec7d-4875-b8ac-d3001bce2934"/>
+    uid="da3bf241-eec1-45ef-9291-85565061032d" weightsEnabled="false">
+    <weighted-embedded-action uid="3a33ab50-ab2f-47a9-a915-6294fc456abc"/>
 </basic-logical-action-container>

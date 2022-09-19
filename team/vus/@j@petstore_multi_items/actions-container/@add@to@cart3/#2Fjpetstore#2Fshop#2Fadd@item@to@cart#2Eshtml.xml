@@ -1,11 +1,11 @@
 <http-page executeResourcesDynamically="false"
     name="/jpetstore/shop/addItemToCart.shtml"
     playRequestsSequentially="false"
-    recordedArtifactZipFileName="team/vus/@j@petstore_multi_items/%resources%/recorded-artifacts/c64e7402-d12b-4437-9aa8-2a5346c234d5.zip"
+    recordedArtifactZipFileName="team/vus/@j@petstore_multi_items/%resources%/recorded-artifacts/3f30f5ac-12c6-46a4-9969-b9d24af963fc.zip"
     slaProfileEnabled="false" slaProfileName="JPetstore"
     thinkTime="8071" thinkTimeMode="MODE_SIMPLE_THINK_TIME"
-    thinkTimeRangeEnd="" thinkTimeRangeStart="" uid="c64e7402-d12b-4437-9aa8-2a5346c234d5">
-    <embedded-action>25d92446-2817-4320-8dcf-8c2b6e34e2eb</embedded-action>
+    thinkTimeRangeEnd="" thinkTimeRangeStart="" uid="3f30f5ac-12c6-46a4-9969-b9d24af963fc">
+    <embedded-action>c321419b-1a12-438d-ad2a-6b3b619cf8be</embedded-action>
 </http-page>
 <http-action actionType="1" contentType="text/html;charset=ISO-8859-1"
     extractorInjectPathPolicy="2" extractorPathPolicy="1"
@@ -14,12 +14,12 @@
     linkExtractorSeveralMatchPolicy="1" linkExtractorType="6"
     method="GET" name="/jpetstore/shop/addItemToCart.shtml"
     path="/jpetstore/shop/addItemToCart.shtml" postType="2"
-    recordedArtifactZipFileName="team/vus/@j@petstore_multi_items/%resources%/recorded-artifacts/c64e7402-d12b-4437-9aa8-2a5346c234d5.zip"
+    recordedArtifactZipFileName="team/vus/@j@petstore_multi_items/%resources%/recorded-artifacts/3f30f5ac-12c6-46a4-9969-b9d24af963fc.zip"
     recordedResponseCode="200"
     refererUid="82d1c859-62f4-494f-ba98-c8ab7314ba07"
     responseSize="7033" serverUid="TrainingImage"
     slaProfileEnabled="false" slaProfileName="JPetstore"
-    uid="25d92446-2817-4320-8dcf-8c2b6e34e2eb" useKeepAlive="false">
+    uid="c321419b-1a12-438d-ad2a-6b3b619cf8be" useKeepAlive="false">
     <responsePageFileDescription>recorded-responses/res_4d072b55-ade5-41a9-9370-0f174afe6234.html</responsePageFileDescription>
     <requestContentFileDescription>recorded-requests/req_4d072b55-ade5-41a9-9370-0f174afe6234.txt</requestContentFileDescription>
     <parameter encodeName="true" encodeValue="true" name="workingItemId"

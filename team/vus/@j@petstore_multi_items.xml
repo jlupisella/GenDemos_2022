@@ -1,5 +1,5 @@
 <virtual-user errorPolicy="DO_NOTHING"
-    failedAssertionPolicy="DO_NOTHING" slaProfileEnabled="true"
+    failedAssertionPolicy="DO_NOTHING" slaProfileEnabled="false"
     slaProfileName="JPetstore" type="LEGACY" uid="JPetstore_multi_items">
     <init-container element-number="1" execution-type="0" pacingEnd="0"
         pacingMode="MODE_NO_PACING" pacingStart="0" pacingValue="0"
@@ -17,7 +17,7 @@
         <weighted-embedded-action uid="62bf3705-f0ef-4400-bd23-ef80cda9d0bc"/>
         <weighted-embedded-action uid="c0e84d7c-69a0-4bba-a53e-c788cd33b209"/>
         <weighted-embedded-action uid="39941ff2-feae-4f49-8ab8-1a88edddcfa4"/>
-        <weighted-embedded-action uid="e5d667a3-4971-4fdf-a6dc-7ea63d47be80"/>
+        <weighted-embedded-action uid="45aa5b98-22cb-42b6-af80-ab7f53300b48"/>
         <weighted-embedded-action uid="8204467e-1597-4314-b309-a05af454d137"/>
         <weighted-embedded-action uid="52629ad3-e742-4d5d-ba76-f7d1116b3279"/>
         <weighted-embedded-action uid="82d3abe8-c435-4539-8741-af4c4f31b501"/>
@@ -27,7 +27,8 @@
         <weighted-embedded-action uid="ffb0bb15-146b-488d-a903-7667b0399a2d"/>
         <weighted-embedded-action uid="390fa14a-fdc0-4a49-89eb-098b21265137"/>
         <weighted-embedded-action uid="59b38009-7fc4-41dd-abfb-d46037157b98"/>
-        <weighted-embedded-action uid="4cfde41d-5eac-4baf-ba33-18fe4bb91c9b"/>
+        <weighted-embedded-action uid="69cbf9cf-4000-4409-bd2b-9d33ffe0bbf9"/>
+        <weighted-embedded-action uid="1181ba53-2ea2-4785-8e3e-95c53981d867"/>
         <weighted-embedded-action uid="1ebaca71-2863-4078-ba18-bf14d42eb739"/>
         <weighted-embedded-action uid="274fb1b8-33b9-4ffa-9a77-dd3c7c54d11f"/>
         <weighted-embedded-action uid="93b7a176-ba06-42dd-9b2a-e166f8d1bc97"/>

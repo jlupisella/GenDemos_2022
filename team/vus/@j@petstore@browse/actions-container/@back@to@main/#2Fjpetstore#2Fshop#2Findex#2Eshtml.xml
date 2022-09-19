@@ -1,9 +1,9 @@
 <http-page executeResourcesDynamically="false"
     name="/jpetstore/shop/index.shtml" playRequestsSequentially="false"
     recordedArtifactZipFileName="team/vus/@j@petstore@browse/%resources%/recorded-artifacts/9e4a08b5-238e-49c1-83bc-7ff3a6eb2a77.zip"
-    slaProfileEnabled="false" slaProfileName="JPetstore"
-    thinkTime="7953" thinkTimeMode="MODE_SIMPLE_THINK_TIME"
-    thinkTimeRangeEnd="" thinkTimeRangeStart="" uid="9e4a08b5-238e-49c1-83bc-7ff3a6eb2a77">
+    slaProfileEnabled="false" thinkTime="7953"
+    thinkTimeMode="MODE_SIMPLE_THINK_TIME" thinkTimeRangeEnd=""
+    thinkTimeRangeStart="" uid="9e4a08b5-238e-49c1-83bc-7ff3a6eb2a77">
     <embedded-action>6d32d9b1-5dff-48da-b889-768afe83133a</embedded-action>
 </http-page>
 <http-action actionType="1" contentType="text/html;charset=ISO-8859-1"

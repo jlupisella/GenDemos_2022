@@ -1,1 +1,1 @@
-<variable-constant constantValue="neoload-api.saas.neotys.com" name="neoload_api_server_host" order="1" policy="4" range="2" uid="36830640-541c-4beb-87b8-07527af913a2" whenOutOfValues="CYCLE_VALUES"/>
+<variable-constant constantValue="neoload-api.saas.neotys.com" name="neoload_api_server_host" order="1" policy="4" range="2" uid="39e8fbbd-d68c-430f-b6c6-dc157a7d52ba" whenOutOfValues="CYCLE_VALUES"/>

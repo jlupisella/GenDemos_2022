@@ -2,6 +2,6 @@
     name="Submit" pacingEnd="0" pacingMode="MODE_NO_PACING"
     pacingStart="0" pacingValue="0" slaProfileEnabled="false"
     slaProfileName="JPetstore"
-    uid="693ed6b3-b650-4abc-ba35-ef2cf946e2d5" weightsEnabled="false">
-    <weighted-embedded-action uid="c98ca5f0-d612-41f3-8467-1cbf47efec6b"/>
+    uid="b86b80a2-d1bf-4c32-b01f-e2f43bdad07f" weightsEnabled="false">
+    <weighted-embedded-action uid="bf91d6de-102c-47da-8974-2a608668b2b4"/>
 </basic-logical-action-container>

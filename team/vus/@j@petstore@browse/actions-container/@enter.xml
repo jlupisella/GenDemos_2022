@@ -1,6 +1,6 @@
 <basic-logical-action-container element-number="1" execution-type="0"
     name="Enter" pacingEnd="0" pacingMode="MODE_NO_PACING"
-    pacingStart="0" pacingValue="0" slaProfileEnabled="false"
+    pacingStart="0" pacingValue="0" slaProfileEnabled="true"
     slaProfileName="JPetstore"
     uid="fdc5dffb-d410-4589-803a-6a16f81c3d34" weightsEnabled="false">
     <weighted-embedded-action uid="da2e4157-7c13-4205-a089-d4064868bfb3"/>

@@ -1,7 +1,7 @@
 <http-page executeResourcesDynamically="false" name="/jpetstore/"
     playRequestsSequentially="false"
     recordedArtifactZipFileName="team/vus/@j@petstore@browse/%resources%/recorded-artifacts/da2e4157-7c13-4205-a089-d4064868bfb3.zip"
-    slaProfileEnabled="false" slaProfileName="JPetstore" thinkTime="0"
+    slaProfileEnabled="false" thinkTime="0"
     thinkTimeMode="MODE_SIMPLE_THINK_TIME" thinkTimeRangeEnd=""
     thinkTimeRangeStart="" uid="da2e4157-7c13-4205-a089-d4064868bfb3">
     <embedded-action>074279ca-aaca-4ace-9445-12e1360d126d</embedded-action>
@@ -130,7 +130,7 @@ Content-Type: image/gif</responseHeaders>
     path="/jpetstore/images/poweredby.gif" postType="2"
     recordedArtifactZipFileName="team/vus/@j@petstore@browse/%resources%/recorded-artifacts/da2e4157-7c13-4205-a089-d4064868bfb3.zip"
     recordedResponseCode="200" responseSize="0"
-    serverUid="TrainingImage" slaProfileEnabled="false"
+    serverUid="TrainingImage" slaProfileEnabled="true"
     slaProfileName="JPetstore"
     uid="1d13f8b3-d539-4a3b-8c2e-1c789c95caa4" useKeepAlive="false">
     <responsePageFileDescription>recorded-responses/res_1d13f8b3-d539-4a3b-8c2e-1c789c95caa4.gif</responsePageFileDescription>

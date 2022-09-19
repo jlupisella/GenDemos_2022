@@ -20,7 +20,7 @@
     postType="2"
     recordedArtifactZipFileName="team/vus/@j@petstore/%resources%/recorded-artifacts/2ef3b75c-5e72-4d0f-9b59-bcc0166be666.zip"
     recordedResponseCode="200" responseSize="3183"
-    serverUid="TrainingImage" slaProfileEnabled="false"
+    serverUid="TrainingImage" slaProfileEnabled="true"
     slaProfileName="JPetstore"
     uid="b9458b72-d6c0-4b7f-afb3-6b9f6f2b07d2" useKeepAlive="false">
     <responsePageFileDescription>recorded-responses/res_6225abfd-de1d-48ba-bb87-b0e83065441c.html</responsePageFileDescription>

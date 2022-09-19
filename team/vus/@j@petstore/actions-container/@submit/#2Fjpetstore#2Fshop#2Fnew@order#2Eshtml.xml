@@ -1,11 +1,11 @@
 <http-page executeResourcesDynamically="false"
     name="/jpetstore/shop/newOrder.shtml"
     playRequestsSequentially="false"
-    recordedArtifactZipFileName="team/vus/@j@petstore/%resources%/recorded-artifacts/e8f1e5f1-c0dd-47d7-97eb-e2dda74ccc3b.zip"
+    recordedArtifactZipFileName="team/vus/@j@petstore/%resources%/recorded-artifacts/087211cc-7a80-4464-a491-c66db3b0a1ad.zip"
     slaProfileEnabled="false" slaProfileName="JPetstore"
     thinkTime="9575" thinkTimeMode="MODE_SIMPLE_THINK_TIME"
-    thinkTimeRangeEnd="" thinkTimeRangeStart="" uid="e8f1e5f1-c0dd-47d7-97eb-e2dda74ccc3b">
-    <embedded-action>e0277c72-d712-4ecd-8f8f-a2a95df2e562</embedded-action>
+    thinkTimeRangeEnd="" thinkTimeRangeStart="" uid="087211cc-7a80-4464-a491-c66db3b0a1ad">
+    <embedded-action>947c4755-a196-44be-86bb-45b62112f873</embedded-action>
 </http-page>
 <http-action actionType="1" contentType="text/html;charset=ISO-8859-1"
     extractorInjectPathPolicy="2" extractorPathPolicy="1"
@@ -15,12 +15,12 @@
     method="POST" name="/jpetstore/shop/newOrder.shtml"
     path="/jpetstore/shop/newOrder.shtml" postCharset="iso-8859-1"
     postType="1"
-    recordedArtifactZipFileName="team/vus/@j@petstore/%resources%/recorded-artifacts/e8f1e5f1-c0dd-47d7-97eb-e2dda74ccc3b.zip"
+    recordedArtifactZipFileName="team/vus/@j@petstore/%resources%/recorded-artifacts/087211cc-7a80-4464-a491-c66db3b0a1ad.zip"
     recordedResponseCode="200"
     refererUid="82d40328-d58e-4360-8f8c-4bb2b5ba0af6"
     responseSize="4779" serverUid="TrainingImage"
     slaProfileEnabled="false" slaProfileName="JPetstore"
-    uid="e0277c72-d712-4ecd-8f8f-a2a95df2e562" useKeepAlive="false">
+    uid="947c4755-a196-44be-86bb-45b62112f873" useKeepAlive="false">
     <binaryPostContentBase64><![CDATA[b3JkZXIuY2FyZFR5cGU9VmlzYSZvcmRlci5jcmVkaXRDYXJkPTk5OSs5OTk5Kzk5OTkrOTk5OSZvcmRlci5leHBpcnlEYXRlPTEyJTJGMDMmb3JkZXIuYmlsbFRvRmlyc3ROYW1lPUFCQyZvcmRlci5iaWxsVG9MYXN0TmFtZT1YWVgmb3JkZXIuYmlsbEFkZHJlc3MxPTkwMStTYW4rQW50b25pbytSb2FkJm9yZGVyLmJpbGxBZGRyZXNzMj1NUytVQ1VQMDItMjA2Jm9yZGVyLmJpbGxDaXR5PVBhbG8rQWx0byZvcmRlci5iaWxsU3RhdGU9Q0Emb3JkZXIuYmlsbFppcD05NDMwMyZvcmRlci5iaWxsQ291bnRyeT1VU0EmeD0zNCZ5PTEw]]></binaryPostContentBase64>
     <responsePageFileDescription>recorded-responses/res_c8997767-66b2-4e3b-bcf9-06bce2319f87.html</responsePageFileDescription>
     <requestContentFileDescription>recorded-requests/req_c8997767-66b2-4e3b-bcf9-06bce2319f87.txt</requestContentFileDescription>
