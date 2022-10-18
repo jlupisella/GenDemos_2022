@@ -3,11 +3,12 @@
     standalone="false" supportWANEmulation="false"
     uid="143db6ba-ee12-4de8-9cdd-88827d17b8c8" version="9.0.0;build=20220826-66">
     <!--****** LG NETWORK INTERFACES ******-->
-    <lg-networkiface description="Dell GigabitEthernet" enabled="false"
-        isLoopBack="false" name="eth8">
+    <lg-networkiface
+        description="Microsoft Wi-Fi Direct Virtual Adapter"
+        enabled="false" isLoopBack="false" name="wlan1">
         <!--****** LG ADDRESSES ******-->
-        <lg-address enabled="false" hostname="fe80:0:0:0:ed43:1145:28ea:7f4%eth8">
-            <ip value="fe80:0:0:0:ed43:1145:28ea:7f4%eth8"/>
+        <lg-address enabled="false" hostname="fe80:0:0:0:d8e9:da7:cbf:bb99%wlan1">
+            <ip value="fe80:0:0:0:d8e9:da7:cbf:bb99%wlan1"/>
         </lg-address>
         <!--****** END LG ADDRESSES ******-->
     </lg-networkiface>
@@ -22,32 +23,61 @@
         </lg-address>
         <!--****** END LG ADDRESSES ******-->
     </lg-networkiface>
+    <lg-networkiface
+        description="Bluetooth Device (Personal Area Network)"
+        enabled="false" isLoopBack="false" name="eth2">
+        <!--****** LG ADDRESSES ******-->
+        <lg-address enabled="false" hostname="fe80:0:0:0:906e:4996:bebb:b451%eth2">
+            <ip value="fe80:0:0:0:906e:4996:bebb:b451%eth2"/>
+        </lg-address>
+        <!--****** END LG ADDRESSES ******-->
+    </lg-networkiface>
+    <lg-networkiface description="Hyper-V Virtual Ethernet Adapter"
+        enabled="false" isLoopBack="false" name="eth15">
+        <!--****** LG ADDRESSES ******-->
+        <lg-address enabled="false" hostname="tri-nb2576">
+            <ip value="172.31.128.1"/>
+        </lg-address>
+        <lg-address enabled="false" hostname="fe80:0:0:0:64b8:1d05:a65a:3f26%eth15">
+            <ip value="fe80:0:0:0:64b8:1d05:a65a:3f26%eth15"/>
+        </lg-address>
+        <!--****** END LG ADDRESSES ******-->
+    </lg-networkiface>
+    <lg-networkiface description="Hyper-V Virtual Ethernet Adapter #2"
+        enabled="false" isLoopBack="false" name="eth26">
+        <!--****** LG ADDRESSES ******-->
+        <lg-address enabled="false" hostname="tri-nb2576">
+            <ip value="172.26.48.1"/>
+        </lg-address>
+        <lg-address enabled="false" hostname="fe80:0:0:0:599e:63fb:1e9d:622d%eth26">
+            <ip value="fe80:0:0:0:599e:63fb:1e9d:622d%eth26"/>
+        </lg-address>
+        <!--****** END LG ADDRESSES ******-->
+    </lg-networkiface>
     <lg-networkiface description="TAP-Windows Adapter V9"
-        enabled="false" isLoopBack="false" name="eth3">
+        enabled="false" isLoopBack="false" name="net6">
         <!--****** LG ADDRESSES ******-->
-        <lg-address enabled="false" hostname="fe80:0:0:0:b48b:ac37:13af:5b51%eth3">
-            <ip value="fe80:0:0:0:b48b:ac37:13af:5b51%eth3"/>
+        <lg-address enabled="false" hostname="fe80:0:0:0:21d5:97e1:1a8a:dec3%net6">
+            <ip value="fe80:0:0:0:21d5:97e1:1a8a:dec3%net6"/>
         </lg-address>
         <!--****** END LG ADDRESSES ******-->
     </lg-networkiface>
-    <lg-networkiface
-        description="Qualcomm QCA61x4A 802.11ac Wireless Adapter"
-        enabled="false" isLoopBack="false" name="wlan6">
+    <lg-networkiface description="Intel(R) Wi-Fi 6 AX201 160MHz"
+        enabled="false" isLoopBack="false" name="wlan3">
         <!--****** LG ADDRESSES ******-->
-        <lg-address enabled="false" hostname="pc053.intranet.neotys.com">
-            <ip value="192.168.68.112"/>
+        <lg-address enabled="false" hostname="tri-nb2576">
+            <ip value="192.168.68.119"/>
         </lg-address>
-        <lg-address enabled="false" hostname="fe80:0:0:0:cc1c:18df:1516:96a1%wlan6">
-            <ip value="fe80:0:0:0:cc1c:18df:1516:96a1%wlan6"/>
+        <lg-address enabled="false" hostname="fe80:0:0:0:9d08:163e:bcce:1ce9%wlan3">
+            <ip value="fe80:0:0:0:9d08:163e:bcce:1ce9%wlan3"/>
         </lg-address>
         <!--****** END LG ADDRESSES ******-->
     </lg-networkiface>
-    <lg-networkiface
-        description="Bluetooth Device (Personal Area Network) #3"
-        enabled="false" isLoopBack="false" name="eth11">
+    <lg-networkiface description="Dell GigabitEthernet" enabled="false"
+        isLoopBack="false" name="eth9">
         <!--****** LG ADDRESSES ******-->
-        <lg-address enabled="false" hostname="fe80:0:0:0:9073:d292:6f36:57c5%eth11">
-            <ip value="fe80:0:0:0:9073:d292:6f36:57c5%eth11"/>
+        <lg-address enabled="false" hostname="fe80:0:0:0:389d:7e31:aa20:aa2a%eth9">
+            <ip value="fe80:0:0:0:389d:7e31:aa20:aa2a%eth9"/>
         </lg-address>
         <!--****** END LG ADDRESSES ******-->
     </lg-networkiface>
