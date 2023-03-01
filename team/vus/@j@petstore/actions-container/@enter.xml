@@ -3,5 +3,6 @@
     pacingStart="0" pacingValue="0" slaProfileEnabled="true"
     slaProfileName="JPetstore"
     uid="423c562f-1c42-4d33-ad53-d248df461868" weightsEnabled="false">
+    <description>Connect to JPetstore</description>
     <weighted-embedded-action uid="8558da30-7806-4341-95c4-45be8491c9ff"/>
 </basic-logical-action-container>
