@@ -14,12 +14,12 @@
     method="GET" name="/jpetstore/shop/index.shtml"
     path="/jpetstore/shop/index.shtml" postType="2"
     recordedArtifactZipFileName="team/vus/@j@petstore/%resources%/recorded-artifacts/f7467105-3473-4fe3-8054-4f0e0cd95131.zip"
-    recordedResponseCode="200" responseSize="6530"
-    serverUid="TrainingImage" slaProfileEnabled="false"
-    slaProfileName="JPetstore"
+    recordedResponseCode="200" recordedResponseTime="36"
+    responseSize="7305" serverUid="TrainingImage"
+    slaProfileEnabled="false" slaProfileName="JPetstore"
     uid="c0d9cb4c-7ad3-441f-87aa-a9fcfc6e9e24" useKeepAlive="false">
-    <responsePageFileDescription>recorded-responses/res_c0d9cb4c-7ad3-441f-87aa-a9fcfc6e9e24.html</responsePageFileDescription>
-    <requestContentFileDescription>recorded-requests/req_c0d9cb4c-7ad3-441f-87aa-a9fcfc6e9e24.txt</requestContentFileDescription>
+    <responsePageFileDescription>recorded-responses/res_cust_fbf4b759-5f7a-4a2b-8d84-786823f60ad3.html</responsePageFileDescription>
+    <requestContentFileDescription>recorded-requests/req_cust_c0d9cb4c-7ad3-441f-87aa-a9fcfc6e9e24.0.txt</requestContentFileDescription>
     <header name="Accept" value="text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8"/>
     <header name="Accept-Encoding" value="gzip, deflate"/>
     <header name="Accept-Language" value="en-US,en;q=0.5"/>
@@ -30,11 +30,13 @@
     <header name="Referer" value="http://34.228.15.47/jpetstore/shop/newOrder.shtml?confirmed=true"/>
     <header name="Upgrade-Insecure-Requests" value="1"/>
     <header name="User-Agent" value="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:85.0) Gecko/20100101 Firefox/85.0"/>
-    <responseHeaders>HTTP/1.1 200 OK&#xd;
-Date: Wed, 24 Feb 2021 19:24:58 GMT&#xd;
-Server: Apache/2.2.34 (Amazon)&#xd;
-Content-Length: 6530&#xd;
-Connection: close&#xd;
+    <responseHeaders>HTTP/1.1 200 OK
+Date: Tue, 07 Feb 2023 17:47:19 GMT
+Server: Apache/2.2.34 (Amazon)
+X-OneAgent-JS-Injection: true
+Server-Timing: dtSInfo;desc="0", dtRpid;desc="744050324"
+Content-Length: 7305
+Connection: close
 Content-Type: text/html;charset=ISO-8859-1</responseHeaders>
     <record-html-infos extractorRegExp="false" htmlType="0"/>
 </http-action>

@@ -1,12 +1,24 @@
 <me-host browserBasedSupport="false" citrixSupport="false"
     loadWeight="1" sapSupport="false" standalone="false"
-    supportWANEmulation="false" uid="localhost" version="9.0.0;build=20220826-66">
+    supportWANEmulation="false" uid="localhost" version="9.2.0;build=20230113-24">
     <!--****** LG NETWORK INTERFACES ******-->
-    <lg-networkiface description="Dell GigabitEthernet" enabled="false"
-        isLoopBack="false" name="eth8">
+    <lg-networkiface description="Intel(R) Wi-Fi 6 AX201 160MHz"
+        enabled="false" isLoopBack="false" name="wlan1">
         <!--****** LG ADDRESSES ******-->
-        <lg-address enabled="false" hostname="fe80:0:0:0:ed43:1145:28ea:7f4%eth8">
-            <ip value="fe80:0:0:0:ed43:1145:28ea:7f4%eth8"/>
+        <lg-address enabled="false" hostname="tri-cnd1457b01">
+            <ip value="10.10.26.110"/>
+        </lg-address>
+        <lg-address enabled="false" hostname="fe80:0:0:0:3fdc:c05a:13d8:1631%wlan1">
+            <ip value="fe80:0:0:0:3fdc:c05a:13d8:1631%wlan1"/>
+        </lg-address>
+        <!--****** END LG ADDRESSES ******-->
+    </lg-networkiface>
+    <lg-networkiface
+        description="Microsoft Wi-Fi Direct Virtual Adapter"
+        enabled="false" isLoopBack="false" name="wlan0">
+        <!--****** LG ADDRESSES ******-->
+        <lg-address enabled="false" hostname="fe80:0:0:0:11c0:87bd:4fd2:c5eb%wlan0">
+            <ip value="fe80:0:0:0:11c0:87bd:4fd2:c5eb%wlan0"/>
         </lg-address>
         <!--****** END LG ADDRESSES ******-->
     </lg-networkiface>
@@ -21,32 +33,28 @@
         </lg-address>
         <!--****** END LG ADDRESSES ******-->
     </lg-networkiface>
+    <lg-networkiface description="Realtek USB GbE Family Controller #4"
+        enabled="false" isLoopBack="false" name="eth5">
+        <!--****** LG ADDRESSES ******-->
+        <lg-address enabled="false" hostname="fe80:0:0:0:a253:5fb4:52ab:6fae%eth5">
+            <ip value="fe80:0:0:0:a253:5fb4:52ab:6fae%eth5"/>
+        </lg-address>
+        <!--****** END LG ADDRESSES ******-->
+    </lg-networkiface>
+    <lg-networkiface
+        description="Bluetooth Device (Personal Area Network)"
+        enabled="false" isLoopBack="false" name="eth2">
+        <!--****** LG ADDRESSES ******-->
+        <lg-address enabled="false" hostname="fe80:0:0:0:5de7:2f10:fa55:2dcc%eth2">
+            <ip value="fe80:0:0:0:5de7:2f10:fa55:2dcc%eth2"/>
+        </lg-address>
+        <!--****** END LG ADDRESSES ******-->
+    </lg-networkiface>
     <lg-networkiface description="TAP-Windows Adapter V9"
-        enabled="false" isLoopBack="false" name="eth3">
+        enabled="false" isLoopBack="false" name="net6">
         <!--****** LG ADDRESSES ******-->
-        <lg-address enabled="false" hostname="fe80:0:0:0:b48b:ac37:13af:5b51%eth3">
-            <ip value="fe80:0:0:0:b48b:ac37:13af:5b51%eth3"/>
-        </lg-address>
-        <!--****** END LG ADDRESSES ******-->
-    </lg-networkiface>
-    <lg-networkiface
-        description="Qualcomm QCA61x4A 802.11ac Wireless Adapter"
-        enabled="false" isLoopBack="false" name="wlan6">
-        <!--****** LG ADDRESSES ******-->
-        <lg-address enabled="false" hostname="pc053.intranet.neotys.com">
-            <ip value="192.168.68.112"/>
-        </lg-address>
-        <lg-address enabled="false" hostname="fe80:0:0:0:cc1c:18df:1516:96a1%wlan6">
-            <ip value="fe80:0:0:0:cc1c:18df:1516:96a1%wlan6"/>
-        </lg-address>
-        <!--****** END LG ADDRESSES ******-->
-    </lg-networkiface>
-    <lg-networkiface
-        description="Bluetooth Device (Personal Area Network) #3"
-        enabled="false" isLoopBack="false" name="eth11">
-        <!--****** LG ADDRESSES ******-->
-        <lg-address enabled="false" hostname="fe80:0:0:0:9073:d292:6f36:57c5%eth11">
-            <ip value="fe80:0:0:0:9073:d292:6f36:57c5%eth11"/>
+        <lg-address enabled="false" hostname="fe80:0:0:0:87a4:a159:a12:31d1%net6">
+            <ip value="fe80:0:0:0:87a4:a159:a12:31d1%net6"/>
         </lg-address>
         <!--****** END LG ADDRESSES ******-->
     </lg-networkiface>

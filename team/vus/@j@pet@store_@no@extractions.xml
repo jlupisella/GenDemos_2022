@@ -6,19 +6,19 @@
         slaProfileEnabled="false" weightsEnabled="false">
         <description>Elements executed once when the Virtual User starts.</description>
     </init-container>
-    <actions-container clearUserIterationDataMode="AUTO"
+    <actions-container clearUserIterationDataMode="ON"
         element-number="1" execution-type="0" pacingEnd="0"
         pacingMode="MODE_NO_PACING" pacingStart="0" pacingValue="0"
-        slaProfileEnabled="true" weightsEnabled="false">
+        slaProfileEnabled="false" weightsEnabled="false">
         <description>Elements repeated until the Virtual User stops.</description>
         <weighted-embedded-action uid="ea8f4aad-e7da-49fa-8881-d900d840e087"/>
         <weighted-embedded-action uid="056bcba3-2618-4236-87a1-dce868833c46"/>
         <weighted-embedded-action uid="9d2b0bca-3213-454b-a7ee-f75a4db1be02"/>
-        <weighted-embedded-action uid="cb53767e-ad9b-4a14-be3b-48486a0154a8"/>
+        <weighted-embedded-action uid="5c03b0ce-bb0a-4ecc-8c9b-794792103c1e"/>
         <weighted-embedded-action uid="4e6018d5-5ad7-43c8-9810-7f714667a34c"/>
         <weighted-embedded-action uid="9fb80c5f-a333-4b4e-a299-7592406dba08"/>
-        <weighted-embedded-action uid="8ec21e35-3fe8-44e8-87e8-1317ee1d31f2"/>
-        <weighted-embedded-action uid="da3bf241-eec1-45ef-9291-85565061032d"/>
+        <weighted-embedded-action uid="4d2bc124-931b-4f65-877e-0afba20ec201"/>
+        <weighted-embedded-action uid="a78ebfc4-1efc-4842-ab3b-8f9021f081be"/>
         <weighted-embedded-action uid="0e8cf746-7cc5-48cb-9395-07f3170fde35"/>
         <weighted-embedded-action uid="b86b80a2-d1bf-4c32-b01f-e2f43bdad07f"/>
         <weighted-embedded-action uid="86c30421-a0ed-4b0e-8843-9700f2d47a2b"/>

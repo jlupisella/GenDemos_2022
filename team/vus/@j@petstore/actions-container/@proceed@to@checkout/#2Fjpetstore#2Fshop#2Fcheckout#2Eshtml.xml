@@ -16,12 +16,12 @@
     method="GET" name="/jpetstore/shop/checkout.shtml"
     path="/jpetstore/shop/checkout.shtml" postType="2"
     recordedArtifactZipFileName="team/vus/@j@petstore/%resources%/recorded-artifacts/712689b7-99c0-4fbb-b3ee-f90a9c6566d6.zip"
-    recordedResponseCode="200" responseSize="4201"
-    serverUid="TrainingImage" slaProfileEnabled="false"
-    slaProfileName="JPetstore"
+    recordedResponseCode="200" recordedResponseTime="21"
+    responseSize="4965" serverUid="TrainingImage"
+    slaProfileEnabled="false" slaProfileName="JPetstore"
     uid="75f7b2b4-ebe9-46b7-91b7-1150e93f22be" useKeepAlive="false">
-    <responsePageFileDescription>recorded-responses/res_64f97753-d68b-4afc-a94c-a3084ed1eb07.html</responsePageFileDescription>
-    <requestContentFileDescription>recorded-requests/req_64f97753-d68b-4afc-a94c-a3084ed1eb07.txt</requestContentFileDescription>
+    <responsePageFileDescription>recorded-responses/res_cust_55a2303c-17c4-4d5a-a2bb-fa6ad064ef79.html</responsePageFileDescription>
+    <requestContentFileDescription>recorded-requests/req_cust_75f7b2b4-ebe9-46b7-91b7-1150e93f22be.0.txt</requestContentFileDescription>
     <header name="Accept" value="text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8"/>
     <header name="Accept-Encoding" value="gzip, deflate"/>
     <header name="Accept-Language" value="en-US,en;q=0.5"/>
@@ -32,11 +32,13 @@
     <header name="Referer" value="http://34.228.15.47/jpetstore/shop/addItemToCart.shtml?workingItemId=${ExtractedVariable_workingItemID}"/>
     <header name="Upgrade-Insecure-Requests" value="1"/>
     <header name="User-Agent" value="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:85.0) Gecko/20100101 Firefox/85.0"/>
-    <responseHeaders>HTTP/1.1 200 OK&#xd;
-Date: Wed, 24 Feb 2021 19:24:03 GMT&#xd;
-Server: Apache/2.2.34 (Amazon)&#xd;
-Content-Length: 4201&#xd;
-Connection: close&#xd;
+    <responseHeaders>HTTP/1.1 200 OK
+Date: Tue, 07 Feb 2023 17:46:24 GMT
+Server: Apache/2.2.34 (Amazon)
+X-OneAgent-JS-Injection: true
+Server-Timing: dtSInfo;desc="0", dtRpid;desc="905566795"
+Content-Length: 4965
+Connection: close
 Content-Type: text/html;charset=ISO-8859-1</responseHeaders>
     <record-html-infos extractorRegExp="false" htmlType="0"/>
 </http-action>
@@ -50,12 +52,12 @@ Content-Type: text/html;charset=ISO-8859-1</responseHeaders>
     method="GET" name="/jpetstore/images/button_continue.gif"
     path="/jpetstore/images/button_continue.gif" postType="2"
     recordedArtifactZipFileName="team/vus/@j@petstore/%resources%/recorded-artifacts/712689b7-99c0-4fbb-b3ee-f90a9c6566d6.zip"
-    recordedResponseCode="200" responseSize="0"
-    serverUid="TrainingImage" slaProfileEnabled="false"
-    slaProfileName="JPetstore"
+    recordedResponseCode="200" recordedResponseTime="17"
+    responseSize="1275" serverUid="TrainingImage"
+    slaProfileEnabled="false" slaProfileName="JPetstore"
     uid="ca7ec328-d189-4962-b995-4e6cbbd02d7e" useKeepAlive="false">
-    <responsePageFileDescription>recorded-responses/res_af446843-4331-4abe-8527-37b231ac37b1.gif</responsePageFileDescription>
-    <requestContentFileDescription>recorded-requests/req_2b63876c-7e46-435b-a634-14539e9a9d32.txt</requestContentFileDescription>
+    <responsePageFileDescription>recorded-responses/res_cust_4f0665b1-4ccb-4ae1-8ff9-fec0b3ca23fc.gif</responsePageFileDescription>
+    <requestContentFileDescription>recorded-requests/req_cust_ca7ec328-d189-4962-b995-4e6cbbd02d7e.txt</requestContentFileDescription>
     <header name="Accept" value="image/webp,*/*"/>
     <header name="Accept-Encoding" value="gzip, deflate"/>
     <header name="Accept-Language" value="en-US,en;q=0.5"/>
@@ -65,14 +67,16 @@ Content-Type: text/html;charset=ISO-8859-1</responseHeaders>
     <header name="Host" value="34.228.15.47"/>
     <header name="Referer" value="http://34.228.15.47/jpetstore/shop/checkout.shtml"/>
     <header name="User-Agent" value="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:85.0) Gecko/20100101 Firefox/85.0"/>
-    <responseHeaders>HTTP/1.1 200 OK&#xd;
-Date: Wed, 24 Feb 2021 19:24:04 GMT&#xd;
-Server: Apache/2.2.34 (Amazon)&#xd;
-Accept-Ranges: bytes&#xd;
-ETag: W/"1275-1088130660000"&#xd;
-Last-Modified: Fri, 25 Jun 2004 02:31:00 GMT&#xd;
-Content-Length: 1275&#xd;
-Connection: close&#xd;
+    <responseHeaders>HTTP/1.1 200 OK
+Date: Tue, 07 Feb 2023 17:46:25 GMT
+Server: Apache/2.2.34 (Amazon)
+X-OneAgent-JS-Injection: true
+Accept-Ranges: bytes
+ETag: W/"1275-1088130660000"
+Last-Modified: Fri, 25 Jun 2004 02:31:00 GMT
+Content-Length: 1275
+Server-Timing: dtSInfo;desc="0", dtRpid;desc="-1559659103"
+Connection: close
 Content-Type: image/gif</responseHeaders>
     <record-html-infos extractorRegExp="false" htmlType="0"/>
 </http-action>

@@ -1,7 +1,7 @@
 # Project description file
 
 project.name=GenDemos_2022
-project.version=8.6
+project.version=8.7
 project.original.version=8.2
 product.name=NeoLoad
 product.original.name=NeoLoad
@@ -12,5 +12,4 @@ project.config.path=config.zip
 project.config.storage=ZIP
 team.server.enabled=true
 team.server.project=/jlupisella/GenDemos_2022
-project.workspace=5e3acde2e860a132744ca916
-project.test-settings=222f4335-9d6a-49e6-8825-9bdb82d3183c
+ssh.trustUnknownHosts.MONITORS=false

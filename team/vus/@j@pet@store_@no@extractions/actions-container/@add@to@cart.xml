@@ -2,6 +2,6 @@
     name="AddToCart" pacingEnd="0" pacingMode="MODE_NO_PACING"
     pacingStart="0" pacingValue="0" slaProfileEnabled="false"
     slaProfileName="JPetstore"
-    uid="8ec21e35-3fe8-44e8-87e8-1317ee1d31f2" weightsEnabled="false">
-    <weighted-embedded-action uid="592685e7-c781-4cf5-b5e6-04a75129c823"/>
+    uid="4d2bc124-931b-4f65-877e-0afba20ec201" weightsEnabled="false">
+    <weighted-embedded-action uid="9a434c84-3eb6-4440-aeef-a5fecd28193c"/>
 </basic-logical-action-container>

@@ -1,12 +1,12 @@
 <http-page executeResourcesDynamically="false"
     name="/jpetstore/shop/checkout.shtml"
     playRequestsSequentially="false"
-    recordedArtifactZipFileName="team/vus/@j@pet@store_@no@extractions/%resources%/recorded-artifacts/3a33ab50-ab2f-47a9-a915-6294fc456abc.zip"
+    recordedArtifactZipFileName="team/vus/@j@pet@store_@no@extractions/%resources%/recorded-artifacts/bedb84a0-73cb-4025-a49e-75fd8452e0cc.zip"
     slaProfileEnabled="false" slaProfileName="JPetstore"
     thinkTime="10685" thinkTimeMode="MODE_SIMPLE_THINK_TIME"
-    thinkTimeRangeEnd="" thinkTimeRangeStart="" uid="3a33ab50-ab2f-47a9-a915-6294fc456abc">
-    <embedded-action>7a848a27-b441-4f0c-9fae-06558b48b77d</embedded-action>
-    <embedded-action>cefc78f1-4dd2-482e-9983-6cbbb6edd4e6</embedded-action>
+    thinkTimeRangeEnd="" thinkTimeRangeStart="" uid="bedb84a0-73cb-4025-a49e-75fd8452e0cc">
+    <embedded-action>cd8b61b6-4d37-4951-941c-441adaebe1e8</embedded-action>
+    <embedded-action>10fcf369-23e1-4e3a-b344-1e3bb150719a</embedded-action>
 </http-page>
 <http-action actionType="1" contentType="text/html;charset=ISO-8859-1"
     extractorInjectPathPolicy="2" extractorPathPolicy="1"
@@ -15,11 +15,11 @@
     linkExtractorSeveralMatchPolicy="1" linkExtractorType="6"
     method="GET" name="/jpetstore/shop/checkout.shtml"
     path="/jpetstore/shop/checkout.shtml" postType="2"
-    recordedArtifactZipFileName="team/vus/@j@pet@store_@no@extractions/%resources%/recorded-artifacts/3a33ab50-ab2f-47a9-a915-6294fc456abc.zip"
+    recordedArtifactZipFileName="team/vus/@j@pet@store_@no@extractions/%resources%/recorded-artifacts/bedb84a0-73cb-4025-a49e-75fd8452e0cc.zip"
     recordedResponseCode="200" responseSize="4201"
     serverUid="TrainingImage" slaProfileEnabled="false"
     slaProfileName="JPetstore"
-    uid="7a848a27-b441-4f0c-9fae-06558b48b77d" useKeepAlive="false">
+    uid="cd8b61b6-4d37-4951-941c-441adaebe1e8" useKeepAlive="false">
     <responsePageFileDescription>recorded-responses/res_b2fa9dff-fc27-4a7e-9ac4-f5bffd18c2d6.html</responsePageFileDescription>
     <requestContentFileDescription>recorded-requests/req_b2fa9dff-fc27-4a7e-9ac4-f5bffd18c2d6.txt</requestContentFileDescription>
     <header name="Accept" value="text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8"/>
@@ -47,11 +47,11 @@ Content-Type: text/html;charset=ISO-8859-1</responseHeaders>
     linkExtractorSeveralMatchPolicy="1" linkExtractorType="6"
     method="GET" name="/jpetstore/images/button_continue.gif"
     path="/jpetstore/images/button_continue.gif" postType="2"
-    recordedArtifactZipFileName="team/vus/@j@pet@store_@no@extractions/%resources%/recorded-artifacts/3a33ab50-ab2f-47a9-a915-6294fc456abc.zip"
+    recordedArtifactZipFileName="team/vus/@j@pet@store_@no@extractions/%resources%/recorded-artifacts/bedb84a0-73cb-4025-a49e-75fd8452e0cc.zip"
     recordedResponseCode="200" responseSize="0"
     serverUid="TrainingImage" slaProfileEnabled="false"
     slaProfileName="JPetstore"
-    uid="cefc78f1-4dd2-482e-9983-6cbbb6edd4e6" useKeepAlive="false">
+    uid="10fcf369-23e1-4e3a-b344-1e3bb150719a" useKeepAlive="false">
     <responsePageFileDescription>recorded-responses/res_bb22aaee-2e71-451a-a7bb-c079e0e6f3e0.gif</responsePageFileDescription>
     <requestContentFileDescription>recorded-requests/req_d65dcd98-b10a-4c6f-a88d-f73cf4888c13.txt</requestContentFileDescription>
     <header name="Accept" value="image/webp,*/*"/>
